@@ -1,10 +1,10 @@
-(function($) {
+(function ($) {
     "use strict";
 
-    jQuery(document).on('ready', function() {
+    jQuery(document).on('ready', function () {
 
         // Header Sticky
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             if ($(this).scrollTop() > 120) {
 
                 $('.navbar-area-three').addClass("is-sticky-three");
@@ -21,7 +21,35 @@
         });
 
     });
-   
+
+
+
+
+
+    // banner Typed Js
+
+    $(function () {
+        $(".typed").typed({
+            strings: ["Software Development.", "App Development.", "Web Development."],
+            stringsElement: null,
+            typeSpeed: 90,
+            startDelay: 900,
+            backSpeed: 60,
+            backDelay: 1000,
+            loop: true,
+            loopCount: 5,
+            showCursor: false,
+            cursorChar: "|",
+            attr: null,
+            contentType: 'html',
+            callback: function () {},
+            preStringTyped: function () {},
+            onStringTyped: function () {},
+            resetCallback: function () {}
+        });
+    });
+
+
     // Recent-work
     $('.recent-wrapper').owlCarousel({
         loop: true,
@@ -52,5 +80,3 @@
 
 
 }(jQuery));
-
-
