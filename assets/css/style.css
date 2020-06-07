@@ -800,78 +800,115 @@ section {
 /* --Banner Area End */
 
 /* --Casestudy Area Start */
-#home_casestudy {
-    padding: 120px 0;
+
+#home-case-stady {
+    padding-top: 120px;
 }
 
-.case-study-home-box img {
-    width: 100%;
+#home-case-stady .container-fluid .row:nth-child(2) {
+    margin-top: 30px;
 }
 
-.case-study-overlay-text {
-    color: white;
-    font-size: 100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+.case-study-box {
     text-align: center;
+    height: 100%;
+    padding: 110px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 999;
 }
 
-.case-study-overlay-text h2 {
-    color: var(--color-white);
-    font-weight: bold;
-}
-
-.case-study-overlay-text h6 {
-    color: var(--color-white);
-    font-size: 18px;
-    font-weight: 600;
-    padding-top: 40px;
-}
-
-.case-study-overlay-text h6 a {
-    border-bottom: 2px solid #fff;
-    padding-bottom: 5px;
-
-}
-
-.case-box-1 {
+.bg-box {
     background-image: url(../img/case-study/case-1.png);
 }
 
-.case-box-2 {
+.bg-box-two {
     background-image: url(../img/case-study/case-2.png);
 }
 
-.case-study-home-box {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
+.bg-box-three {
+    background-image: url(../img/case-study/case-3.png);
+}
+
+.bg-box-four {
+    background-image: url(../img/case-study/case-4.png);
+}
+
+.bg-box-five {
+    background-image: url(../img/case-study/case-5.png);
+}
+
+.bg-box-six {
+    background-image: url(../img/case-study/case-6.png);
+}
+
+.case-study-box h2 a {
+    color: var(--color-white);
+}
+
+.case-study-box h5 a {
+    color: var(--color-white);
+    border-bottom: 2px solid var(--color-white);
+}
+
+.case-study-box h5 {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.case-study-box h2 a:hover,
+.case-study-box h5 a:hover {
+    color: var(--pink-color);
+}
+
+.ovarlay-box,
+.ovarlay-box-two,
+.ovarlay-box-three,
+.ovarlay-box-four,
+.ovarlay-box-five,
+.ovarlay-box-six {
     position: relative;
 }
 
-.case-box-1:after {
-    background-image: linear-gradient(to right, #0b4fc1a3, #e3078ea1);
+.bg-position {
+    position: relative;
 }
 
-.case-box-2:after {
-    background-image: linear-gradient(to right, #0b4fc1a3, #e3078ea1);
-}
-
-.case-study-home-box:after {
+.bg-position::after {
     content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     height: 100%;
     width: 100%;
-    transition: .3s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
+
+.ovarlay-box::after {
+    background-image: linear-gradient(to right, #0b4fc1a3, #e3078ea1);
+}
+
+.ovarlay-box-two::after {
+    background-image: linear-gradient(to right, #6717cda6, #2871fa96);
+}
+
+.ovarlay-box-three::after {
+    background-image: linear-gradient(to right, #f9136299, #35126a8c);
+}
+
+.ovarlay-box-four::after {
+    background-image: linear-gradient(to right, #04128299, #fca65e94);
+}
+
+.ovarlay-box-five::after {
+    background-image: linear-gradient(to right, #f83600ad, #4bfa22a8);
+}
+
+.ovarlay-box-six::after {
+    background-image: linear-gradient(to right, #31cdb0a6, #3551a4ab);
+}
+
 
 /* --Casestudy Area End */
 
