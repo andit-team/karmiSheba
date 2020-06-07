@@ -51,29 +51,23 @@
 
 
     // Recent-work
-    $('.recent-wrapper').owlCarousel({
+    $('.logo-slider-wrapper').owlCarousel({
         loop: true,
         dots: false,
         autoplayHoverPause: true,
         autoplay: true,
         smartSpeed: 1000,
         margin: 0,
-        nav: true,
-        navText: [
-
-            "<i class='flaticon-left'></i>",
-            "<i class='flaticon-right'></i>"
-
-        ],
+        nav: false,
         responsive: {
             0: {
-                items: 1,
+                items: 3,
             },
             768: {
-                items: 1,
+                items: 4,
             },
             1200: {
-                items: 1,
+                items: 5,
             }
         }
     });
