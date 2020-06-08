@@ -1500,6 +1500,7 @@ input:focus~.label-box::after {
     font-weight: 500;
     color: var(--pink-color);
     border: none;
+    padding: 0 40px 7px 0px;
 }
 
 #footer-side-tab .nav-tabs .nav-link.active {
@@ -1533,9 +1534,13 @@ input:focus~.label-box::after {
 
 .tabs-content-wrapper {
     padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.tabs-companey-arae {}
+.tabs-companey-arae {
+    width: 70%;
+}
 
 .tabs-companey-arae h5 {
     color: var(--color-white);
@@ -1550,6 +1555,33 @@ input:focus~.label-box::after {
 
 .tabs-companey-arae p {
     color: var(--color-white);
+}
+
+.tabs-address-area {
+    width: 100%;
+}
+
+.tabs-address-area .media {
+    margin-bottom: 40px;
+}
+
+.media-body {}
+
+.tabs-address-area .media-body h4 {
+    color: var(--color-white);
+    padding-bottom: 20px;
+}
+
+.tabs-address-area .media-body p {
+    color: var(--color-white);
+}
+
+.tabs-address-area .media-body p a {
+    color: var(--color-white);
+}
+
+.tabs-address-area .media-body p a:hover {
+    color: var(--pink-color);
 }
 
 /* --Footer Area End-- */
