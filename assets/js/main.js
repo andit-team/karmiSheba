@@ -50,7 +50,7 @@
     });
 
 
-    // Recent-work
+    // Home-logo
     $('.logo-slider-wrapper').owlCarousel({
         loop: true,
         dots: false,
@@ -72,5 +72,43 @@
         }
     });
 
+    // Clients Slider
+    $('.client-slider-wrapper').owlCarousel({
+        loop: true,
+        dots: false,
+        margin: 0,
+        autoplayHoverPause: true,
+        autoplay: true,
+        smartSpeed: 1000,
+        nav: true,
+        navText: [
 
+            "<i class='fas fa-arrow-left'></i>",
+            "<i class='fas fa-arrow-right'></i>"
+        ],
+        responsive: {
+            0: {
+                items: 1,
+            },
+            768: {
+                items: 1,
+            },
+            1200: {
+                items: 2,
+            }
+        }
+    });
+
+    // Vedio-add
+    $(document).ready(function () {
+        $(".venobox").venobox({
+            framewidth: "600px",
+            frameheight: "400px",
+            border: "none",
+            bgcolor: "none",
+            titleattr: "data-title",
+            numeratio: true,
+            infinigall: false,
+        });
+    });
 }(jQuery));
