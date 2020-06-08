@@ -862,6 +862,10 @@ section {
     color: var(--pink-color);
 }
 
+.case-study-box h5 a:hover {
+    border-bottom: 2px solid var(--pink-color);
+}
+
 .ovarlay-box,
 .ovarlay-box-two,
 .ovarlay-box-three,
