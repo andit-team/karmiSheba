@@ -43,13 +43,9 @@
 }
 
 @media (max-width: 1199px) {
-    /* .shap-svg-area-top {
-        display: none;
+    .karmi-sheba-nav .navbar .other-option {
+        margin-left: 15px;
     }
-
-    .shap-svg-area-bottom {
-        display: none;
-    } */
 }
 
 @media (max-width: 992px) {
@@ -307,6 +303,10 @@
 
     #home-our-product {
         padding-bottom: 80px;
+    }
+
+    .home-banner-button a {
+        margin-right: 7px;
     }
 
 }

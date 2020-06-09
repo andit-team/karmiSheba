@@ -388,6 +388,10 @@ section {
 
 /* --Button Area End-- */
 
+/* ================================
+            Home Page
+===================================*/
+
 /* --Banner Area Start */
 #home_banner {
     padding-top: 115px;
@@ -718,6 +722,7 @@ section {
     background-image: url(../img/comon-img/bg-service.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .heading-competencies h2 {
@@ -1013,51 +1018,6 @@ section {
 #logo-area-home .container .row .col-lg-3:last-child .logo-area-box {
     border: none;
 }
-
-/* .shap-svg-area-top {}
-
-.shap-svg-1 {
-    position: absolute;
-    top: 0;
-}
-
-.shap-svg-2 {
-    position: absolute;
-    top: 0px;
-    left: -74px;
-    width: 38%;
-    opacity: .9;
-}
-
-.shap-svg-3 {
-    position: absolute;
-    top: 0px;
-    left: -79px;
-    width: 26%;
-    opacity: .5;
-}
-
-.shap-svg-4 {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.shap-svg-5 {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 34%;
-    opacity: .9;
-}
-
-.shap-svg-6 {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 28%;
-    opacity: .9;
-} */
 
 /* -- Logo Area End --*/
 
@@ -1391,3 +1351,127 @@ input:focus~.label-box::after {
 }
 
 /* --Footer Area End-- */
+
+/* ================================
+            About  Page
+===================================*/
+
+/* --Banner Area-- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --Back to top Button-- */
+.go-top.active {
+    top: 98%;
+    -webkit-transform: translateY(-98%);
+    transform: translateY(-98%);
+    opacity: 1;
+    visibility: visible;
+}
+
+.go-top {
+    position: fixed;
+    cursor: pointer;
+    top: 0;
+    right: 15px;
+    color: #ffffff;
+    background-color: var(--heading-color);
+    z-index: 999;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .9s;
+    transition: .9s;
+    border-radius: 50%;
+}
+
+.go-top::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: var(--pink-color);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    border-radius: 50%;
+}
+
+.go-top i {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+}
+
+.go-top i:last-child {
+    opacity: 0;
+    visibility: hidden;
+    top: 60%;
+}
+
+.go-top:hover,
+.go-top:focus {
+    color: #ffffff;
+}
+
+.go-top:hover::before,
+.go-top:focus::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.go-top:hover i:first-child,
+.go-top:focus i:first-child {
+    opacity: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+.go-top:hover i:last-child,
+.go-top:focus i:last-child {
+    opacity: 1;
+    visibility: visible;
+    top: 50%;
+}

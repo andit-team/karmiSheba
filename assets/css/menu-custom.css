@@ -4,7 +4,7 @@
 
 .karmi-sheba-nav {
   background-color: transparent;
-  padding-top: 30px;
+  padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 0;
   padding-left: 0;
@@ -24,7 +24,7 @@
 }
 
 .karmi-sheba-nav .navbar .navbar-nav {
-  margin: 0 130px auto auto;
+  margin: 0 0px auto auto;
 }
 
 .karmi-sheba-nav .navbar .navbar-nav .nav-item {
@@ -177,7 +177,7 @@
 }
 
 .karmi-sheba-nav .navbar .other-option {
-  margin-left: 0;
+  margin-left: 60px;
   margin-top: 5px;
 }
 
@@ -208,6 +208,7 @@
   top: 0;
   width: 100%;
   height: auto;
+  background-color: #fff;
 }
 
 .navbar-area.is-sticky {
