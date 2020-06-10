@@ -1356,38 +1356,283 @@ input:focus~.label-box::after {
             About  Page
 ===================================*/
 
-/* --Banner Area-- */
+/* --Banner Area Start-- */
+
+/* --Banner Area End-- */
 
 
+/* --About Area Start-- */
+#about-our-story {
+    padding: 0 0 120px 0;
+}
+
+.about-heading-box {
+    text-align: center;
+    padding: 45px 18px;
+    margin-top: -100px;
+    background-color: var(--color-white);
+}
+
+.about-heading-box h1 {
+    font-size: 60px;
+    line-height: 75px;
+    font-weight: 500;
+}
+
+.about-heading-box h4 {
+    font-size: 24px;
+    padding-top: 25px;
+}
+
+.about-heading-box h4 a {
+    color: var(--pink-color);
+}
+
+.about-story-wrapper {
+    padding-top: 120px;
+}
 
 
+.about-story-text h5 {
+    font-size: 20px;
+    color: var(--pink-color);
+    font-weight: 500;
+}
+
+.about-story-text h2 {
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.about-story-text p {
+    padding-top: 20px;
+    margin: 0;
+}
+
+.image-colum {
+    position: relative;
+}
+
+.about-clearfix-img {
+    position: relative;
+    display: block;
+    padding-right: 30px;
+}
+
+.image-colum .about-clearfix-img .image {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0 0;
+    max-width: 400px;
+}
+
+.image-colum .about-clearfix-img .image img {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.image-colum .about-clearfix-img .image:nth-child(1):before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    margin-top: 30px;
+    left: 6px;
+    width: 112px;
+    height: 109px;
+    background: url('../img/about/dot.png') left -7px no-repeat;
+}
+
+.image-colum .about-clearfix-img .image:nth-child(2) {
+    margin-left: 148px;
+    margin-top: -203px;
+    z-index: 1;
+}
+
+.image-colum .about-clearfix-img .image:nth-child(2):before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    margin-bottom: 28px;
+    margin-right: 15px;
+    border: 50px solid transparent;
+    border-left: 50px solid var(--pink-color);
+    border-bottom: 50px solid var(--pink-color);
+}
+
+/* --About Area End-- */
+
+/* --About fan-fact Area Start-- */
+#some-fan-fact {
+    padding: 120px 0;
+    /* background: url('../img/about/fan-bg.png') no-repeat; */
+    background-size: cover;
+    background-color: var(--pink-color);
+    overflow: hidden;
+}
+
+#some-fan-fact .heading-content-box h2 {
+    color: var(--color-white);
+}
+
+#some-fan-fact .heading-content-box p {
+    color: var(--color-white);
+}
+
+.fact-box {
+    background: #fff;
+    text-align: center;
+    padding: 35px 10px;
+
+}
+
+.fact-box h2 {
+    padding-top: 18px;
+    font-size: 36px;
+}
+
+.fact-box p {
+    padding-top: 17px;
+    font-weight: 500;
+}
+
+.area-img-wrapper {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.area-img-wrapperimg {
+    width: 100%;
+}
+
+/* --About fan-fact Area End-- */
+
+/* --core-value Area Start-- */
+#core-value-arae {
+    padding: 120px 0;
+}
+
+.core-valu-box {
+    height: 100%;
+}
+
+.core-value-text {
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+    padding: 0px 15px 25px 15px
+}
+
+.core-value-text:hover {
+    box-shadow: 0px 6px 32px -18px var(--pink-color);
+}
+
+.core-value-img {
+    overflow: hidden;
+}
+
+.core-value-img img {
+    width: 100%;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.core-valu-box:hover .core-value-img img {
+    transform: scale(1.1) rotate(3deg);
+    -webkit-transform: scale(1.1) rotate(3deg);
+    -moz-transform: scale(1.1) rotate(3deg);
+    -ms-transform: scale(1.1) rotate(3deg);
+    -o-transform: scale(1.1) rotate(3deg);
+}
+
+.core-value-text h4 {
+    font-size: 24px;
+    padding-top: 25px;
+    font-weight: 500;
+}
+
+.core-value-text p {
+    padding-top: 15px;
+}
+
+/* --core-value Area End-- */
 
 
+/* --Our-leader Area Start-- */
+#our-leader-arae {
+    padding: 0 0 120px 0;
+}
+
+.leader-box {
+    margin-bottom: 30px;
+}
+
+.leader-img {
+    overflow: hidden;
+}
+
+.leader-img img {
+    width: 100%;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+    opacity: .7;
+}
+
+.leader-box:hover .leader-img img {
+    transform: scale(1.1) rotate(3deg);
+    -webkit-transform: scale(1.1) rotate(3deg);
+    -moz-transform: scale(1.1) rotate(3deg);
+    -ms-transform: scale(1.1) rotate(3deg);
+    -o-transform: scale(1.1) rotate(3deg);
+    opacity: .9;
+}
+
+.leader-name {
+    text-align: center;
+    padding: 20px 10px;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.leader-box:hover .leader-name {
+    background-color: var(--pink-color);
+}
+
+.leader-box:hover .leader-name h4,
+.leader-box:hover .leader-name p {
+    color: var(--color-white);
+}
+
+.leader-name h4 {
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+/* --Our-leader Area End-- */
 
 
+/* --Get-Review Area Start-- */
+#get-reviews {
+    padding: 120px 0;
+    background-color: #fff2f2;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* --Get-Review Area End-- */
 
 /* --Back to top Button-- */
 .go-top.active {
