@@ -1996,17 +1996,74 @@ input:focus~.label-box::after {
 #value-content .row .col-lg-4:nth-child(9) .value-item-box:hover {
     background-color: #0033b5;
 }
+
 /* --Value Content Area End-- */
 
 
 /* --Value Companey Area Strat-- */
+#value-companey {
+    padding: 100px 0;
+    background-image: url(../img/value/value-client.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#value-companey::after {
+    content: "";
+    background: #00115d9e;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.companey-value-text {
+    text-align: center;
+    position: relative;
+    z-index: 999;
+}
+
+.companey-value-text h2 {
+    color: #fff;
+}
+
+.companey-value-text h6 {
+    color: #fff;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.companey-value-text p {
+    color: #fff;
+    width: 63%;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+
+.companey-value-text a {
+    margin-top: 50px;
+}
 
 /* --Value Companey Area End-- */
 
 
+/* --vlaue-bottom-arae Start-- */
+#vlaue-bottom-arae {
+    background-color: var(--pink-color);
+    padding: 100px 0;
+}
 
+.value-bottom-text {
+    text-align: center;
+}
 
+.value-bottom-text h2 {
+    color: #fff;
+}
 
+/* --vlaue-bottom-arae End-- */
 
 
 
