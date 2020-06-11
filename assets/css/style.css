@@ -1376,7 +1376,7 @@ input:focus~.label-box::after {
 /* --Footer Area End-- */
 
 /* ================================
-            About  Page
+           02 About  Page
 ===================================*/
 
 /* --Banner Area Start-- */
@@ -1747,6 +1747,279 @@ input:focus~.label-box::after {
 }
 
 /* --About Client Area End-- */
+
+/* ================================
+           03 Value  Page
+===================================*/
+
+/* --Value banner Area Strat-- */
+#value-banner {
+    background-image: url(../img/value/shap-1.png);
+    padding: 200px 0 0 0;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.valur-banner-text {
+    padding-top: 65px;
+}
+
+.valur-banner-text h1 {
+    font-weight: bold;
+}
+
+.valur-banner-text h1 span {
+    color: var(--pink-color);
+}
+
+.valur-banner-text p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+/* --Value banner Area End-- */
+
+
+/* --Value Content Area Strat-- */
+#value-content {
+    padding: 120px 0;
+}
+
+.value-item-box {
+    background: #f9fbff;
+    min-height: 550px;
+    transition: 0.5s;
+    position: relative;
+    transition: .7s all;
+    -webkit-transition: .7s all;
+    -moz-transition: .7s all;
+    -ms-transition: .7s all;
+    -o-transition: .7s all;
+    margin-bottom: 60px;
+}
+
+.value-item-box:hover {
+    background-color: #5684f4;
+}
+
+.value-item-box:hover .valu-block-heading,
+.value-item-box:hover .value-block-count {
+    display: none;
+}
+
+.value-block-cornar {
+    height: 20px;
+    width: 20px;
+    border: 20px solid transparent;
+    position: absolute;
+    right: 0;
+}
+
+.valu-block-heading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .7s all;
+    -webkit-transition: .7s all;
+    -moz-transition: .7s all;
+    -ms-transition: .7s all;
+    -o-transition: .7s all;
+}
+
+.value-block-count {
+    position: absolute;
+    bottom: 20px;
+    right: 35px;
+    transition: .7s all;
+    -webkit-transition: .7s all;
+    -moz-transition: .7s all;
+    -ms-transition: .7s all;
+    -o-transition: .7s all;
+}
+
+.value-block-count h1 {
+    font-size: 125px;
+    color: #edeff5;
+    transition: .7s all;
+    -webkit-transition: .7s all;
+    -moz-transition: .7s all;
+    -ms-transition: .7s all;
+    -o-transition: .7s all;
+}
+
+.valu-item-none p {
+    color: #fff;
+    font-size: 20px;
+    padding: 50px 15px;
+    line-height: 30px;
+}
+
+.btm-left {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    visibility: visible;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -ms-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+    bottom: -10px;
+    right: 29px;
+}
+
+.btm-right {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    visibility: visible;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -ms-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+    animation-delay: .5s;
+    -webkit-animation-delay: .5s;
+    bottom: -10px;
+    left: 28px;
+}
+
+.btm-left,
+.btm-right {
+    display: none;
+}
+
+.value-item-box:hover .btm-left,
+.value-item-box:hover .btm-right {
+    display: block;
+    position: absolute;
+}
+
+#value-content .row .col-lg-4:nth-child(1) .value-item-box .value-block-cornar {
+    border-right: 20px solid #5684f4;
+    border-top: 23px solid #5684f4;
+}
+
+#value-content .row .col-lg-4:nth-child(2) .value-item-box .value-block-cornar {
+    border-right: 20px solid #ff3066;
+    border-top: 23px solid #ff3066;
+}
+
+#value-content .row .col-lg-4:nth-child(3) .value-item-box .value-block-cornar {
+    border-right: 20px solid #02b5ff;
+    border-top: 23px solid #02b5ff;
+}
+
+#value-content .row .col-lg-4:nth-child(4) .value-item-box .value-block-cornar {
+    border-right: 20px solid #ed9700;
+    border-top: 23px solid #ed9700;
+}
+
+#value-content .row .col-lg-4:nth-child(5) .value-item-box .value-block-cornar {
+    border-right: 20px solid #0033b5;
+    border-top: 23px solid #0033b5;
+}
+
+#value-content .row .col-lg-4:nth-child(6) .value-item-box .value-block-cornar {
+    border-right: 20px solid #248c00;
+    border-top: 23px solid #248c00;
+}
+
+#value-content .row .col-lg-4:nth-child(7) .value-item-box .value-block-cornar {
+    border-right: 20px solid #ed9700;
+    border-top: 23px solid #ed9700;
+}
+
+#value-content .row .col-lg-4:nth-child(8) .value-item-box .value-block-cornar {
+    border-right: 20px solid #248c00;
+    border-top: 23px solid #248c00;
+}
+
+#value-content .row .col-lg-4:nth-child(9) .value-item-box .value-block-cornar {
+    border-right: 20px solid #0033b5;
+    border-top: 23px solid #0033b5;
+}
+
+#value-content .row .col-lg-4:nth-child(1) .value-item-box:hover {
+    background-color: #5684f4;
+}
+
+#value-content .row .col-lg-4:nth-child(2) .value-item-box:hover {
+    background-color: #ff3066;
+}
+
+#value-content .row .col-lg-4:nth-child(3) .value-item-box:hover {
+    background-color: #02b5ff;
+}
+
+#value-content .row .col-lg-4:nth-child(4) .value-item-box:hover {
+    background-color: #ed9700;
+}
+
+#value-content .row .col-lg-4:nth-child(5) .value-item-box:hover {
+    background-color: #0033b5;
+}
+
+#value-content .row .col-lg-4:nth-child(6) .value-item-box:hover {
+    background-color: #248c00;
+}
+
+#value-content .row .col-lg-4:nth-child(7) .value-item-box:hover {
+    background-color: #ed9700;
+}
+
+#value-content .row .col-lg-4:nth-child(8) .value-item-box:hover {
+    background-color: #248c00;
+}
+
+#value-content .row .col-lg-4:nth-child(9) .value-item-box:hover {
+    background-color: #0033b5;
+}
+/* --Value Content Area End-- */
+
+
+/* --Value Companey Area Strat-- */
+
+/* --Value Companey Area End-- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* --Back to top Button-- */
 .go-top.active {
