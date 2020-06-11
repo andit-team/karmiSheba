@@ -254,6 +254,9 @@
     .hide-item {
         display: none;
     }
+    #value-banner {
+        padding: 130px 0 0 0;
+    }
 }
 
 @media (max-width: 768px) {
