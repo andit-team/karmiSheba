@@ -565,26 +565,49 @@ section {
     background-image: linear-gradient(to right, #0b4fc1a3, #e3078ea1);
 }
 
+.ovarlay-box:hover::after {
+    background-image: linear-gradient(to right, #e3078ea1, #0b4fc1a3);
+}
+
 .ovarlay-box-two::after {
     background-image: linear-gradient(to right, #6717cda6, #2871fa96);
+}
+
+.ovarlay-box-two:hover::after {
+    background-image: linear-gradient(to right, #2871fa96, #6717cda6);
 }
 
 .ovarlay-box-three::after {
     background-image: linear-gradient(to right, #f9136299, #35126a8c);
 }
 
+.ovarlay-box-three:hover::after {
+    background-image: linear-gradient(to right, #35126a8c, #f9136299);
+}
+
 .ovarlay-box-four::after {
     background-image: linear-gradient(to right, #04128299, #fca65e94);
+}
+
+.ovarlay-box-four:hover::after {
+    background-image: linear-gradient(to right, #fca65e94, #04128299);
 }
 
 .ovarlay-box-five::after {
     background-image: linear-gradient(to right, #f83600ad, #4bfa22a8);
 }
 
+.ovarlay-box-five:hover::after {
+    background-image: linear-gradient(to right, #4bfa22a8, #f83600ad);
+}
+
 .ovarlay-box-six::after {
     background-image: linear-gradient(to right, #31cdb0a6, #3551a4ab);
 }
 
+.ovarlay-box-six:hover::after {
+    background-image: linear-gradient(to right, #3551a4ab, #31cdb0a6);
+}
 
 /* --Casestudy Area End */
 
@@ -1357,6 +1380,13 @@ input:focus~.label-box::after {
 ===================================*/
 
 /* --Banner Area Start-- */
+#about-banner {
+    background-image: url('../img/about/banner-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
 
 /* --Banner Area End-- */
 
@@ -1632,7 +1662,91 @@ input:focus~.label-box::after {
     background-color: #fff2f2;
 }
 
+.get-review-box {
+    display: flex;
+    align-items: center;
+}
+
+.get-review-heading h5 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.get-reviews-item {
+    background: #ffff;
+    padding: 25px 25px;
+    margin-left: 25px;
+}
+
+.get-review-box-width {
+    width: 20%;
+}
+
+.review-star {
+    padding-top: 10px;
+}
+
+.review-star span {
+    font-weight: 600;
+}
+
+.review-star i {
+    color: #ffc500;
+}
+
 /* --Get-Review Area End-- */
+
+/* --About Client Area strat-- */
+#about-client-area {
+    padding: 120px 0 0 0;
+}
+
+.about-client-area {
+    position: relative;
+}
+
+.about-client-area img {
+    width: 100%;
+}
+
+.about-client-veido-arae {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+}
+
+.about-client-destenation h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.about-client-destenation p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+#about-client-area .veido-area-custom {
+    right: 40px;
+    left: auto;
+    top: 16px;
+}
+
+#about-client-area .veido-area-custom img {
+    width: 35%;
+}
+
+.view-button {
+    width: 100%;
+    margin-top: 45px;
+}
+
+/* --About Client Area End-- */
 
 /* --Back to top Button-- */
 .go-top.active {

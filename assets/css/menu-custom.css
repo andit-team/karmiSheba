@@ -124,13 +124,13 @@
 .karmi-sheba-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus,
 .karmi-sheba-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: var(--pink-color);
-  padding-left: 26px;
+  padding-left: 15px;
 }
 
 .karmi-sheba-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover::before,
 .karmi-sheba-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus::before,
 .karmi-sheba-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active::before {
-  width: 20px;
+  width: 15px;
 }
 
 .karmi-sheba-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -246,6 +246,21 @@
 
 .navbar-area.is-sticky .karmi-sheba-nav .navbar-brand .black-logo {
   display: block;
+}
+
+.karmi-sheba-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  top: -15px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.karmi-sheba-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+  left: -245px;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
 }
 
 @media only screen and (max-width: 991px) {
