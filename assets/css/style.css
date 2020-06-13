@@ -2047,8 +2047,6 @@ input:focus~.label-box::after {
 }
 
 /* --Value Companey Area End-- */
-
-
 /* --vlaue-bottom-arae Start-- */
 #vlaue-bottom-arae {
     background-color: var(--pink-color);
@@ -2065,6 +2063,62 @@ input:focus~.label-box::after {
 
 /* --vlaue-bottom-arae End-- */
 
+/* ================================
+     04 What-We-Do(Main Page)
+===================================*/
+/* --Banner-area-Strat-- */
+#common-banner {
+    padding: 240px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#common-banner:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background: #232e5e94;
+}
+
+.what-we-do-banner-bg {
+    background-image: url('../img/what-we-do/what-do-bg.png');
+}
+
+.common-text-banner {
+    z-index: 999;
+    position: relative;
+}
+
+.common-text-banner h2 {
+    color: #fff;
+}
+
+.common-text-banner p {
+    color: #fff;
+    padding-top: 15px;
+}
+
+.common-text-banner a {
+    margin-top: 35px;
+}
+
+/* --Banner-area-End-- */
+
+/* --trusted-by-patrtner-area-Start-- */
+#trusted-by-partner {
+    padding: 120px 0;
+}
+.trusted-by-partner-wrapper{
+
+}
+.trusted-by-text{
+    
+}
+/* --trusted-by-patrtner-area-End-- */
 
 
 
@@ -2076,7 +2130,7 @@ input:focus~.label-box::after {
 
 
 
-
+trusted-by-partner
 
 /* --Back to top Button-- */
 .go-top.active {
