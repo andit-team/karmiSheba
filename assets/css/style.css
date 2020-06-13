@@ -188,7 +188,7 @@ input[type="text"],
 select,
 input[type="password"] {
     min-height: 45px;
-    background: #f7f7f7;
+    background: #fff;
     border-color: #ddd;
 }
 
@@ -202,6 +202,7 @@ input[type="password"] {
 
 input[type="text"]:focus,
 input[type="password"]:focus,
+input[type="number"]:focus,
 select:focus {
     background-color: #fff;
 }
@@ -2089,7 +2090,7 @@ input:focus~.label-box::after {
 }
 
 .common-text-banner {
-    z-index: 999;
+    z-index: 9;
     position: relative;
 }
 
@@ -2110,27 +2111,186 @@ input:focus~.label-box::after {
 
 /* --trusted-by-patrtner-area-Start-- */
 #trusted-by-partner {
-    padding: 120px 0;
+    margin-top: -100px;
 }
-.trusted-by-partner-wrapper{
 
+.trusted-by-partner-wrapper {
+    background-color: #fff;
+    padding: 70px 31px;
 }
-.trusted-by-text{
-    
+
+#trusted-by-partner .owl-carousel .owl-item img {
+    display: block;
+    width: 50%;
 }
+
 /* --trusted-by-patrtner-area-End-- */
 
+/* --Our-extrem-service-Start-- */
+#our-extren-service {
+    padding: 120px 0;
+}
+
+.extrem-service-box {
+    text-align: center;
+    padding: 35px 25px;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+    margin-bottom: 30px;
+}
+
+.extrem-service-box:hover {
+    background-color: var(--pink-color);
+}
+
+.extrem-service-box:hover h3,
+.extrem-service-box:hover p {
+    color: var(--color-white);
+}
+
+.extrem-service-box p {
+    padding-top: 20px;
+}
+
+#our-extren-service .extrem-service-box:hover .flaticon-operative-system:before,
+#our-extren-service .extrem-service-box:hover .flaticon-globe:before,
+#our-extren-service .extrem-service-box:hover .flaticon-brain:before,
+#our-extren-service .extrem-service-box:hover .flaticon-artificial-intelligence:before,
+#our-extren-service .extrem-service-box:hover .flaticon-safe-box:before,
+#our-extren-service .extrem-service-box:hover .flaticon-seo:before {
+    color: var(--color-white);
+}
+
+#our-extren-service .flaticon-operative-system:before,
+#our-extren-service .flaticon-globe:before,
+#our-extren-service .flaticon-brain:before,
+#our-extren-service .flaticon-artificial-intelligence:before,
+#our-extren-service .flaticon-safe-box:before,
+#our-extren-service .flaticon-seo:before {
+    font-size: 95px;
+    color: var(--pink-color);
+    transition: .2s all;
+    -webkit-transition: .2s all;
+    -moz-transition: .2s all;
+    -ms-transition: .2s all;
+    -o-transition: .2s all;
+}
+
+.extrem-service-box img {
+    padding-top: 21px;
+    padding-bottom: 23px;
+}
+
+/* --Our-extrem-service-End-- */
 
 
+/* --What-do-form-arae-Start-- */
+#what-do-form-arae {
+    padding: 120px 0;
+    background-image: url('../img/what-we-do/form-bg.png');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+#what-do-form-arae::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #232e5ec7;
+    top: 0;
+}
 
+.what-do-form-arae-wrappper {
+    position: relative;
+    z-index: 999;
+}
 
+.what-do-form-arae-wrappper h2 {
+    color: var(--color-white);
+}
 
+#what-do-form {
+    padding-top: 50px;
+}
 
+#what-do-form .form-control {
+    height: 55px;
+    border-radius: 10px;
+    padding: 15px 19px;
+    margin-bottom: 30px;
+}
 
+#what-do-form .form-group textarea {
+    height: auto !important;
+}
 
+.form-control:focus {
+    background-color: #fff;
+}
 
-trusted-by-partner
+.what-form-button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.what-form-button button {
+    margin-bottom: 20px;
+}
+
+.what-form-button span {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.what-do-emil-link {
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.what-do-client {
+    padding: 120px 0 !important;
+}
+
+/* --What-do-form-arae-End-- */
+
+/* ================================
+ 05 product-enhancement-service page
+===================================*/
+
+/* --product-enhancement-banner start--*/
+.product-enhancement-bg {
+    background-image: url('../img/what-we-do/product-echancenment/product-achancement-bg.png');
+}
+
+/* --product-enhancement-banner End--*/
+
+/* --service-prestion-start--*/
+#service-prestion {
+    padding: 120px 0;
+}
+
+#service-prestion .tab-pane.fade {
+    transition: all 0.2s;
+    transform: translateY(1rem);
+}
+
+#service-prestion .tab-pane.fade.show {
+    transform: translateY(0rem);
+}
+
+#service-prestion nav {
+    display: inherit;
+}
+
+/* --service-prestion-End--*/
+
 
 /* --Back to top Button-- */
 .go-top.active {

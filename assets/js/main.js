@@ -134,6 +134,32 @@
 
     });
 
+
+    // Clients Slider
+    $('.trusted-by-partner-logo-wrapper').owlCarousel({
+        loop: true,
+        dots: false,
+        autoplayHoverPause: true,
+        autoplay: true,
+        smartSpeed: 1000,
+        margin: 0,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            480: {
+                items: 2,
+            },
+            768: {
+                items: 3,
+            },
+            1200: {
+                items: 4,
+            }
+        }
+    });
+
     /*====== Scroll to top ========*/
     // Go to Top
     $(function () {

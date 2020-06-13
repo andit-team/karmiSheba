@@ -5,7 +5,7 @@
     }
 
     .karmi-sheba-nav .navbar .navbar-nav {
-        margin: 0 0px auto 0px;
+        margin: 0 0px auto auto;
     }
 
     .home-banner-img {
@@ -16,9 +16,9 @@
 
 @media (max-width: 1440px) {
     .karmi-sheba-nav .navbar .navbar-nav .nav-item a {
-        font-size: 14px;
+        font-size: 15px;
         margin-left: 10px;
-        margin-right: 10px;
+        margin-right: 1px;
     }
 
     .other-option .btn {
@@ -254,8 +254,14 @@
     .hide-item {
         display: none;
     }
+
     #value-banner {
         padding: 130px 0 0 0;
+    }
+
+    .trusted-by-text {
+        text-align: center;
+        margin-bottom: 30px;
     }
 }
 
@@ -314,6 +320,14 @@
         display: none;
     }
 
+    .mean-container .mean-bar {
+        padding: 8px 0 0;
+        top: -5px;
+    }
+
+    #trusted-by-partner .owl-carousel .owl-item img {
+        margin: 0 auto;
+    }
 
 }
 
@@ -437,6 +451,29 @@
         padding: 80px 0 0 0;
     }
 
+    .what-do-client {
+        padding: 80px 0 !important;
+    }
+
+    #our-extren-service {
+        padding: 80px 0;
+    }
+
+    .what-do-form-arae-wrappper h2 {
+        font-size: 20px;
+    }
+
+    .client-name-descreption {
+        display: inherit;
+    }
+
+    .client-companey-logo img {
+        width: 75px !important;
+    }
+
+    .client-companey-logo img {
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 361px) {}
