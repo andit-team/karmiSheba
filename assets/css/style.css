@@ -2277,16 +2277,103 @@ input:focus~.label-box::after {
 }
 
 #service-prestion .tab-pane.fade {
-    transition: all 0.2s;
+    transition: all 0.4s;
     transform: translateY(1rem);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
 }
 
 #service-prestion .tab-pane.fade.show {
     transform: translateY(0rem);
 }
 
-#service-prestion nav {
+#service-prestion .nav-tabs {
+    border-bottom: none;
+    border-right: none;
     display: inherit;
+}
+
+#service-prestion .nav-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: #ff3066;
+    border-color: none;
+    border: none;
+    position: relative;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+#service-prestion .nav-tabs .nav-link.active::after {
+    content: "";
+    position: absolute;
+    right: -11px;
+    margin-top: 0;
+    background-color: #ff3066;
+    height: 25px;
+    width: 25px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 8px;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+    z-index: 99;
+}
+
+#service-prestion .nav-tabs .nav-link {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--paragraph-color);
+    border: none;
+    padding: 20px 0 20px 25px;
+}
+
+#service-prestion .nav-tabs .nav-link:focus,
+#service-prestion .nav-tabs .nav-link:hover {
+    border-color: none;
+    border: none;
+    outline: none;
+}
+
+.product-tabs-menu {
+    box-shadow: 0px 0px 28px -16px #ff3066;
+}
+
+.product-tabs-content {
+    background-image: url(../img/what-we-do/tabs-bg.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 45px 50px;
+}
+
+.tabs-service-box-area {}
+
+.tabs-service-box-area p {
+    color: var(--color-white);
+}
+
+.tabs-service-box-area ul {
+    padding-top: 30px;
+}
+
+.tabs-service-box-area ul li {
+    color: var(--color-white);
+    margin-bottom: 10px;
+}
+
+.tabs-service-box-area ul li::before {
+    content: "• ";
+    color: var(--pink-color);
+    /* or whatever color you prefer */
 }
 
 /* --service-prestion-End--*/
