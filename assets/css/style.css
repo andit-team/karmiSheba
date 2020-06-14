@@ -1782,7 +1782,6 @@ input:focus~.label-box::after {
 
 /* --Value banner Area End-- */
 
-
 /* --Value Content Area Strat-- */
 #value-content {
     padding: 120px 0;
@@ -1799,6 +1798,7 @@ input:focus~.label-box::after {
     -ms-transition: .7s all;
     -o-transition: .7s all;
     margin-bottom: 60px;
+    overflow: hidden;
 }
 
 .value-item-box:hover {
@@ -2424,13 +2424,89 @@ input:focus~.label-box::after {
 /* ================================
  10  We-development page
 ===================================*/
-
 /* -- We-developmente banner start-- */
 .web-bg {
     background-image: url('../img/what-we-do/wed-bg.png');
 }
 
 /* -- We-development banner End-- */
+
+/* ================================
+  12  Case-Study-Min-page
+===================================*/
+/* -- Case-study banner start-- */
+#case-study-banner {
+    padding: 260px 0 200px 0px;
+    background-image: url('../img/case-study/banner-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#case-study-banner::after {
+    content: "";
+    background-color: #232e5eb3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+.case-study-banner-text {
+    text-align: center;
+    position: relative;
+    z-index: 9;
+}
+
+.case-study-banner-text h2 {
+    color: var(--color-white);
+}
+
+/* -- Case-study-banner End-- */
+
+
+/* -- Case-study-Content Start-- */
+#case-study-content {
+    padding: 120px 0;
+}
+
+.case-study-heading {
+    text-align: center;
+}
+
+.case-boxed {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    margin-top: 30px;
+}
+
+.case-box-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url('../img/svg/technology-color-icon.svg');
+    background-size: 9.25rem 199.0625rem;
+    background-position: -3rem -66.6875rem;
+}
+
+.case-boxed-text {
+    padding-left: 20px;
+}
+
+.case-boxed-text h6 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.case-boxed-text p {
+    padding-top: 10px;
+}
+
+/* -- Case-study-Content End-- */
+
+
 
 
 /* --Back to top Button-- */
