@@ -263,6 +263,14 @@
         text-align: center;
         margin-bottom: 30px;
     }
+
+    .product-tabs-content {
+        margin-top: 40px;
+    }
+
+    #service-prestion .nav-tabs .nav-link.active::after {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -358,6 +366,10 @@
 
     .work-proces-img img {
         width: 50%;
+    }
+
+    #common-banner {
+        padding: 180px 0;
     }
 }
 
@@ -461,6 +473,7 @@
 
     .what-do-form-arae-wrappper h2 {
         font-size: 20px;
+        line-height: 33px;
     }
 
     .client-name-descreption {
@@ -473,6 +486,21 @@
 
     .client-companey-logo img {
         margin: 0 auto;
+    }
+
+    #service-prestion .nav-tabs .nav-link {
+        font-size: 20px;
+    }
+
+    .image-colum .about-clearfix-img .image:nth-child(2):before {
+        display: none;
+    }
+
+    #what-do-form-arae {
+        padding: 80px 0;
+    }
+    #service-prestion {
+        padding: 80px 0;
     }
 }
 
