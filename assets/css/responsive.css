@@ -47,6 +47,10 @@
         margin-left: 15px;
     }
 
+    .case-study-overview-content {
+        padding: 20px 20px;
+    }
+
     .image-colum .about-clearfix-img .image {
         max-width: 290px;
     }
@@ -371,6 +375,14 @@
     #common-banner {
         padding: 180px 0;
     }
+
+    #our-case-study {
+        padding: 80px 0;
+    }
+
+    .our-case-study-button {
+        margin-top: 0px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -499,6 +511,7 @@
     #what-do-form-arae {
         padding: 80px 0;
     }
+
     #service-prestion {
         padding: 80px 0;
     }
