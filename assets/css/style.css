@@ -2465,10 +2465,9 @@ input:focus~.label-box::after {
 
 /* -- Case-study-banner End-- */
 
-
 /* -- Case-study-Content Start-- */
 #case-study-content {
-    padding: 120px 0;
+    padding: 120px 0 210px 0;
 }
 
 .case-study-heading {
@@ -2476,6 +2475,22 @@ input:focus~.label-box::after {
 }
 
 .case-boxed {
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.case-boxed:hover {
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+}
+
+.case-boxed a {
     height: 140px;
     display: flex;
     align-items: center;
@@ -2483,12 +2498,8 @@ input:focus~.label-box::after {
     margin-top: 30px;
 }
 
-.case-box-icon {
-    width: 50px;
-    height: 50px;
-    background-image: url('../img/svg/technology-color-icon.svg');
-    background-size: 9.25rem 199.0625rem;
-    background-position: -3rem -66.6875rem;
+.case-box-icon img {
+    width: 100%;
 }
 
 .case-boxed-text {
@@ -2506,8 +2517,23 @@ input:focus~.label-box::after {
 
 /* -- Case-study-Content End-- */
 
+/* -- Case-study-partner-Start-- */
+#case-study-help-arae {
+    background-color: var(--pink-color);
+    padding: 120px 0;
+}
 
+.case-study-help-area h2 {
+    color: var(--color-white);
+    text-align: center;
+    padding-top: 70px;
+}
 
+.case-study-partner {
+    margin-top: -210px !important;
+}
+
+/* -- Case-study-partner-End-- */
 
 /* --Back to top Button-- */
 .go-top.active {
