@@ -2660,12 +2660,7 @@ input:focus~.label-box::after {
 
 /* -- overview-area-End-- */
 
-/* --Technical-Stack-Start-- */
-
-/* --Technical-Stack-End-- */
-
 /* -- challenges-area-Start-- */
-
 #challenges-area {
     padding: 120px 0;
     background-color: var(--pink-color);
@@ -2711,10 +2706,6 @@ input:focus~.label-box::after {
     background: #f4f4f4;
 }
 
-.core-features-heading {}
-
-.core-features-heading h2 {}
-
 .core-feature-list {
     margin-top: 50px;
 }
@@ -2727,6 +2718,18 @@ input:focus~.label-box::after {
 }
 
 /* --Core-feature-area-End-- */
+
+
+/* --Technical-Stack-Start-- */
+#technica-stack-area {
+    padding: 120px 0;
+}
+
+.heading-technica {
+    text-align: center;
+}
+
+/* --Technical-Stack-End-- */
 
 /* --Back to top Button-- */
 .go-top.active {
