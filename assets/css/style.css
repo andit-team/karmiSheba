@@ -468,20 +468,6 @@ section {
 
 /* --Casestudy Area Start */
 
-
-/* when under viewport size, .mean-container is added to body */
-
-
-
-
-
-
-
-
-
-
-
-
 #home-case-stady {
     padding-top: 120px;
 }
@@ -2733,7 +2719,6 @@ input:focus~.label-box::after {
 
 /* --Core-feature-area-End-- */
 
-
 /* --Technical-Stack-Start-- */
 #technica-stack-area {
     padding: 120px 0;
@@ -2822,7 +2807,80 @@ input:focus~.label-box::after {
 
 /* --Time-frame-End-- */
 
+/* ================================
+  14  Agail Mindset
+===================================*/
 
+/* --Banner Area Start-- */
+#agail-midset-banner {
+    background-image: url('../img/agail-mindset/agail-banner.png');
+    height: 55%;
+}
+
+/* --Banner Area End-- */
+
+/* --Banner bottom Area Start-- */
+#agile-mindset-banner-bottom {
+    padding: 0 0 120px 0;
+    margin-top: -135px;
+}
+
+.agile-mind-bannerbottom-area {
+    text-align: center;
+    padding: 55px 40px;
+    background-color: #fff;
+}
+
+.agile-mind-bannerbottom-area p {
+    padding-top: 30px;
+}
+
+/* --Banner bottom Area End-- */
+
+/* --Timeline Design Area Start-- */
+#timeline-design-arae {
+    padding: 120PX 0;
+}
+
+.timeline-text-arae {
+    box-shadow: 0px 0px 39.2px 0.8px rgba(255, 48, 102, 0.17);
+    padding: 30px 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    height: 100%;
+}
+
+.timeline-text-arae h2 span {
+    color: var(--pink-color);
+    padding-right: 10px;
+}
+
+.timeline-text-arae p {
+    padding-top: 20px;
+}
+
+.shap-timeline {
+    text-align: center;
+}
+
+/* --Timeline Design Area End-- */
+
+/* --Agile Help Area Start-- */
+#agile-help-area {
+    padding: 120px 0;
+    background-color: #f4f4f4;
+}
+
+.agile-help-form-area {
+    background-color: #fff;
+}
+
+.agile-help-form-area img {}
+
+/* --Agile Help Area End-- */
 
 
 /* --Back to top Button-- */
