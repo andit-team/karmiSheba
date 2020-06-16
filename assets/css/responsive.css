@@ -306,6 +306,24 @@
     .extrem-service-box {
         height: auto;
     }
+
+    .shap-timeline {
+        display: none;
+    }
+
+    #timeline-design-arae .row:nth-child(odd) {
+        flex-direction: column-reverse;
+    }
+
+    .timeline-text-arae {
+        margin-bottom: 40px;
+        margin-top: 40px;
+        height: auto;
+    }
+
+    .agile-help-content {
+        margin-top: 45px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -549,6 +567,10 @@
 
     #service-prestion {
         padding: 80px 0;
+    }
+
+    #timeline-design-arae {
+        padding: 0 0 80px 0;
     }
 }
 
