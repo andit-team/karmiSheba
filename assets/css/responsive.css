@@ -275,6 +275,18 @@
     #service-prestion .nav-tabs .nav-link.active::after {
         display: none;
     }
+
+    .challenge-area-text-start {
+        margin-bottom: 30px;
+    }
+
+    .technical-table-area {
+        margin-bottom: 30px;
+    }
+
+    .case-study-count-box {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -382,6 +394,10 @@
 
     .our-case-study-button {
         margin-top: 0px;
+    }
+
+    .case-study-single-bg {
+        padding: 190px 0 135px 0 !important;
     }
 }
 
