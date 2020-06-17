@@ -2903,6 +2903,73 @@ input:focus~.label-box::after {
 
 /* --Agile Help Area End-- */
 
+/* ===========================
+ 15  Our Partner Page
+==============================*/
+
+/* --Our Partner Banner Start-- */
+#partners-banner-bottom-text {
+    padding: 120px 0;
+}
+
+.partner-banner-bottom {
+    text-align: center;
+}
+
+.partner-banner-bottom h2 {
+    padding-bottom: 25px;
+}
+
+.partner-banner-bottom p {
+    padding-top: 10px;
+}
+
+/* --Our Partner Banner End-- */
+
+/* --features-key-Start-- */
+#features-key-area {
+    position: relative;
+    padding: 120px 0;
+    background-image: url('../img/partner/partner-bg.png');
+}
+
+#features-key-area:after {
+    content: "";
+    background: #232e5ead;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+
+.key-heading {
+    text-align: center;
+    position: relative;
+    z-index: 999;
+}
+
+.key-heading h2 {
+    color: #fff;
+}
+
+.key-features-box {
+    background-color: #fff;
+    position: relative;
+    z-index: 999;
+    padding: 30px;
+    margin-top: 30px;
+    height: 85%;
+}
+
+.key-features-box p {}
+
+.key-features-box p span {
+    color: var(--pink-color);
+    font-weight: 600;
+}
+
+/* --features-key-End-- */
 
 /* --Back to top Button-- */
 .go-top.active {

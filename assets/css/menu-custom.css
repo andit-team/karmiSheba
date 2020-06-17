@@ -432,7 +432,7 @@
   }
 
   .karmi-sheba-nav-responsive .plamb-responsive-menu.mean-container .mean-nav ul li a.active {
-    color: #00b0ee;
+    color: var(--pink-color);
   }
 
   .karmi-sheba-nav-responsive .plamb-responsive-menu.mean-container .mean-nav ul li li a {
