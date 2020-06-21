@@ -44,6 +44,10 @@
         line-height: 45px;
     }
 
+    .home-banner-img {
+        right: 2%;
+        width: 56%;
+    }
 
 }
 
@@ -85,11 +89,29 @@
     .navbar-brand img {
         width: 100%;
     }
+
+    .footetr-form-arae {
+        margin-top: 50px;
+        margin-bottom: 55px;
+    }
+
+    .product-area-button a {
+        margin-right: 10px;
+    }
 }
 
 @media (max-width: 992px) {
     .other-option {
         margin: 20px 35px 0 31px;
+    }
+
+    .footer-soical-icon {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .footer-bottom-list-item {
+        text-align: center;
     }
 
     .home-banner-text-box-inner {
@@ -153,9 +175,9 @@
 
     .competenies-box {
         padding: 20px 25px;
-        width: auto;
         margin-right: 15px;
         display: inherit !important;
+        height: 100px;
     }
 
     .competenies-box img {
@@ -188,9 +210,7 @@
         border: 1px solid #fff;
     }
 
-    .footetr-form-arae {
-        margin-top: 40px;
-    }
+
 
     .work-profile-box {
         margin-bottom: 30px;
@@ -333,6 +353,11 @@
     }
 
     .competenies-box {
+        width: auto;
+        height: auto;
+    }
+
+    .competenies-box {
         margin-bottom: 30px;
     }
 
@@ -358,6 +383,7 @@
 
     .footer-collapese {
         display: block;
+        margin-top: 65px;
     }
 
     h1 {
@@ -483,10 +509,6 @@
         padding: 80px 0;
     }
 
-    #footer-area {
-        padding: 80px 0;
-    }
-
     #home_cta {
         padding: 80px 0;
     }
@@ -571,6 +593,15 @@
 
     #timeline-design-arae {
         padding: 0 0 80px 0;
+    }
+
+    .client-name h4 {
+        font-size: 20px;
+    }
+
+    .client-name p {
+        padding-top: 0px;
+        font-size: 14px;
     }
 }
 
