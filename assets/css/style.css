@@ -1,11 +1,21 @@
 /*
 @File:KarmiSheba Template Styles
 
-* This file contains the styling for the actual template, this
-is the file you need to edit to change the look of the
-template.
+  Theme Name: karmisheba Html Template
+  Theme URL: 
+  Author: webguru071
+  Author URL:  
+  Creation Date: 20/06/2020
+  Description:A default stylesheet for  And Host - Domain Hosting HTML Template
+  Version: 1.00
+  Primary use: 
+  Support: andimpex@gmail.com,
 
-This files table contents are outlined below>>>>>
+  * This file contains the styling for the actual template, this
+  is the file you need to edit to change the look of the
+  template.
+
+  This files table contents are outlined below>>>>>
 
 *******************************************
 *******************************************
@@ -1376,9 +1386,17 @@ input:focus~.label-box::after {
 
 /* --Footer Area End-- */
 
+
+
+
+
 /* ================================
            02 About  Page
 ===================================*/
+
+
+
+
 
 /* --Banner Area Start-- */
 #about-banner {
