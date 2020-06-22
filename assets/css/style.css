@@ -3042,8 +3042,6 @@ ul li:nth-child(1) a:before {
     transform: translate(0, -30%);
 }
 
-.overlay-item img {}
-
 .overlay-item h4 {
     color: #fff;
     padding-top: 20px;
@@ -3071,13 +3069,6 @@ ul li:nth-child(1) a:before {
 }
 
 /* --Main-content Area End-- */
-
-
-
-
-
-
-
 
 /* ===========================
  16  Our Partner-Single Page
@@ -3146,7 +3137,7 @@ ul li:nth-child(1) a:before {
 /* --features-key-End-- */
 
 /* ===========================
- 16  Blog Page
+ 17  Blog Page
 ==============================*/
 
 /* -- banner area start -- */
@@ -3179,7 +3170,7 @@ ul li:nth-child(1) a:before {
     text-align: center;
     padding: 20px 0;
     margin-top: -205px;
-    background: #f7f7f7;
+    background: var(--pink-color);
 }
 
 .insight-item ul li {
@@ -3204,6 +3195,7 @@ ul li:nth-child(1) a:before {
     -moz-transition: .4s all;
     -ms-transition: .4s all;
     -o-transition: .4s all;
+    background-color: #fff;
 }
 
 .insight-item ul li:hover {
@@ -3211,7 +3203,7 @@ ul li:nth-child(1) a:before {
 }
 
 .insight-item ul li a:hover {
-    background-color: var(--pink-color);
+    background-color: var(--heading-color);
     color: var(--color-white);
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -3224,6 +3216,7 @@ ul li:nth-child(1) a:before {
     text-transform: uppercase;
     font-weight: 600;
     padding-bottom: 20px;
+    color: #fff;
 }
 
 /*--insigths-area-End--*/
@@ -3319,7 +3312,7 @@ ul li:nth-child(1) a:before {
 /* --Blog-item-End-- */
 
 /* ===========================
-   17  Blog-Single Page
+   18  Blog-Single Page
 ==============================*/
 /* --Banner-area-Start-- */
 .blog-single-banner {
@@ -3664,6 +3657,52 @@ blockquote h6 {
 }
 
 /* --mina-area-End-- */
+
+/* =========================
+   19 Error Page
+============================*/
+/* --Banner-Area-Start-- */
+#error-banner {
+    padding: 120px 0;
+    background-color: #f4f8ff;
+}
+
+.error-banner-text h2 {
+    font-size: 60px;
+}
+
+.error-banner-text h5 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 20px;
+    line-height: 36px;
+}
+
+#error-content {
+    padding: 120px 0;
+}
+
+.error-area-text {
+    padding-right: 60px;
+}
+
+.error-area-text h2 {}
+
+.error-area-text h4 {
+    color: #505359;
+    padding-top: 15px;
+}
+
+.error-area-text p {
+    padding-top: 40px;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+
+.error-area-text ul li {}
+
+/* --Banner-Area-End-- */
 
 /* =========================
      Back to top Button
