@@ -3003,7 +3003,84 @@ ul li:nth-child(1) a:before {
 /* --Agile Help Area End-- */
 
 /* ===========================
- 15  Our Partner Page
+ 15  Our Partner  Page
+==============================*/
+/* --Main-content Area Start-- */
+#partner-items {
+    padding: 120px 0;
+}
+
+.partner-item-wrapper {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.partner-itmes-img {
+    position: relative;
+}
+
+.partner-itmes-img img {
+    width: 100%;
+}
+
+.partner-itmes-img::after {
+    content: "";
+    background: #021e6e85;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.overlay-item {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    height: 100%;
+    transform: translate(0, -30%);
+}
+
+.overlay-item img {}
+
+.overlay-item h4 {
+    color: #fff;
+    padding-top: 20px;
+    font-size: 24px;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.overlay-item p {
+    color: #fff;
+    padding-top: 20px;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.overlay-item h4:hover,
+.overlay-item p:hover {
+    color: var(--pink-color);
+}
+
+/* --Main-content Area End-- */
+
+
+
+
+
+
+
+
+/* ===========================
+ 16  Our Partner-Single Page
 ==============================*/
 
 /* --Our Partner Banner Start-- */
