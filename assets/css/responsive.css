@@ -210,8 +210,6 @@
         border: 1px solid #fff;
     }
 
-
-
     .work-profile-box {
         margin-bottom: 30px;
     }
@@ -344,6 +342,10 @@
     .agile-help-content {
         margin-top: 45px;
     }
+
+    .single-sibebar-wedget {
+        padding-top: 50px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -416,8 +418,14 @@
         margin: 0 auto;
     }
 
-}
+    .main-post-metas {
+        display: inherit;
+    }
 
+    .soical-icon-metas {
+        padding-top: 10px;
+    }
+}
 
 @media (max-width: 576px) {
     #accordionExample .card-body .footer-collapes-inner-area {
@@ -607,6 +615,9 @@
     .insight-item ul li a {
         padding: 5px 9px;
         font-size: 16px;
+    }
+    .comment-name-arae {
+        display: inherit;
     }
 }
 
