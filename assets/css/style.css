@@ -3686,8 +3686,6 @@ blockquote h6 {
     padding-right: 60px;
 }
 
-.error-area-text h2 {}
-
 .error-area-text h4 {
     color: #505359;
     padding-top: 15px;
@@ -3748,6 +3746,155 @@ input[type="password"] {
 }
 
 /* --Banner-Area-End-- */
+
+/* =========================
+   20 Contact Page
+============================*/
+
+/* --Banner-area-Start-- */
+.contact-banner {
+    background-image: url('../img/comon-img/contact-banner.png');
+    padding: 285px 0px 215px 0 !important;
+}
+
+.contact-text {
+    position: relative;
+    z-index: 999;
+}
+
+.contact-text h2 {
+    color: #fff;
+}
+
+.contact-text p {
+    color: #fff;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+/* --Banner-area-End-- */
+
+/* --Contact-Content-area-Start-- */
+#contact-content {
+    padding: 120px 0;
+}
+
+.contact-tabs-menu {}
+
+.contact-tabs-area {
+    margin-top: 40px;
+}
+
+.contact-tabs-area .nav-tabs .nav-link {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--paragraph-color);
+    border: none;
+    padding: 6px 13px 6px 17px;
+}
+
+.contact-tabs-area .nav-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: #ff3066;
+    border-color: none;
+    border: none;
+    position: relative;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.contact-tabs-area .nav-tabs .nav-link:focus,
+.contact-tabs-area .nav-tabs .nav-link:hover {
+    border-color: none;
+    border: none;
+    outline: none;
+}
+
+.contact-tabs-inner {
+    padding-top: 20px;
+}
+
+.contact-tabs-area .tab-pane.fade.show {
+    transform: translateY(0rem);
+}
+
+.contact-tabs-area .tab-pane.fade {
+    transition: all 0.4s;
+    transform: translateY(1rem);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+.customer-service {
+    margin-top: 50px;
+}
+
+.customer-suport-box {
+    border-bottom: 4px solid #efefef;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.wrapper-customer {
+    display: flex;
+    align-items: center;
+}
+
+.customer-icon {
+    padding-right: 30px;
+}
+
+.customer-link a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.customer-heading h3 {
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.customer-link a img {
+    padding-right: 5px;
+}
+
+.main-contact-from .error-form h3 {
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.main-contact-from {
+    padding-top: 80px;
+}
+
+.contact-form-bottm {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.contact-form-bottm p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.map-location {
+    margin-top: 50px;
+}
+
+.map-location iframe {
+    width: 100%;
+}
+
+/* --Contact-Content-area-End-- */
+
+
 
 /* =========================
      Back to top Button
