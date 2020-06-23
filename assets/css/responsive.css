@@ -98,6 +98,15 @@
     .product-area-button a {
         margin-right: 10px;
     }
+
+    .error-banner-text h2 {
+        font-size: 45px;
+    }
+
+    .error-banner-text h5 {
+        font-size: 18px;
+        line-height: 30px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -346,6 +355,18 @@
     .single-sibebar-wedget {
         padding-top: 50px;
     }
+
+    #error-banner .row {
+        flex-direction: column-reverse;
+    }
+
+    .error-banner-img {
+        text-align: center;
+    }
+
+    .error-banner-img {
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -424,6 +445,14 @@
 
     .soical-icon-metas {
         padding-top: 10px;
+    }
+
+    .error-form {
+        margin-top: 30px;
+    }
+
+    .error-area-text {
+        padding-right: 0px;
     }
 }
 
@@ -616,8 +645,17 @@
         padding: 5px 9px;
         font-size: 16px;
     }
+
     .comment-name-arae {
         display: inherit;
+    }
+
+    .error-banner-text h2 {
+        font-size: 30px;
+    }
+
+    #error-content {
+        padding: 80px 0;
     }
 }
 
