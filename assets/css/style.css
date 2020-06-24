@@ -3779,8 +3779,6 @@ input[type="password"] {
     padding: 120px 0;
 }
 
-.contact-tabs-menu {}
-
 .contact-tabs-area {
     margin-top: 40px;
 }
@@ -3895,6 +3893,80 @@ input[type="password"] {
 /* --Contact-Content-area-End-- */
 
 
+/* =========================
+   21. Technology All page
+============================*/
+
+/* --Banner Area Start-- */
+#technology-banner {
+    padding: 80px 0 100px 0;
+    background-image: url(../img/comon-img/technology-banner-shap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.side-padding {
+    padding-right: 380px !important;
+}
+
+.technology-banner-text h1 span {
+    color: var(--pink-color);
+}
+
+.technology-banner-text p {
+    font-size: 20px;
+    padding-top: 30px;
+    line-height: 35px;
+}
+
+.techonology-banner-img {
+    padding-top: 260px;
+}
+
+/* --Banner Area End-- */
+
+/* --technology-content Area Start-- */
+
+#technology-content-area {
+    padding: 120px 0;
+}
+
+.technology-heading {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.technology-heading h2 {}
+
+.techonology-item-box-area {}
+
+.boxed-item {
+    background: red;
+    height: 141px;
+    width: 350px;
+    text-align: center;
+    padding: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+
+.boxed-icon {
+    background: url("../img/svg/technology-color-icon.svg") no-repeat center;
+    background-size: 9.25rem 199.0625rem;
+    height: 2.625rem;
+    display: inline-block;
+}
+
+.react-icon .boxed-icon {
+    background-position: -3rem -66.6875rem;
+    width: 3.0625rem;
+}
+
+.boxed-item h3 {
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+/* --technology-content Area End-- */
 
 /* =========================
      Back to top Button
