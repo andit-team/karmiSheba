@@ -3936,17 +3936,32 @@ input[type="password"] {
     padding-bottom: 50px;
 }
 
-.technology-heading h2 {}
-
-.techonology-item-box-area {}
-
 .boxed-item {
-    background: red;
     height: 141px;
     width: 350px;
     text-align: center;
     padding: 1.875rem;
     margin-bottom: 1.875rem;
+    box-shadow: 0px 2px 7px -3px #ff3066;
+    -webkit-transition: all ease-in .3s;
+    -o-transition: all ease-in .3s;
+    transition: all ease-in .3s;
+}
+
+.boxed-item:hover {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.boxed-item:hover h3 {
+    color: #fff;
+}
+
+.react-icon:hover {
+    background-color: #00d8ff;
 }
 
 .boxed-icon {
@@ -3961,9 +3976,82 @@ input[type="password"] {
     width: 3.0625rem;
 }
 
+.react-icon:hover .boxed-icon {
+    background-position: -5.9375rem -66.6875rem;
+}
+
 .boxed-item h3 {
     margin-top: 8px;
     font-size: 18px;
+    -webkit-transition: all ease-in .3s;
+    -o-transition: all ease-in .3s;
+    transition: all ease-in .3s;
+}
+
+.node-icon:hover {
+    background-color: #529e43;
+}
+
+.node-icon .boxed-icon {
+    background-position: -.125rem -6.375rem;
+    width: 104px;
+}
+
+.node-icon:hover .boxed-icon {
+    background-position: -.125rem -8.875rem;
+}
+
+.vue-icon:hover {
+    background-color: #42505f;
+}
+
+.vue-icon .boxed-icon {
+    background-position: -3.3125rem -61.5625rem;
+    width: 2.875rem;
+}
+
+.vue-icon:hover .boxed-icon {
+    background-position: -.125rem -62.125rem;
+}
+
+.angular-icon:hover {
+    background-color: #b52d30;
+}
+
+.angular-icon .boxed-icon {
+    background-position: -2.625rem -121.9375rem;
+    width: 2.375rem;
+}
+
+.angular-icon:hover .boxed-icon {
+    background-position: -5.125rem -122.125rem;
+}
+
+.ember-icon:hover {
+    background-color: #b88448;
+}
+
+.ember-icon .boxed-icon {
+    background-position: -.125rem -20.5rem;
+    width: 5.6875rem;
+    height: 2.125rem;
+}
+
+.ember-icon:hover .boxed-icon {
+    background-position: -.125rem -22.75rem;
+}
+
+.bootstrap-icon:hover {
+    background-color: #553d7b;
+}
+
+.bootstrap-icon .boxed-icon {
+    background-position: -2.75rem -93.0625rem;
+    width: 2.5rem;
+}
+
+.bootstrap-icon:hover .boxed-icon {
+    background-position: -5.375rem -93.3125rem;
 }
 
 /* --technology-content Area End-- */
