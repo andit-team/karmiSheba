@@ -1235,8 +1235,8 @@ input:focus~.label-box::after {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    border-right: 1px solid #fff;
-    border-top: 1px solid #fff;
+    border-right: 2px solid #fff;
+    border-top: 2px solid #fff;
 }
 
 #footer-side-tab .nav-tabs .nav-link:focus,
@@ -3927,8 +3927,22 @@ input[type="password"] {
 
 /* --technology-content Area Start-- */
 
-#technology-content-area {
+#technology-javascript-content,
+#technology-mobile-content,
+#technology-framework-content,
+#technology-web-applicatio-content,
+#technology-machine-learning-content,
+#technology-nosql-db-content,
+#technology-big-data-content,
+#technology-data-base-content,
+#technology-cloud-content,
+#technology-bdd-qa-content,
+#technology-management-it-consulting-content {
     padding: 120px 0;
+}
+
+.bg-custom {
+    background-color: #fafafa;
 }
 
 .technology-heading {
@@ -3936,9 +3950,13 @@ input[type="password"] {
     padding-bottom: 50px;
 }
 
+.padding-right-item {
+    padding-right: 100px;
+}
+
 .boxed-item {
     height: 141px;
-    width: 350px;
+    width: 320px;
     text-align: center;
     padding: 1.875rem;
     margin-bottom: 1.875rem;
@@ -3959,6 +3977,8 @@ input[type="password"] {
 .boxed-item:hover h3 {
     color: #fff;
 }
+
+/* --Javascript Technology-- */
 
 .react-icon:hover {
     background-color: #00d8ff;
@@ -4054,7 +4074,1349 @@ input[type="password"] {
     background-position: -5.375rem -93.3125rem;
 }
 
+.polymer-icon:hover {
+    background-color: #303e9f;
+}
+
+.polymer-icon .boxed-icon {
+    background: url('../img/svg/technologies-v2-icons.svg') no-repeat center;
+    background-position: 0 -22.4375rem;
+    background-size: 9.25rem;
+    width: 3.6875rem;
+}
+
+.polymer-icon:hover .boxed-icon {
+    background-position: -5.6875rem -22.4375rem;
+}
+
+.front-icon:hover {
+    background-color: #3776c0;
+}
+
+.front-icon .boxed-icon {
+    background-position: -.125rem -135.875rem;
+    width: 2.1875rem;
+}
+
+.front-icon:hover .boxed-icon {
+    background-position: -2.4375rem -137.5rem;
+}
+
+.mean-icon:hover {
+    background-color: #9f8868;
+}
+
+.mean-icon .boxed-icon {
+    background-position: -.125rem -122.75rem;
+    width: 2.375rem;
+}
+
+.mean-icon:hover .boxed-icon {
+    background-position: -2.625rem -124.5rem;
+}
+
+.mern-icon:hover {
+    background-color: #9c5733;
+}
+
+.mern-icon .boxed-icon {
+    background-position: -4.75rem -151.25rem;
+    width: 2.5rem;
+}
+
+.mern-icon:hover .boxed-icon {
+    background-position: -.9375rem -151.25rem;
+}
+
+.backbone-icon:hover {
+    background-color: #0070b4;
+}
+
+.backbone-icon .boxed-icon {
+    background-position: -7rem -46rem;
+    width: 2rem;
+}
+
+.backbone-icon:hover .boxed-icon {
+    background-position: -7rem -48.5rem
+}
+
+/* --Mobile-App Technology-- */
+.mobile-icon:hover {
+    background-color: #42505f;
+}
+
+.mobile-icon .boxed-icon {
+    background-position: -5.125rem -124.8125rem;
+    width: 2.375rem;
+}
+
+.mobile-icon:hover .boxed-icon {
+    background-position: -5.375rem -119.5625rem;
+}
+
+.ionic-icon:hover {
+    background-color: #3980ff;
+}
+
+.ionic-icon .boxed-icon {
+    background-position: -2.75rem -100.9375rem;
+    width: 2.5rem;
+}
+
+.ionic-icon:hover .boxed-icon {
+    background-position: -5.375rem -101.0625rem;
+}
+
+.flutter-icon:hover {
+    background-color: #39cefd;
+}
+
+.flutter-icon .boxed-icon {
+    background-position: -7rem -51.1875rem;
+    width: 2rem;
+}
+
+.flutter-icon:hover .boxed-icon {
+    background-position: -6.6875rem -145.8125rem;
+}
+
+.android-icon:hover {
+    background-color: #a9c147;
+}
+
+.android-icon .boxed-icon {
+    background-position: -6.875rem -53.75rem;
+    width: 2.125rem;
+}
+
+.android-icon:hover .boxed-icon {
+    background-position: -.125rem -141.0625rem;
+}
+
+.ipone-icon:hover {
+    background-color: #b3b3b3;
+}
+
+.ipone-icon .boxed-icon {
+    background-position: -2.3125rem -145.5625rem;
+    width: 2.0625rem;
+}
+
+.ipone-icon:hover .boxed-icon {
+    background-position: -4.5rem -145.8125rem;
+}
+
+.kotlin-icon:hover {
+    background-color: #2899ff;
+}
+
+.kotlin-icon .boxed-icon {
+    background: url('../img/svg/technologies-v2-icons.svg') no-repeat center;
+    background-size: 9.25rem;
+    background-position: 0 -26.125rem;
+    width: 2.5rem;
+}
+
+.kotlin-icon:hover .boxed-icon {
+    background-position: -6.625rem -26.125rem;
+}
+
+.ipad-icon:hover {
+    background-color: #42505f;
+}
+
+.ipad-icon .boxed-icon {
+    background-position: -7.0625rem -137.9375rem;
+    width: 1.75rem;
+}
+
+.ipad-icon:hover .boxed-icon {
+    background-position: -7.0625rem -140.5625rem;
+}
+
+/* --Open-Source-Web-Framewor- Technology-- */
+.ruby-icon:hover {
+    background-color: #dd1e2f;
+}
+
+.ruby-icon .boxed-icon {
+    background-position: -5.375rem -111.6875rem;
+    width: 2.5rem;
+}
+
+.ruby-icon:hover .boxed-icon {
+    background-position: -5.5rem -82.6875rem;
+}
+
+.laravel-icon:hover {
+    background-color: #e43b2f;
+}
+
+.laravel-icon .boxed-icon {
+    background-position: -.125rem -106.875rem;
+    width: 2.5rem;
+}
+
+.laravel-icon:hover .boxed-icon {
+    background-position: -2.75rem -108.8125rem;
+}
+
+.python-icon:hover {
+    background-color: #3976a5;
+}
+
+.python-icon .boxed-icon {
+    background-position: -.125rem -109.4375rem;
+    width: 2.5rem;
+}
+
+.python-icon:hover .boxed-icon {
+    background-position: -2.75rem -111.375rem;
+}
+
+.golang-icon:hover {
+    background-color: #89c4e4;
+}
+
+.golang-icon .boxed-icon {
+    background-position: -7.0625rem -132.6875rem;
+    width: 1.9375rem;
+}
+
+.golang-icon:hover .boxed-icon {
+    background-position: -7.0625rem -135.25rem;
+}
+
+.drupal-icon:hover {
+    background-color: #1364a9;
+}
+
+.drupal-icon .boxed-icon {
+    background-position: -5.625rem -178.25rem;
+    width: 2.875rem;
+    height: 3.25rem;
+}
+
+.drupal-icon:hover .boxed-icon {
+    background-position: -1rem -178.25rem;
+}
+
+.docker-icon:hover {
+    background-color: #2395ec;
+}
+
+.docker-icon .boxed-icon {
+    background-position: -4rem -189.9375rem;
+    width: 4.75rem;
+    height: 3.25rem;
+}
+
+.docker-icon:hover .boxed-icon {
+    background-position: -4rem -189.9375rem;
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.php-icon:hover {
+    background-color: #8993be;
+}
+
+.php-icon .boxed-icon {
+    background-position: -.125rem -25rem;
+    width: 4.8125rem;
+}
+
+.php-icon:hover .boxed-icon {
+    background-position: -.125rem -27.625rem;
+}
+
+.cms-icon:hover {
+    background-color: #1c6fec;
+}
+
+.cms-icon .boxed-icon {
+    background-position: -2.75rem -106.1875rem;
+    width: 2.5rem;
+}
+
+.cms-icon:hover .boxed-icon {
+    background-position: -5.375rem -106.4375rem;
+}
+
+.magento-icon:hover {
+    background-color: #f16220;
+}
+
+.magento-icon .boxed-icon {
+    background-position: -2.375rem -142.75rem;
+    width: 2.125rem;
+}
+
+.magento-icon:hover .boxed-icon {
+    background-position: -4.625rem -143.0625rem;
+}
+
+.yii-icon:hover {
+    background-color: #efad56;
+}
+
+.yii-icon .boxed-icon {
+    background-position: -5rem -127.4375rem;
+    width: 2.3125rem;
+}
+
+.yii-icon:hover .boxed-icon {
+    background-position: -.125rem -128rem;
+}
+
+.prestashop-icon:hover {
+    background-color: #515352;
+}
+
+.prestashop-icon .boxed-icon {
+    background-position: -5.375rem -109.0625rem;
+    width: 2.5rem;
+}
+
+.prestashop-icon:hover .boxed-icon {
+    background-position: -5.625rem -74.6875rem;
+}
+
+.wordpress-icon:hover {
+    background-color: #474342;
+}
+
+.wordpress-icon .boxed-icon {
+    background-position: -.125rem -112rem;
+    width: 2.5rem;
+}
+
+.wordpress-icon:hover .boxed-icon {
+    background-position: -2.75rem -114rem;
+}
+
+.npcommerce-icon:hover {
+    background-color: #1283bd;
+}
+
+.npcommerce-icon .boxed-icon {
+    background-position: -.125rem -43.25rem;
+    width: 3.375rem;
+}
+
+.npcommerce-icon:hover .boxed-icon {
+    background-position: -3.625rem -43.25rem;
+}
+
+.open-source-icon:hover {
+    background-color: #3ca638;
+}
+
+.open-source-icon .boxed-icon {
+    background-position: -.125rem -80.625rem;
+    width: 2.5625rem;
+}
+
+.open-source-icon:hover .boxed-icon {
+    background-position: -2.8125rem -82.5625rem;
+}
+
+.woocommerce-icon:hover {
+    background-color: #9c5c90;
+}
+
+.woocommerce-icon .boxed-icon {
+    background-position: -4.8125rem -35.375rem;
+    width: 4.1875rem;
+}
+
+.woocommerce-icon:hover .boxed-icon {
+    background-position: -4.8125rem -37.9375rem;
+}
+
+.spree-cmmerce-icon:hover {
+    background-color: #99cc01;
+}
+
+.spree-cmmerce-icon .boxed-icon {
+    background-position: -4.875rem -148.4375rem;
+    width: 1.4375rem;
+}
+
+.spree-cmmerce-icon:hover .boxed-icon {
+    background-position: -6.4375rem -148.4375rem;
+}
+
+/* --Enterprise-Web-Application-Technology-- */
+.net-icon:hover {
+    background-color: #198ad0;
+}
+
+.net-icon .boxed-icon {
+    background-position: -.125rem -11.625rem;
+    width: 6.25rem;
+}
+
+.net-icon:hover .boxed-icon {
+    background-position: -.125rem -14.25rem;
+}
+
+.core-icon:hover {
+    background-color: #9e56fc;
+}
+
+.core-icon .boxed-icon {
+    background: 0 0;
+}
+
+.core-icon .boxed-icon svg {
+    height: 2.25rem;
+    width: 4.25rem;
+}
+
+.asp-icon:hover {
+    background-color: #72d557;
+}
+
+.asp-icon .boxed-icon {
+    background-position: -.125rem -88.5rem;
+    width: 2.5rem;
+}
+
+.asp-icon:hover .boxed-icon {
+    background-position: -2.75rem -90.375rem;
+}
+
+.nancyfx-icon:hover {
+    background-color: #000;
+}
+
+.nancyfx-icon .boxed-icon {
+    background-position: -7.4375rem -127.4375rem;
+    width: 1.5625rem;
+}
+
+.nancyfx-icon:hover .boxed-icon {
+    background-position: -7.3125rem -130rem;
+}
+
+.kentico-icon:hover {
+    background-color: #ec6100;
+}
+
+.kentico-icon .boxed-icon {
+    background-position: -2.75rem -87.8125rem;
+    width: 2.5rem;
+}
+
+.kentico-icon:hover .boxed-icon {
+    background-position: -5.375rem -88.0625rem;
+}
+
+.umbraco-icon:hover {
+    background-color: #04bebd;
+}
+
+.umbraco-icon .boxed-icon {
+    background-position: -5.375rem -90.6875rem;
+    width: 2.5rem;
+}
+
+.umbraco-icon:hover .boxed-icon {
+    background-position: -.125rem -91.125rem;
+}
+
+.enterprise-icon:hover {
+    background-color: #5aaae7;
+}
+
+.enterprise-icon .boxed-icon {
+    background-position: -5.375rem -182.125rem;
+    width: 3.375rem;
+}
+
+.enterprise-icon:hover .boxed-icon {
+    background-position: -.6875rem -182.125rem;
+}
+
+.e-commerce-icon:hover {
+    background-color: #fec106;
+}
+
+.e-commerce-icon .boxed-icon {
+    background-position: -5.875rem -69.4375rem;
+    width: 2.6875rem;
+}
+
+.e-commerce-icon:hover .boxed-icon {
+    background-position: -.125rem -70.0625rem;
+}
+
+/* --Machine Learning / AI-Technology-- */
+.tensorflow-icon:hover {
+    background-color: #e86733;
+}
+
+.tensorflow-icon .boxed-icon {
+    background-position: -.375rem -157.75rem;
+    width: 3.25rem;
+    height: 3.4375rem;
+}
+
+.tensorflow-icon:hover .boxed-icon {
+    background-position: -.375rem -154.3125rem;
+}
+
+.ai-ml-icon:hover {
+    background-color: #2f3a81;
+}
+
+.ai-ml-icon .boxed-icon {
+    background-position: -5.3125rem -157.9375rem;
+    width: 3.5625rem;
+    height: 3.4375rem;
+}
+
+.ai-ml-icon:hover .boxed-icon {
+    background-position: -5.3125rem -154.4375rem;
+}
+
+.deep-icon:hover {
+    background-color: #87bbc4;
+}
+
+.deep-icon .boxed-icon {
+    background-position: -5.125rem -169.5625rem;
+    width: 3.5625rem;
+    height: 3.4375rem;
+}
+
+.deep-icon:hover .boxed-icon {
+    background-position: -1.0625rem -169.625rem;
+}
+
+.processing-icon:hover {
+    background-color: #9e7153;
+}
+
+.processing-icon .boxed-icon {
+    background-position: -5.0625rem -161.625rem;
+    width: 3.5625rem;
+    height: 3.4375rem;
+}
+
+.processing-icon:hover .boxed-icon {
+    background-position: -.75rem -161.625rem;
+}
+
+.machine-icon:hover {
+    background-color: #ca8b00;
+}
+
+.machine-icon .boxed-icon {
+    background-position: -5.3125rem -165.875rem;
+    width: 3.3125rem;
+    height: 3.4375rem;
+}
+
+.machine-icon:hover .boxed-icon {
+    background-position: -.875rem -166.125rem;
+}
+
+/* --MongoDB-icon Technology-- */
+.mongodb-icon:hover {
+    background-color: #377c29;
+}
+
+.mongodb-icon .boxed-icon {
+    background-position: -7.8125rem -116.9375rem;
+    width: 1.125rem;
+}
+
+.mongodb-icon:hover .boxed-icon {
+    background-position: -7.8125rem -119.5625rem;
+}
+
+.couchdb-icon:hover {
+    background-color: #c00;
+}
+
+.couchdb-icon .boxed-icon {
+    background-position: -5.0625rem -25rem;
+    width: 3.8125rem;
+}
+
+.couchdb-icon:hover .boxed-icon {
+    background-position: -5.0625rem -27.625rem;
+}
+
+.couchbase-icon:hover {
+    background-color: #ca8b00;
+}
+
+.couchbase-icon .boxed-icon {
+    background-position: -5.375rem -103.8125rem;
+    width: 2.5rem;
+}
+
+.couchbase-icon:hover .boxed-icon {
+    background-position: -.125rem -104.1875rem;
+}
+
+.cassandra-icon:hover {
+    background-color: #b9e6f9;
+}
+
+.cassandra-icon .boxed-icon {
+    background-position: -.125rem -30rem;
+    width: 4.75rem;
+}
+
+.cassandra-icon:hover .boxed-icon {
+    background-position: -.125rem -32.5rem;
+}
+
+.redis-icon:hover {
+    background-color: #c00;
+}
+
+.redis-icon .boxed-icon {
+    background-position: -6rem -16.875rem;
+    width: 2.9375rem;
+}
+
+.redis-icon:hover .boxed-icon {
+    background-position: -3.3125rem -58.9375rem;
+}
+
+.neo4j-icon:hover {
+    background-color: #008cc1;
+}
+
+.neo4j-icon .boxed-icon {
+    background-position: -2.4375rem -140.3125rem;
+    width: 2.1875rem;
+}
+
+.neo4j-icon:hover .boxed-icon {
+    background-position: -4.75rem -140.5625rem;
+}
+
+/* --Big-Data-Technology-- */
+.hadoop-icon:hover {
+    background-color: #f7df1e;
+}
+
+.hadoop-icon .boxed-icon {
+    background-position: -.125rem -45.9375rem;
+    width: 3.3125rem;
+}
+
+.hadoop-icon:hover .boxed-icon {
+    background-position: -3.5625rem -45.9375rem;
+}
+
+.hive-icon:hover {
+    background-color: #f7df1e;
+}
+
+.hive-icon .boxed-icon {
+    background-position: -.125rem -75.375rem;
+    width: 2.5625rem;
+}
+
+.hive-icon:hover .boxed-icon {
+    background-position: -2.8125rem -77.3125rem;
+}
+
+.pig-icon:hover {
+    background-color: #0b52a8;
+}
+
+.pig-icon .boxed-icon {
+    background-position: -6.375rem -59.0625rem;
+    width: 1.5625rem;
+    height: 2.375rem;
+}
+
+.pig-icon:hover .boxed-icon {
+    background-position: 0 -146.1875rem;
+}
+
+.map-icon:hover {
+    background-color: #f7df1e;
+}
+
+.map-icon .boxed-icon {
+    background-position: -5.9375rem -20.5rem;
+    width: 3.0625rem;
+    height: 3.0625rem;
+}
+
+.map-icon:hover .boxed-icon {
+    background-position: -.125rem -59.0625rem;
+}
+
+.hbase-icon:hover {
+    background-color: #000;
+}
+
+.hbase-icon .boxed-icon {
+    background-position: -.125rem -48.5625rem;
+    width: 3.3125rem;
+}
+
+.hbase-icon:hover .boxed-icon {
+    background-position: -3.5625rem -48.5625rem;
+}
+
+.scala-icon:hover {
+    background-color: #c00;
+}
+
+.scala-icon .boxed-icon {
+    background-position: -1.75rem -148.1875rem;
+    width: 1.4375rem;
+}
+
+.scala-icon:hover .boxed-icon {
+    background-position: -3.3125rem -148.4375rem;
+}
+
+/* --Data-Base-Technology-- */
+.my-sql-icon:hover {
+    background-color: #5d87a0;
+}
+
+.my-sql-icon .boxed-icon {
+    background-position: -2.8125rem -79.9375rem;
+    width: 2.5625rem;
+}
+
+.my-sql-icon:hover .boxed-icon {
+    background-position: -5.5rem -79.9375rem;
+}
+
+.postgresql-icon:hover {
+    background-color: #316690;
+}
+
+.postgresql-icon .boxed-icon {
+    background-position: -2.6875rem -116.6875rem;
+    width: 2.4375rem;
+}
+
+.postgresql-icon:hover .boxed-icon {
+    background-position: -5.25rem -116.875rem;
+}
+
+.oracle-icon:hover {
+    background-color: #c00;
+}
+
+.oracle-icon .boxed-icon {
+    background-position: -.125rem 0;
+    width: 9rem;
+    height: 1.125rem;
+}
+
+.oracle-icon:hover .boxed-icon {
+    background-position: -.125rem -1.25rem;
+}
+
+.teradata-icon:hover {
+    background-color: #ec871d;
+}
+
+.teradata-icon .boxed-icon {
+    background-position: -.125rem -2.5rem;
+    width: 7.875rem;
+    height: 1.8125rem;
+}
+
+.teradata-icon:hover .boxed-icon {
+    background-position: -.125rem -4.4375rem;
+}
+
+.microsoft-sql-icon:hover {
+    background-color: #b83f44;
+}
+
+.microsoft-sql-icon .boxed-icon {
+    background-position: -.125rem -125.375rem;
+    width: 2.3125rem;
+}
+
+.microsoft-sql-icon:hover .boxed-icon {
+    background-position: -2.5625rem -127.1875rem;
+}
+
+.sqlite-icon:hover {
+    background-color: #013a57;
+}
+
+.sqlite-icon .boxed-icon {
+    background-position: -2.5625rem -129.8125rem;
+    width: 2.25rem;
+}
+
+.sqlite-icon:hover .boxed-icon {
+    background-position: -4.9375rem -130rem;
+}
+
+/* --Cloud-Technology-- */
+.heroku-icon:hover {
+    background-color: #4900a3;
+}
+
+.heroku-icon .boxed-icon {
+    background-position: -6.75rem -9rem;
+    width: 2.25rem;
+}
+
+.heroku-icon:hover .boxed-icon {
+    background-position: -6.75rem -56.4375rem;
+}
+
+.digital-icon:hover {
+    background-color: #3980ff;
+}
+
+.digital-icon .boxed-icon {
+    background-position: -5.375rem -85.4375rem;
+    width: 2.5rem;
+}
+
+.digital-icon:hover .boxed-icon {
+    background-position: -.125rem -85.875rem;
+}
+
+.rack-icon:hover {
+    background-color: #000;
+}
+
+.rack-icon .boxed-icon {
+    background-position: -.125rem -117.375rem;
+    width: 2.4375rem;
+}
+
+.rack-icon:hover .boxed-icon {
+    background-position: -2.6875rem -119.1875rem;
+}
+
+.google-icon:hover {
+    background-color: #ed4c3d;
+}
+
+.google-icon .boxed-icon {
+    background-position: -5.375rem -114.3125rem;
+    width: 2.4375rem;
+}
+
+.google-icon:hover .boxed-icon {
+    background-position: -.125rem -114.625rem;
+}
+
+.microsoft-icon:hover {
+    background-color: #3980ff
+}
+
+.microsoft-icon .boxed-icon {
+    background-position: -.125rem -53.8125rem;
+    width: 3.25rem;
+}
+
+.microsoft-icon:hover .boxed-icon {
+    background-position: -3.5rem -53.6875rem;
+}
+
+.splunk-icon:hover {
+    background-color: #a3a3a4;
+}
+
+.splunk-icon .boxed-icon {
+    background-position: -.125rem -16.875rem;
+    width: 5.75rem;
+    height: 1.6875rem;
+}
+
+.splunk-icon:hover .boxed-icon {
+    background-position: -.125rem -18.6875rem;
+}
+
+.openstack-icon:hover {
+    background-color: #c00;
+}
+
+.openstack-icon .boxed-icon {
+    background-position: -5.5rem -77.4375rem;
+    width: 2.5625rem;
+}
+
+.openstack-icon:hover .boxed-icon {
+    background-position: -.125rem -78rem;
+}
+
+.salesforce-icon:hover {
+    background-color: #00a0df;
+}
+
+.salesforce-icon .boxed-icon {
+    background: url('../img/svg/technologies-v2-icons.svg') no-repeat center;
+    background-size: 9.25rem;
+    background-position: .1875rem 0;
+    width: 3.3125rem;
+}
+
+.salesforce-icon:hover .boxed-icon {
+    background-position: -6.1875rem 0;
+}
+
+.consulting-icon:hover {
+    background-color: #f8d664;
+}
+
+.consulting-icon .boxed-icon {
+    background: url('../img/svg/technologies-v2-icons.svg') no-repeat center;
+    background-size: 9.25rem;
+    background-position: .25rem -7.625rem;
+    width: 3rem;
+}
+
+.consulting-icon:hover .boxed-icon {
+    background-position: -6.5625rem -7.625rem;
+}
+
+.integration-icon:hover {
+    background-color: #f68d10;
+}
+
+.integration-icon .boxed-icon {
+    background: url('../img/svg/technologies-v2-icons.svg') no-repeat center;
+    background-size: 9.25rem;
+    background-position: 0 -15rem;
+    width: 3rem;
+}
+
+.integration-icon:hover .boxed-icon {
+    background-position: -6.3125rem -15rem;
+}
+
+.customization-icon:hover {
+    background-color: #c00;
+}
+
+.customization-icon .boxed-icon {
+    background: url('../img/svg/technologies-v2-icons.svg') no-repeat center;
+    background-size: 9.25rem;
+    background-position: 0 -3.75rem;
+    width: 2.5rem;
+}
+
+.customization-icon:hover .boxed-icon {
+    background-position: -6.6875rem -3.75rem;
+}
+
+.mobile-app-icon:hover {
+    background-color: #b4e2f9;
+}
+
+.mobile-app-icon .boxed-icon {
+    background: url('../img/svg/technologies-v2-icons.svg') no-repeat center;
+    background-size: 9.25rem;
+    background-position: 0 -18.6875rem;
+    width: 2.5rem;
+}
+
+.mobile-app-icon:hover .boxed-icon {
+    background-position: -6.875rem -18.6875rem;
+}
+
+.salesforce-development-icon:hover {
+    background-color: #497bb2;
+}
+
+.salesforce-development-icon .boxed-icon {
+    background: url('../img/svg/technologies-v2-icons.svg') no-repeat center;
+    background-size: 9.25rem;
+    background-position: 0 -11.3125rem;
+    width: 3.5625rem;
+}
+
+.salesforce-development-icon:hover .boxed-icon {
+    background-position: -5.75rem -11.3125rem;
+}
+
+.mulesoft-icon:hover {
+    background-color: #00a0df;
+}
+
+.mulesoft-icon .boxed-icon {
+    background: 0 0;
+}
+
+.mulesoft-icon .boxed-icon svg {
+    height: 3.25rem;
+    width: 6.875rem;
+    fill: #00a0df;
+}
+
+.mulesoft-icon:hover .boxed-icon svg {
+    fill: #fff
+}
+
+.mulesoft-icon:hover .boxed-icon {
+    background-position: -6.1875rem 0;
+}
+
+/* -- BDD / QA-Technology-- */
+
+.cucumber-icon:hover {
+    background-color: #00b116;
+}
+
+.cucumber-icon .boxed-icon {
+    background-position: -4.75rem -132.625rem;
+    width: 2.1875rem;
+}
+
+.cucumber-icon:hover .boxed-icon {
+    background-position: -.125rem -133.125rem;
+}
+
+.rspec-icon:hover {
+    background-color: #fe4a6b;
+}
+
+.rspec-icon .boxed-icon {
+    background-position: -6.5rem -11.625rem;
+    width: 2.5rem;
+}
+
+.rspec-icon:hover .boxed-icon {
+    background-position: -6.5rem -14.25rem;
+}
+
+.se-icon:hover {
+    background-color: #4b536a;
+}
+
+.se-icon .boxed-icon {
+    background-position: -6.75rem -6.25rem;
+    width: 2.25rem;
+}
+
+.se-icon:hover .boxed-icon {
+    background-position: -.125rem -120rem;
+}
+
+.mocha-icon:hover {
+    background-color: #987251;
+}
+
+.mocha-icon .boxed-icon {
+    background-position: -2.4375rem -135.0625rem;
+    width: 2.1875rem;
+}
+
+.mocha-icon:hover .boxed-icon {
+    background-position: -4.75rem -135.25rem;
+}
+
+.ava-icon:hover {
+    background-color: #19295c;
+}
+
+.ava-icon .boxed-icon {
+    background-position: -.125rem -35.4375rem;
+    width: 4.5625rem;
+}
+
+.ava-icon:hover .boxed-icon {
+    background-position: -.125rem -38.0625rem;
+}
+
+.supertest-icon:hover {
+    background-color: #8047ff;
+}
+
+.supertest-icon .boxed-icon {
+    background-position: -.125rem -83.25rem;
+    width: 2.5rem;
+}
+
+.supertest-icon:hover .boxed-icon {
+    background-position: -2.75rem -85.1875rem;
+}
+
+.chai-icon:hover {
+    background-color: #96171a;
+}
+
+.chai-icon .boxed-icon {
+    background-position: -.125rem -130.5625rem;
+    width: 2.1875rem;
+}
+
+.chai-icon:hover .boxed-icon {
+    background-position: -2.4375rem -132.4375rem;
+}
+
+.sinon-icon:hover {
+    background-color: #a16a4d;
+}
+
+.sinon-icon .boxed-icon {
+    background-position: -6.3125rem -61.5625rem;
+    width: 2.6875rem;
+}
+
+.sinon-icon:hover .boxed-icon {
+    background-position: -3.0625rem -69.4375rem;
+}
+
+/* --Management-It-Consulting-Technology-- */
+.bitbucket-icon:hover {
+    background-color: #215b8c;
+}
+
+.bitbucket-icon .boxed-icon {
+    background-position: -4.75rem -137.8125rem;
+    width: 2.1875rem;
+}
+
+.bitbucket-icon:hover .boxed-icon {
+    background-position: -.125rem -138.375rem;
+}
+
+.gitlab-icon:hover {
+    background-color: #e54c2f
+}
+
+.gitlab-icon .boxed-icon {
+    background-position: -2.9375rem -72.0625rem;
+    width: 2.6875rem;
+}
+
+.gitlab-icon:hover .boxed-icon {
+    background-position: -5.75rem -72.0625rem;
+}
+
+.jira-icon:hover {
+    background-color: #013a
+}
+
+.jira-icon .boxed-icon {
+    background-position: -7.125rem -40.5625rem;
+    width: 1.875rem;
+}
+
+.jira-icon:hover .boxed-icon {
+    background-position: -7.125rem -43.3125rem;
+}
+
+.slack-icon:hover {
+    background-color: #44c09b;
+}
+
+.slack-icon .boxed-icon {
+    background-position: -.125rem -96.25rem;
+    width: 2.5rem;
+}
+
+.slack-icon:hover .boxed-icon {
+    background-position: -2.75rem -98.3125rem;
+}
+
+.teamwork-icon:hover {
+    background-color: #53b6fb
+}
+
+.teamwork-icon .boxed-icon {
+    background-position: -3.125rem -64.0625rem;
+    width: 2.875rem;
+}
+
+.teamwork-icon:hover .boxed-icon {
+    background-position: -6.125rem -64.0625rem;
+}
+
+.trello-icon:hover {
+    background-color: #0396e0;
+}
+
+.trello-icon .boxed-icon {
+    background-position: -5.375rem -98.5625rem;
+    width: 2.5rem;
+}
+
+.trello-icon:hover .boxed-icon {
+    background-position: -.125rem -99rem;
+}
+
+.officesuite-icon:hover {
+    background-color: #ed4300;
+}
+
+.officesuite-icon .boxed-icon {
+    background-position: -6.875rem -143.125rem;
+    width: 2.0625rem;
+}
+
+.officesuite-icon:hover .boxed-icon {
+    background-position: -.125rem -143.75rem;
+}
+
+.visio-icon:hover {
+    background-color: #3e5ca8;
+}
+
+.visio-icon .boxed-icon {
+    background-position: 0 -72.625rem;
+    width: 2.75rem;
+}
+
+.visio-icon:hover .boxed-icon {
+    background-position: -2.875rem -74.625rem;
+}
+
+.dbdesigner-icon:hover {
+    background-color: #497bb2;
+}
+
+.dbdesigner-icon .boxed-icon {
+    background-position: -.125rem -93.75rem;
+    width: 2.5rem;
+}
+
+.dbdesigner-icon:hover .boxed-icon {
+    background-position: -2.75rem -95.6875rem;
+}
+
+.draw-icon:hover {
+    background-color: #f29201;
+}
+
+.draw-icon .boxed-icon {
+    background-position: -5.375rem -95.9375rem;
+    width: 2.5rem;
+}
+
+.draw-icon:hover .boxed-icon {
+    background-position: -5.375rem -95.9375rem;
+}
+
 /* --technology-content Area End-- */
+
+/* --hire-developer-area-Strat-- */
+#hire-developer-area {
+    padding: 120px 0;
+}
+
+.hire-box-wrapper {
+    background: #ffff;
+    text-align: center;
+    transition: .4s ease-in;
+    -webkit-transition: .4s ease-in;
+    -moz-transition: .4s ease-in;
+    -ms-transition: .4s ease-in;
+    -o-transition: .4s ease-in;
+    padding: 30px 10px;
+    box-shadow: 0px 2px 7px -3px #ff3066;
+}
+
+.hire-box-wrapper:hover {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.hire-box h3 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .4s ease-in;
+    -webkit-transition: .4s ease-in;
+    -moz-transition: .4s ease-in;
+    -ms-transition: .4s ease-in;
+    -o-transition: .4s ease-in;
+}
+
+.hire-box-wrapper:hover .hire-box h3 {
+    color: var(--pink-color);
+}
+
+/* --hire-developer-area-End-- */
+
+/* --Fixed-sidebar-area-Start-- */
+#fixed-techonology-sidebar {
+    position: fixed;
+    top: 4.375rem;
+    right: 0;
+    bottom: 0;
+    width: 22.9375rem;
+    overflow: hidden;
+    padding: 2.5rem 0 3.75rem;
+    z-index: 1;
+    background-color: #fff6f9;
+}
+
+.fixed-sidebar-list {
+    padding: 30px 20px;
+}
+
+.fixed-sidebar-list ul li {
+    margin-bottom: 20px;
+}
+
+.fixed-sidebar-list ul li a {
+    font-size: 20px;
+    color: var(--heading-color);
+    transition: .4s ease-in;
+    -webkit-transition: .4s ease-in;
+    -moz-transition: .4s ease-in;
+    -ms-transition: .4s ease-in;
+    -o-transition: .4s ease-in;
+}
+
+.fixed-sidebar-list ul li a:hover {
+    color: var(--pink-color);
+}
+
+.fixed-sidebar-list ul li a svg {
+    margin-right: 10px;
+}
+
+.active-list a {
+    color: var(--pink-color) !important;
+}
+
+.active-list {
+    position: relative;
+}
+
+.active-list:before {
+    content: "";
+    border-left: 3px solid var(--pink-color);
+    position: absolute;
+    left: -16px;
+    width: 100%;
+    height: 100%;
+}
+
+.side-bar-img {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.side-bar-img img {
+    width: 40%
+}
+
+/* --Fixed-sidebar-area-End-- */
 
 /* =========================
      Back to top Button
