@@ -9,6 +9,10 @@
         padding-right: 120px;
         padding-left: 120px;
     }
+
+    #fixed-techonology-sidebar {
+        width: 16.9375rem;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -47,6 +51,10 @@
     .home-banner-img {
         right: 2%;
         width: 56%;
+    }
+
+    .technology-banner-text h1 {
+        font-size: 80px;
     }
 
 }
@@ -367,6 +375,31 @@
     .error-banner-img {
         margin-bottom: 40px;
     }
+
+    .hire-box-wrapper {
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .padding-right-item {
+        padding-right: 0px;
+    }
+
+    #technology-banner .row {
+        flex-direction: column-reverse;
+    }
+
+    .technology-banner-text {
+        padding-top: 100px;
+    }
+
+    .techonology-banner-img {
+        padding-top: 0;
+    }
+
+    #technology-javascript-content {
+        padding: 0 0 120px 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -454,6 +487,14 @@
     .error-area-text {
         padding-right: 0px;
     }
+
+    .technology-banner-text h1 {
+        font-size: 60px;
+    }
+
+    .expertise-service-box {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -498,6 +539,29 @@
 
     .case-study-single-bg {
         padding: 190px 0 135px 0 !important;
+    }
+
+    #technology-javascript-content,
+    #technology-mobile-content,
+    #technology-framework-content,
+    #technology-web-applicatio-content,
+    #technology-machine-learning-content,
+    #technology-nosql-db-content,
+    #technology-big-data-content,
+    #technology-data-base-content,
+    #technology-cloud-content,
+    #technology-bdd-qa-content,
+    #technology-management-it-consulting-content {
+        padding: 80px 0;
+    }
+
+    #technology-banner {
+        padding: 80px 0 0px 0;
+    }
+
+    .technology-banner-text p {
+        font-size: 18px;
+        line-height: 30px;
     }
 }
 
@@ -591,7 +655,7 @@
         padding: 80px 0 !important;
     }
 
-    #our-extren-service {
+    #useful-link {
         padding: 80px 0;
     }
 
@@ -664,6 +728,18 @@
 
     .main-contact-from {
         padding-top: 35px;
+    }
+
+    .technology-banner-text h1 {
+        font-size: 45px;
+    }
+
+    #technology-expertise {
+        padding: 80px 0;
+    }
+
+    #service-for-business {
+        padding: 80px 0;
     }
 }
 

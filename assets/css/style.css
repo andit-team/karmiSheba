@@ -2226,7 +2226,7 @@ ul li:nth-child(1) a:before {
 /* --trusted-by-patrtner-area-End-- */
 
 /* --Our-extrem-service-Start-- */
-#our-extren-service {
+#useful-link {
     padding: 120px 0;
 }
 
@@ -2370,6 +2370,104 @@ ul li:nth-child(1) a:before {
 
 /* --product-enhancement-banner End--*/
 
+
+/* --technology-expertisen-area-Start--*/
+#technology-expertise {
+    padding: 120px 0;
+}
+
+.expertise-service-heading {
+    background: var(--pink-color);
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.expertise-service-heading h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.expertise-service-item {
+    background-color: #fdf6f6;
+    padding: 30px 20px;
+}
+
+.expertise-boxed {
+    margin-bottom: 20px;
+}
+
+.expertise-icon {
+    background-color: #fff;
+    height: 4.375rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.expertise-icon svg {
+    width: 40px;
+}
+
+.expertise-para {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* --technology-expertisen-area-End--*/
+
+/* --Services-for-Business-area-Start--*/
+#service-for-business {
+    padding: 120px 0;
+    background: var(--pink-color);
+}
+
+#service-for-business .heading-content-box h2,
+#service-for-business .heading-content-box p {
+    color: #fff;
+}
+
+.service-boxed-business {
+    background: var(--pink-color);
+    -webkit-box-shadow: none;
+    box-shadow: 0px 0px 57px -32px #fff;
+    padding: 2.5rem 1.875rem;
+    margin-bottom: 1.875rem;
+    text-align: center;
+}
+
+.service-boxed-business svg {
+    fill: #fff;
+    width: 70px;
+    transition: .4s ease-in;
+    -webkit-transition: .4s ease-in;
+    -moz-transition: .4s ease-in;
+    -ms-transition: .4s ease-in;
+    -o-transition: .4s ease-in;
+}
+
+.service-boxed-business:hover svg {
+    fill: var(--heading-color);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.service-boxed-business h3,
+.service-boxed-business p {
+    color: #fff;
+    padding-top: 15px;
+}
+
+
+/* --Services-for-Business-area-End--*/
+
+
 /* --service-prestion-start--*/
 #service-prestion {
     padding: 120px 0;
@@ -2475,6 +2573,8 @@ ul li:nth-child(1) a:before {
 }
 
 /* --service-prestion-End--*/
+
+
 
 /* ================================
  06  Ai & ML Page
@@ -3956,7 +4056,6 @@ input[type="password"] {
 
 .boxed-item {
     height: 141px;
-    width: 320px;
     text-align: center;
     padding: 1.875rem;
     margin-bottom: 1.875rem;
@@ -5324,6 +5423,7 @@ input[type="password"] {
     -o-transition: .4s ease-in;
     padding: 30px 10px;
     box-shadow: 0px 2px 7px -3px #ff3066;
+    height: 100%;
 }
 
 .hire-box-wrapper:hover {
@@ -5402,8 +5502,7 @@ input[type="password"] {
     content: "";
     border-left: 3px solid var(--pink-color);
     position: absolute;
-    left: -16px;
-    width: 100%;
+    left: -20px;
     height: 100%;
 }
 
