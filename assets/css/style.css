@@ -5518,6 +5518,122 @@ input[type="password"] {
 /* --Fixed-sidebar-area-End-- */
 
 /* =========================
+    22. React.js page
+============================*/
+/* --Banner-area-Start-- */
+#react-js-banner {
+    padding: 180px 0 165px 0;
+    background: url(../img/react/react-js-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.react-banenr-text img {
+    width: 15%;
+    filter: brightness(0) invert(1);
+}
+
+.react-banenr-text hr {
+    background: #fff;
+    width: 50%;
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+
+.react-banenr-text h2 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 64px;
+    padding-top: 30px;
+}
+
+.react-banenr-text p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.react-banenr-text a {
+    margin-top: 30px;
+}
+
+.no-payment-area {
+    position: relative;
+}
+
+.no-payment-area h4 {
+    color: var(--heading-color);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.no-payment-area p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.above p {
+    font-size: 14px;
+    color: var(--paragraph-color);
+    padding-top: 11px;
+    line-height: 24px;
+}
+
+.above {
+    -webkit-transition: all ease-in .3s;
+    -o-transition: all ease-in .3s;
+    transition: all ease-in .3s;
+    margin: auto;
+    position: absolute;
+    max-width: 28.125rem;
+    background: #fff;
+    text-align: left;
+    padding: 1.875rem;
+    right: -5.625rem;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-box-shadow: 0 0 0.3125rem rgba(0, 0, 0, .4);
+    box-shadow: 0 0 0.3125rem rgba(0, 0, 0, .4);
+    border-radius: .3125rem;
+    top: -8.75rem;
+    z-index: 2;
+    -webkit-border-radius: .3125rem;
+    -moz-border-radius: .3125rem;
+    -ms-border-radius: .3125rem;
+    -o-border-radius: .3125rem;
+}
+
+.above:before {
+    border-top: .4375rem solid #fff;
+    border-right: .4375rem solid transparent;
+    border-left: .4375rem solid transparent;
+    left: -.625rem;
+    content: '';
+    display: block;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.no-payment-area:hover .above {
+    opacity: 1;
+    visibility: visible;
+    right: -6.25rem;
+    z-index: 999;
+}
+
+/* --Banner-area-End-- */
+
+/* --Better-work-Start-- */
+    
+/* --Better-work-End-- */
+
+
+/* =========================
      Back to top Button
 ============================*/
 .go-top.active {

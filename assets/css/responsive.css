@@ -57,6 +57,14 @@
         font-size: 80px;
     }
 
+    .no-payment-area:hover .above {
+        right: -0.25rem;
+    }
+
+    .above {
+        right: 0.375rem;
+    }
+
 }
 
 @media (max-width: 1199px) {
@@ -114,6 +122,29 @@
     .error-banner-text h5 {
         font-size: 18px;
         line-height: 30px;
+    }
+
+    .above {
+        top: -19.75rem;
+
+    }
+
+    .above {
+        right: 16.625rem;
+    }
+
+    .no-payment-area:hover .above {
+        right: 15rem;
+    }
+
+    .above:before {
+        top: initial;
+        left: 50%;
+        bottom: -.4375rem;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+
     }
 }
 
@@ -403,6 +434,25 @@
 }
 
 @media (max-width: 767px) {
+    .no-payment-area:hover .above {
+        right: 1rem;
+        left: 0;
+        bottom: 120px;
+        top: inherit;
+    }
+
+    .react-banenr-text img {
+        width: 30%;
+    }
+    .react-banenr-text h2 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .react-banenr-text p {
+        font-size: 16px;
+        line-height: 26px;
+        padding-top: 25px;
+    }
     .competencies-wrapper-box {
         display: inherit;
         margin-top: 30px;
