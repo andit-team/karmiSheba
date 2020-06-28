@@ -5629,8 +5629,250 @@ input[type="password"] {
 /* --Banner-area-End-- */
 
 /* --Better-work-Start-- */
-    
+#better-work-area {
+    padding: 120px 0;
+}
+
+.better-work-box {
+    text-align: center;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.better-work-box:hover {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.better-icon-box {
+    background: #ff30662e;
+    padding: 30px 15px;
+}
+
+.better-icon-box h3 {
+    padding-top: 20px;
+}
+
+.better-icon-box svg {
+    width: 20%;
+    fill: var(--pink-color);
+}
+
+.better-para {
+    padding: 30px 15px;
+    box-shadow: 0px 3px 5px -3px #ff7095;
+}
+
+.better-button {
+    margin-top: 30px;
+    text-align: center;
+}
+
 /* --Better-work-End-- */
+
+/* --React-Deve-Service-Start-- */
+#react-deve-service {
+    padding: 120px 0;
+    background-image: url(../img/react/work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#react-deve-service::after {
+    content: "";
+    position: absolute;
+    background: #000000ad;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+#react-deve-service .heading-content-box h2,
+#react-deve-service .heading-content-box p {
+    color: #fff;
+    position: relative;
+    z-index: 999;
+}
+
+.service-development-box {
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 25px 15px;
+    position: relative;
+    z-index: 999;
+    margin-bottom: 30px;
+    height: 93%;
+    transition: .4s ease-in-out;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -ms-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+}
+
+.service-development-box:hover {
+    background-color: #fff;
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.service-development-box svg {
+    width: 20%;
+    fill: #fff;
+}
+
+.service-development-box:hover svg {
+    fill: var(--pink-color);
+}
+
+.service-development-box h4 {
+    padding-top: 25px;
+    color: #fff;
+    transition: .4s ease-in-out;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -ms-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+}
+
+.service-development-box p {
+    padding-top: 15px;
+    color: #fff;
+    transition: .4s ease-in-out;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -ms-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+}
+
+.service-development-box:hover p,
+.service-development-box:hover h4 {
+    color: #000;
+}
+
+/* --React-Deve-Service-End-- */
+
+/* --Pricing-area-Start-- */
+#pricing-area-react {
+    padding: 120px 0;
+}
+
+.react-pricing-box {
+    position: relative;
+}
+
+.popular-item::after {
+    background-image: url('../img/comon-img/native-logo.png');
+    top: -2.1875rem;
+    width: 5.625rem;
+    height: 5rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    content: "";
+    right: 0;
+}
+
+.pricing-top-box {
+    text-align: center;
+    background: var(--pink-color);
+    padding: 36px 10px;
+}
+
+.pricing-top-box h4 {
+    font-size: 18px;
+    color: #fff
+}
+
+.pricing-top-box h2 {
+    color: #fff;
+    padding-top: 25px;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.pricing-botom-box h5 {
+    box-shadow: 0px 15px 49px -14px #000;
+    padding: 24px 24px;
+    line-height: 30px;
+}
+
+.popular-text {
+    position: absolute;
+    top: 0;
+    background: #232e5e;
+    padding: 4px 11px;
+}
+
+.popular-text p {
+    color: #fff;
+}
+
+/* --Pricing-area-End-- */
+
+/* --React-table-Area-Start-- */
+#react-table {
+    padding: 120px 0;
+}
+
+.technical-stack {
+    border: .0625rem solid rgba(115, 115, 115, .2);
+    background-color: #fff;
+    width: 100%;
+}
+
+
+.table-area table tr td:nth-child(1) {
+    width: 25%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding: 15px 40px;
+}
+
+.table-area table tr:nth-child(odd) td:nth-child(1) {
+    background-color: #2bcaf9;
+}
+
+.table-area table tr:nth-child(even) td:nth-child(1) {
+    background-color: rgba(43, 202, 249, .78);
+}
+
+.table-area table tr td span {
+    color: #737373;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-right: 1.3125rem;
+    padding-right: 1.3125rem;
+    border-right: .0625rem solid rgba(115, 115, 115, .2);
+    line-height: 1.625rem;
+}
+
+.table-area .table td,
+.table-area .table th {
+    border-top: none;
+    padding: 15px 40px;
+}
+
+/* --React-table-Area-End-- */
+
+/* =========================
+    23. React.Native page
+============================*/
+/* --React-native-Banner-Area-Start-- */
+.react-banenr-text h4 {
+    color: #fff;
+}
+
+/* --React-native-Banner-Area-End-- */
 
 
 /* =========================

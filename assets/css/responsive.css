@@ -149,6 +149,10 @@
 }
 
 @media (max-width: 991px) {
+    .better-work-box {
+        margin-bottom: 30px;
+    }
+
     .other-option {
         margin: 20px 35px 0 31px;
     }
@@ -431,6 +435,11 @@
     #technology-javascript-content {
         padding: 0 0 120px 0;
     }
+
+    .react-pricing-box {
+        position: relative;
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -444,15 +453,18 @@
     .react-banenr-text img {
         width: 30%;
     }
+
     .react-banenr-text h2 {
         font-size: 40px;
         line-height: 55px;
     }
+
     .react-banenr-text p {
         font-size: 16px;
         line-height: 26px;
         padding-top: 25px;
     }
+
     .competencies-wrapper-box {
         display: inherit;
         margin-top: 30px;
@@ -544,6 +556,18 @@
 
     .expertise-service-box {
         margin-bottom: 30px;
+    }
+
+    .table-area .table td,
+    .table-area .table th {
+        width: 100% !important;
+        display: block;
+    }
+
+    .table-area table tr td span {
+        font-size: 12px;
+        margin-right: 20px;
+        padding-right: 21px;
     }
 }
 
@@ -789,6 +813,22 @@
     }
 
     #service-for-business {
+        padding: 80px 0;
+    }
+
+    #better-work-area {
+        padding: 80px 0;
+    }
+
+    #react-deve-service {
+        padding: 80px 0;
+    }
+
+    #pricing-area-react {
+        padding: 80px 0;
+    }
+
+    #react-table {
         padding: 80px 0;
     }
 }
