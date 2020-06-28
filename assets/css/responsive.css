@@ -440,6 +440,32 @@
         position: relative;
         margin-bottom: 40px;
     }
+
+    #why-python .row {
+        flex-direction: column-reverse;
+    }
+
+    .python-for-web {
+        padding-top: 35px;
+    }
+
+    .python-service-box h3 {
+        line-height: 36px;
+    }
+
+    .python-service-box p {
+        padding-top: 0px;
+    }
+
+    .python-service-box {
+        height: 90%;
+    }
+
+    .business-model-box {
+        margin-bottom: 30px;
+        height: auto;
+    }
+
 }
 
 @media (max-width: 767px) {

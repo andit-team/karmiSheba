@@ -5880,14 +5880,12 @@ input[type="password"] {
 
 /* --Banner-Area-Start-- */
 #python-banner {
-    padding: 265px 0 185px 0;
+    padding: 265px 0 280px 0;
     background-image: url(../img/comon-img/python-banner.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-
-.pythone-area-banner {}
 
 .pythone-area-banner h2 {
     font-size: 40px;
@@ -5909,6 +5907,143 @@ input[type="password"] {
 }
 
 /* --Banner-Area-End-- */
+
+/* --Why-python-Area-Start-- */
+#why-python {
+    padding: 120px 0;
+}
+
+.python-for-web p {
+    padding-top: 20px;
+}
+
+/* --Why-python-Area-End-- */
+
+/* --python-Srervice-Start-- */
+#pythone-service {
+    padding: 120px 0;
+}
+
+.python-service-box {
+    box-shadow: 0px 8px 32px -22px #ff3066;
+    padding: 40px 40px;
+    margin-bottom: 30px;
+}
+
+.python-service-box h3 {
+    position: relative;
+    padding-left: 60px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.pythone-service-icon {
+    display: inline-block;
+    background: url('../img/comon-img/python-sprite.png') no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+    text-align: left;
+    vertical-align: middle;
+    position: absolute;
+    left: 0;
+    margin-top: -20px;
+    top: 50%;
+}
+
+.service-p1 {
+    background-position: -2px -208px;
+    width: 40px;
+    height: 40px;
+}
+
+.service-p2 {
+    background-position: -2px -124px;
+    width: 42px;
+    height: 40px;
+}
+
+.service-p3 {
+    background-position: -2px -330px;
+    width: 36px;
+    height: 40px;
+}
+
+.service-p4 {
+    background-position: -2px -166px;
+    width: 40px;
+    height: 40px;
+}
+
+.python-service-box p {
+    padding-top: 15px;
+}
+
+/* --python-Srervice-End-- */
+
+/* --Business-Model-Area-Start-- */
+#business-model-area {
+    padding: 120px 0;
+}
+
+.business-model-box {
+    background-color: #fff;
+    padding: 30px 30px;
+    min-height: 500px;
+    box-shadow: -26px 29px 26px -41px rgb(255, 48, 102);
+    text-align: center;
+    height: 100%;
+}
+
+.model-icon {
+    display: inline-block;
+    background: url('../img/svg/menu-modal-sprite.svg') no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+    text-align: left;
+    background-size: 167px;
+}
+
+.full-time-icon {
+    background-position: -20px -112px;
+    width: 90px;
+    height: 90px;
+}
+
+.part-time-icon {
+    background-position: -20px -332px;
+    width: 90px;
+    height: 90px;
+}
+
+.hourly-time-icon {
+    background-position: -20px -222px;
+    width: 90px;
+    height: 90px;
+}
+
+.business-model-box h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+.business-model-box h5 {
+    margin-bottom: 0;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.business-model-box p {
+    padding-top: 5px;
+}
+
+.business-model-box hr {
+    margin: 10px 0px;
+    border-color: #ebebeb;
+}
+
+/* --Business-Model-Area-End-- */
 
 /* =========================
      Back to top Button
