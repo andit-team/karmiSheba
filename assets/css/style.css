@@ -5874,6 +5874,41 @@ input[type="password"] {
 
 /* --React-native-Banner-Area-End-- */
 
+/* =========================
+    24. Python page
+============================*/
+
+/* --Banner-Area-Start-- */
+#python-banner {
+    padding: 265px 0 185px 0;
+    background-image: url(../img/comon-img/python-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pythone-area-banner {}
+
+.pythone-area-banner h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.pythone-area-banner h3 {
+    color: #fff;
+    padding-top: 25px;
+}
+
+.pythone-area-banner p {
+    color: #fff;
+    padding-top: 25px;
+}
+
+.pythone-area-banner a {
+    margin-top: 30px;
+}
+
+/* --Banner-Area-End-- */
 
 /* =========================
      Back to top Button
