@@ -466,6 +466,28 @@
         height: auto;
     }
 
+    #company-area .row:nth-child(odd) {
+        flex-direction: column-reverse;
+    }
+
+    #table-fullstack table tbody tr td:nth-child(1) {
+        width: 100% !important;
+        float: left;
+        min-width: auto;
+    }
+
+    #table-fullstack table tbody tr {
+        display: block;
+    }
+
+    #table-fullstack table tbody tr td:nth-child(2) {
+        border-bottom: none;
+    }
+
+    .react-banenr-text h4 {
+        font-size: 16px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -663,6 +685,10 @@
         font-size: 18px;
         line-height: 30px;
     }
+
+    #maching-banner {
+        padding: 200px 0;
+    }
 }
 
 @media (max-width: 480px) {
@@ -855,6 +881,22 @@
     }
 
     #react-table {
+        padding: 80px 0;
+    }
+
+    #benefits-with-us-aera {
+        padding: 80px 0;
+    }
+
+    #maching-service {
+        padding: 80px 0;
+    }
+
+    #company-area {
+        padding: 80px 0;
+    }
+
+    #business-model-area {
         padding: 80px 0;
     }
 }

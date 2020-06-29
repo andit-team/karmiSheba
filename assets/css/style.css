@@ -3013,7 +3013,9 @@ ul li:nth-child(1) a:before {
 /* --Banner Area Start-- */
 #agail-midset-banner {
     background-image: url('../img/agail-mindset/agail-banner.png');
-    height: 55%;
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* --Banner Area End-- */
@@ -5653,6 +5655,7 @@ input[type="password"] {
 .better-icon-box {
     background: #ff30662e;
     padding: 30px 15px;
+    height: 200px;
 }
 
 .better-icon-box h3 {
@@ -6044,6 +6047,240 @@ input[type="password"] {
 }
 
 /* --Business-Model-Area-End-- */
+
+/* =========================
+    25. EnterPrise page
+============================*/
+
+/* --EnterPrise-Banner-Area-Start-- */
+#enterprise-banner {
+    padding: 280px 0;
+    background-image: url(../img/comon-img/enterprise-banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.enterprise-area-banner h2,
+.enterprise-area-banner p {
+    color: #fff;
+}
+
+.enterprise-area-banner p {
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.enterprise-area-banner a {
+    margin-top: 20px;
+}
+
+/* --EnterPrise-Banner-Area-End-- */
+
+/* =========================
+ 26. Maching-Larning page
+============================*/
+
+/* --Maching-Larning-Banner-Area-Start-- */
+#maching-banner {
+    padding: 280px 0;
+    background-image: url('../img/comon-img/machine-learning_social.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* --Maching-Larning-Banner-Area-End-- */
+
+/* -maching-service-Area-Start-- */
+#maching-service {
+    padding: 120px 0;
+}
+
+.maching-learning-service-boxed {
+    position: relative;
+    padding-left: 150px;
+    padding: 15px 15px 15px 10px;
+    background: #fff;
+    margin-bottom: 25px;
+    box-shadow: 0px 8px 32px -22px #ff3066;
+    display: flex;
+    align-items: center;
+}
+
+.maching-learning-service-boxed img {
+    width: 22%;
+}
+
+.maching-learning-service-boxed p {
+    padding-left: 26px;
+}
+
+/* --maching-service-Area-End-- */
+
+/* --Timeline-Area-Start-- */
+.timeline-text-arae ul li {
+    color: var(--paragraph-color);
+    margin-bottom: 10px;
+    list-style-type: decimal;
+}
+
+.timeline-text-arae ul {
+    padding-left: 20px;
+}
+
+/* --Timeline-Area-End-- */
+
+/* --Benefits-With-Us-Start-- */
+#benefits-with-us-aera {
+    padding: 120px 0;
+}
+
+.benefits-box {
+    padding: 25px;
+    min-height: 262px;
+    box-shadow: 0px 0px 11px 0px rgba(255, 48, 102, 0.17);
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    transition: .4s ease-in-out;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -ms-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.benefits-box:hover {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.benefits-icon {
+    display: inline-block;
+    background: url('../img/svg/ml-sprite-svg2.svg') no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+    text-align: left;
+    width: 40px;
+    height: 40px;
+}
+
+.benefits-icon-1 {
+    background-position: -178px -128px;
+}
+
+.benefits-icon-2 {
+    background-position: -20px -192px;
+}
+
+.benefits-icon-3 {
+    background-position: -93px -192px;
+}
+
+.benefits-icon-4 {
+    background-position: -178px -193px;
+}
+
+.benefits-box p {
+    padding-top: 30px;
+}
+
+/* --Benefits-With-Us-End-- */
+
+/* =========================
+ 27. Full-Stack-Developer-page
+============================*/
+/* --Banner-Area-Start-- */
+#full-stack-banner {
+    padding: 180px 0 165px 0;
+    background: url('../img/comon-img/full-stack-developers.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* --Banner-Areas-End-- */
+
+/* --Company-Area-Start-- */
+#company-area {
+    padding: 120px 0;
+}
+
+.free-btn {
+    margin-top: 50px;
+}
+
+/* --Company-Area-End-- */
+
+/* --Technology-Exprrtise-Start-- */
+#table-fullstack table {
+    border: .0625rem solid rgb(255, 48, 102);
+    background-color: #fff;
+    width: 100%;
+}
+
+#table-fullstack table tbody tr:nth-child(odd) td:nth-child(1) {
+    background-color: var(--pink-color);
+}
+
+#table-fullstack table tbody tr:nth-child(even) td:nth-child(1) {
+    background-color: #ff3066c9;
+}
+
+#table-fullstack table tbody tr td:nth-child(1) {
+    width: 20%;
+    padding: 1.25rem 2.5rem;
+    min-width: 23.125rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+#table-fullstack table tbody tr td {
+    padding: 10px 58px;
+    font-size: 18px;
+}
+
+#table-fullstack table tbody tr td:nth-child(2) {
+    border-bottom: 1px solid var(--pink-color);
+}
+
+#table-fullstack table tbody tr td span {
+    color: #737373;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-right: 1.3125rem;
+    padding-right: 1.3125rem;
+    border-right: .0625rem solid rgba(115, 115, 115, .2);
+    line-height: 1.625rem;
+    border: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    margin-bottom: .375rem;
+}
+
+#table-fullstack table tbody tr td span strong {
+    font-weight: 400;
+}
+
+#table-fullstack table tbody tr td span svg {
+    max-height: 1.5rem;
+    width: 1.625rem;
+    float: left;
+    margin-right: .75rem;
+}
+/* --Technology-Exprrtise-End-- */
 
 /* =========================
      Back to top Button
