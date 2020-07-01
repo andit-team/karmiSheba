@@ -6280,7 +6280,40 @@ input[type="password"] {
     float: left;
     margin-right: .75rem;
 }
+
 /* --Technology-Exprrtise-End-- */
+
+
+/* =========================
+ 28. Front-End Page
+============================*/
+
+/* --Banner-Area-Start-- */
+
+#front-end-banner {
+    padding: 180px 0 165px 0;
+    background: url('../img/comon-img/front-end-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* --Banner-Area-End-- */
+
+/* --Front-end-Service-Start-- */
+.front-end-service {
+    text-align: center;
+    padding: 25px 20px;
+}
+
+.front-end-service svg {}
+
+.front-end-service h3 {}
+
+.front-end-service p {
+    padding-top: 20px;
+}
+
+/* --Front-end-Service-End-- */
 
 /* =========================
      Back to top Button
