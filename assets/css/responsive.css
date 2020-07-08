@@ -488,6 +488,10 @@
         font-size: 16px;
     }
 
+    .front-end-service {
+        margin-bottom: 30px;
+    }
+
 }
 
 @media (max-width: 767px) {

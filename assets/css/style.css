@@ -6305,9 +6305,21 @@ input[type="password"] {
     padding: 25px 20px;
 }
 
-.front-end-service svg {}
+.front-end-service:hover svg {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
 
-.front-end-service h3 {}
+.front-end-service svg {
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
 
 .front-end-service p {
     padding-top: 20px;
@@ -6315,6 +6327,19 @@ input[type="password"] {
 
 /* --Front-end-Service-End-- */
 
+/* =========================
+ 29.Enterprise-Mobilit page
+============================*/
+
+/* --enterprise-mobility-Banner-- */
+#app-development-bg-area {
+    padding: 180px 0 200px 0;
+    background: url('../img/comon-img/app-development-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* --Front-end-Service-End-- */
 /* =========================
      Back to top Button
 ============================*/
