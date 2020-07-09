@@ -6289,7 +6289,6 @@ input[type="password"] {
 ============================*/
 
 /* --Banner-Area-Start-- */
-
 #front-end-banner {
     padding: 180px 0 165px 0;
     background: url('../img/comon-img/front-end-bg.png') no-repeat;
@@ -6339,7 +6338,175 @@ input[type="password"] {
     background-position: center;
 }
 
+/* --Enterprise Featured-Start -- */
+#enterprise-featured-area {
+    padding: 120px 0;
+}
+
+.enterprise-fet-boxed {
+    padding: 40px 20px;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.enterprise-fet-boxed:hover {
+    background: #f58220;
+    box-shadow: 7.5px 12.99px 16px 0px rgba(0, 0, 0, .1)
+}
+
+.enterprise-fet-boxed h4 {
+    padding-top: 10px;
+}
+
+.enterprise-fet-boxed:hover h4 {
+    color: #fff;
+}
+
+.enter-feat-bg {
+    display: inline-block;
+    background: url('../img/svg/sales-sprite-svg-new22.svg') no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+    text-align: left;
+    width: 50px;
+    height: 50px;
+}
+
+.ent-boxed-one {
+    background-position: -5px -1515px;
+}
+
+.ent-boxed-two {
+    background-position: -5px -58px;
+}
+
+.ent-boxed-three {
+    background-position: -5px -786px;
+}
+
+.ent-boxed-four {
+    background-position: -5px -1201px;
+}
+
+.ent-boxed-five {
+    background-position: -5px -1722px;
+}
+
+.ent-boxed-six {
+    background-position: -5px -1410px;
+}
+
+.ent-boxed-seven {
+    background-position: -5px -2346px;
+}
+
+.ent-boxed-eight {
+    background-position: -5px -995px;
+}
+
+.ent-boxed-nine {
+    background-position: -5px -1098px;
+}
+
+.ent-boxed-ten {
+    background-position: -5px -2242px;
+}
+
+.ent-boxed-eleven {
+    background-position: -5px -891px;
+}
+
+.ent-boxed-twelve {
+    background-position: -5px -1930px;
+}
+
+.enterprise-fet-boxed:hover .ent-boxed-one {
+    background-position: -5px -1463px;
+    background-position: -5px -6px;
+}
+
+.enterprise-fet-boxed:hover .ent-boxed-two {
+    background-position: -5px -6px;
+}
+
+.enterprise-fet-boxed:hover .ent-boxed-three {
+    background-position: -5px -786px;
+}
+
+.enterprise-fet-boxed:hover .ent-boxed-four {
+    background-position: -5px -1151px;
+}
+
+.enterprise-fet-boxed:hover .ent-boxed-five {
+    background-position: -5px -1671px;
+}
+
+.enterprise-fet-boxed:hover .ent-boxed-six {
+    background-position: -5px -1354px;
+}
+
+.enterprise-fet-boxed:hover .ent-boxed-seven {
+    background-position: -5px -2294px;
+}
+
+.enterprise-fet-boxed:hover .ent-boxed-eightn {
+    background-position: -5px -943px;
+}
+
+.enterprise-fet-boxed:hover .ent-boxed-nine {
+    background-position: -5px -1046px;
+}
+
+.enterprise-fet-boxed:hover .ent-boxed-ten {
+    background-position: -5px -2191px;
+}
+
+.enterprise-fet-boxed:hover .ent-boxed-eleven {
+    background-position: -5px -839px;
+}
+
+.enterprise-fet-boxed:hover .ent-boxed-twelve {
+    background-position: -5px -1879px;
+}
+
 /* --Front-end-Service-End-- */
+
+/* =========================
+ 30.Dedicated DEveloper page
+============================*/
+/* --Banenr Area Start-- */
+#dedicated-banner-area {
+    padding: 180px 0 165px 0;
+    background: url('../img/comon-img/dedicated-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* --Banenr Area End-- */
+
+/* --Dedicated-Service Area Start-- */
+.dedicated-price-area {
+    background: var(--pink-color);
+    padding: 7px 12px;
+    display: block;
+    font-size: 18px;
+    color: #fff;
+}
+
+.dedicated-price-area:hover {
+    background-color: var(--heading-color);
+    color: #fff;
+}
+
+.dedicated-area .front-end-service {
+    margin-bottom: 30px;
+}
+
+/* --Dedicated-Service Area End-- */
 /* =========================
      Back to top Button
 ============================*/
