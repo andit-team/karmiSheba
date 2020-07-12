@@ -6476,7 +6476,7 @@ input[type="password"] {
 /* --Front-end-Service-End-- */
 
 /* =========================
- 30.Dedicated DEveloper page
+ 30.Dedicated Developer page
 ============================*/
 /* --Banenr Area Start-- */
 #dedicated-banner-area {
@@ -6507,6 +6507,56 @@ input[type="password"] {
 }
 
 /* --Dedicated-Service Area End-- */
+
+/* =========================
+ 31.Employee Page
+============================*/
+
+/* --Banenr Area Start-- */
+#employee-banner {
+    padding: 180px 0 165px 0;
+    background: url('../img/comon-img/employee-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.emmployee-list-area {
+    padding: 120px 0 !important;
+}
+
+/* --Banenr Area End-- */
+
+/* =========================
+ 32. Quality Assurance
+============================*/
+/* --Banenr Area Start-- */
+#quality-banner {
+    padding: 180px 0 165px 0;
+    background: url('../img/comon-img/quality-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#quality-banner .react-banenr-text img {
+    width: 15%;
+    filter: brightness(1) invert(0);
+    -webkit-filter: brightness(1) invert(0);
+}
+
+/* --Quality-Text-- */
+#quality-annsurance-text {
+    padding: 120px 0;
+}
+
+.quality-text p {
+    padding-top: 30px;
+}
+
+/* --Quality-assurance-Service-- */
+#quality-assurance-services {
+    padding: 120px 0;
+}
+
 /* =========================
      Back to top Button
 ============================*/

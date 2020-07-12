@@ -903,6 +903,10 @@
     #business-model-area {
         padding: 80px 0;
     }
+
+    .emmployee-list-area {
+        padding: 80px 0 !important;
+    }
 }
 
 @media (max-width: 361px) {}
