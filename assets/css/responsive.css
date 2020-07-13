@@ -492,6 +492,10 @@
         margin-bottom: 30px;
     }
 
+    .quality-text-img {
+        padding-top: 25px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 767px) {
@@ -677,11 +681,59 @@
     #technology-data-base-content,
     #technology-cloud-content,
     #technology-bdd-qa-content,
-    #technology-management-it-consulting-content {
+    #technology-management-it-consulting-content,
+    #quality-annsurance-text,
+    #quality-assurance-services,
+    #what-do-form-arae,
+    #automated-testing-area,
+    #faqs-content,
+    #technology-expertise,
+    #service-for-business,
+    #better-work-area,
+    #react-deve-service,
+    #pricing-area-react,
+    #company-area,
+    #react-table,
+    #benefits-with-us-aera,
+    #maching-service,
+    #business-model-area,
+    #home_work_processing,
+    #counter-area,
+    #logo-area-home,
+    #work-porfile,
+    #home_cta,
+    #home_competencies,
+    #some-fan-fact,
+    #core-value-arae,
+    #error-content,
+    #contact-content,
+    #useful-link,
+    #get-reviews,
+    #service-prestion {
         padding: 80px 0;
     }
 
-    #technology-banner {
+    #home-case-stady {
+        padding-top: 100px;
+    }
+
+    #home-our-product {
+        padding-bottom: 80px;
+    }
+
+    #our-leader-arae, #home_client_area, #timeline-design-arae, #about-our-story  {
+        padding: 0 0 80px 0;
+    }
+
+    .main-contact-from {
+        padding-top: 35px;
+    }
+
+    .padding-bottom {
+        padding-bottom: 80px !important;
+    }
+
+    #technology-banner, #about-client-area {
         padding: 80px 0 0px 0;
     }
 
@@ -692,6 +744,11 @@
 
     #maching-banner {
         padding: 200px 0;
+    }
+
+    .emmployee-list-area,
+    .what-do-client {
+        padding: 80px 0 !important;
     }
 }
 
@@ -716,81 +773,12 @@
         font-size: 14px;
     }
 
-    #home-case-stady {
-        padding-top: 100px;
-    }
-
-    #home_work_processing {
-        padding: 80px 0;
-    }
-
-    #counter-area {
-        padding: 80px 0;
-    }
-
-    #home_client_area {
-        padding: 0 0 80px 0;
-    }
-
-    #logo-area-home {
-        padding: 80px 0;
-    }
-
-    #work-porfile {
-        padding: 80px 0;
-    }
-
-    #home_cta {
-        padding: 80px 0;
-    }
-
-    #home_competencies {
-        padding: 80px 0;
-    }
-
-    #home-our-product {
-        padding-bottom: 80px;
-    }
-
     .home-banner-button a {
         margin-right: 7px;
     }
 
-    #about-our-story {
-        padding: 0 0 80px 0;
-    }
-
-    #some-fan-fact {
-        padding: 80px 0;
-    }
-
-    #core-value-arae {
-        padding: 80px 0;
-    }
-
-
-    #our-leader-arae {
-        padding: 0 0 80px 0;
-    }
-
-    #get-reviews {
-        padding: 80px 0;
-    }
-
-    #about-client-area {
-        padding: 80px 0 0 0;
-    }
-
-    .what-do-client {
-        padding: 80px 0 !important;
-    }
-
-    #useful-link {
-        padding: 80px 0;
-    }
-
     .what-do-form-arae-wrappper h2 {
-        font-size: 20px;
+        font-size: 24px;
         line-height: 33px;
     }
 
@@ -812,18 +800,6 @@
 
     .image-colum .about-clearfix-img .image:nth-child(2):before {
         display: none;
-    }
-
-    #what-do-form-arae {
-        padding: 80px 0;
-    }
-
-    #service-prestion {
-        padding: 80px 0;
-    }
-
-    #timeline-design-arae {
-        padding: 0 0 80px 0;
     }
 
     .client-name h4 {
@@ -848,64 +824,8 @@
         font-size: 30px;
     }
 
-    #error-content {
-        padding: 80px 0;
-    }
-
-    #contact-content {
-        padding: 80px 0;
-    }
-
-    .main-contact-from {
-        padding-top: 35px;
-    }
-
     .technology-banner-text h1 {
         font-size: 45px;
-    }
-
-    #technology-expertise {
-        padding: 80px 0;
-    }
-
-    #service-for-business {
-        padding: 80px 0;
-    }
-
-    #better-work-area {
-        padding: 80px 0;
-    }
-
-    #react-deve-service {
-        padding: 80px 0;
-    }
-
-    #pricing-area-react {
-        padding: 80px 0;
-    }
-
-    #react-table {
-        padding: 80px 0;
-    }
-
-    #benefits-with-us-aera {
-        padding: 80px 0;
-    }
-
-    #maching-service {
-        padding: 80px 0;
-    }
-
-    #company-area {
-        padding: 80px 0;
-    }
-
-    #business-model-area {
-        padding: 80px 0;
-    }
-
-    .emmployee-list-area {
-        padding: 80px 0 !important;
     }
 }
 
