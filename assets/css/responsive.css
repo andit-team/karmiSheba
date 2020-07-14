@@ -709,7 +709,9 @@
     #contact-content,
     #useful-link,
     #get-reviews,
-    #service-prestion {
+    #service-prestion,
+    #security-testing-services,
+    #our-extren-service {
         padding: 80px 0;
     }
 
@@ -721,7 +723,10 @@
         padding-bottom: 80px;
     }
 
-    #our-leader-arae, #home_client_area, #timeline-design-arae, #about-our-story  {
+    #our-leader-arae,
+    #home_client_area,
+    #timeline-design-arae,
+    #about-our-story {
         padding: 0 0 80px 0;
     }
 
@@ -733,7 +738,8 @@
         padding-bottom: 80px !important;
     }
 
-    #technology-banner, #about-client-area {
+    #technology-banner,
+    #about-client-area {
         padding: 80px 0 0px 0;
     }
 
@@ -749,6 +755,15 @@
     .emmployee-list-area,
     .what-do-client {
         padding: 80px 0 !important;
+    }
+
+    .about-client-destenation p {
+        font-size: 15px;
+        padding-top: 2px;
+    }
+
+    #testimonial-banner {
+        padding: 220px 0 140px 0;
     }
 }
 

@@ -942,64 +942,12 @@ section {
 
 .client-box {
     box-shadow: 0px 0px 29px -22px #ff3066;
-    margin: 11px;
 }
 
-.client-name-descreption {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-}
-
-.client-img-name {
-    display: flex;
-    align-items: center;
-}
-
-.client-img-name img {
-    width: 80px !important;
-    height: 80px;
-    border-radius: 50%;
-}
-
-.client-name {
-    padding-left: 20px;
-}
-
-.client-name h4 {
-    font-size: 24px;
-    font-weight: 500;
-}
-
-.client-name p {
-    font-weight: 600;
-    padding-top: 5px;
-}
-
-.client-companey-logo img {
-    width: 75px;
-    height: 75px;
-}
-
-.clint-border {
-    margin: 0;
-    background-color: var(--pink-color);
-}
-
-.client-review-text {
-    padding: 30px 30px 30px 30px;
-}
-
-.client-quote {
-    text-align: right;
-}
-
-.client-quote i {
-    font-size: 65px;
-    color: #ffd6e0;
-}
 
 #home_client_area .owl-carousel .owl-nav button.owl-next,
+#about-client-area .owl-carousel .owl-nav button.owl-next,
+#about-client-area .owl-carousel .owl-nav button.owl-prev,
 #home_client_area .owl-carousel .owl-nav button.owl-prev {
     background-color: white;
     height: 45px;
@@ -1010,18 +958,35 @@ section {
 }
 
 #home_client_area .owl-carousel .owl-nav button.owl-next i,
-#home_client_area .owl-carousel .owl-nav button.owl-prev i {
+#home_client_area .owl-carousel .owl-nav button.owl-prev i,
+#about-client-area .owl-carousel .owl-nav button.owl-prev i,
+#about-client-area .owl-carousel .owl-nav button.owl-next i {
     font-size: 18px;
     color: var(--pink-color);
 }
 
-#home_client_area .owl-theme .owl-nav [class*=owl-]:hover {
+#home_client_area .owl-theme .owl-nav [class*=owl-]:hover,
+#about-client-area .owl-theme .owl-nav [class*=owl-]:hover {
     color: var(--pink-color);
     border: 1px solid var(--pink-color);
 }
 
-#home_client_area .owl-theme .owl-nav {
+#home_client_area .owl-theme .owl-nav,
+#about-client-area .owl-theme .owl-nav {
     margin-top: 25px;
+}
+
+#home_client_area .veido-area-custom a img,
+#about-client-area .veido-area-custom a img {
+    width: 30% !important;
+    display: inherit;
+}
+
+#home_client_area .veido-area-custom,
+#about-client-area .veido-area-custom {
+    right: 40px;
+    left: auto;
+    top: 16px;
 }
 
 /* -- Client Area End --*/
@@ -2226,6 +2191,10 @@ ul li:nth-child(1) a:before {
 /* --trusted-by-patrtner-area-End-- */
 
 /* --Our-extrem-service-Start-- */
+#our-extren-service {
+    padding: 120px 0;
+}
+
 #useful-link {
     padding: 120px 0;
 }
@@ -2392,6 +2361,10 @@ ul li:nth-child(1) a:before {
     padding: 30px 20px;
 }
 
+.expertise-service-box {
+    height: 100%;
+}
+
 .expertise-boxed {
     margin-bottom: 20px;
 }
@@ -2422,25 +2395,17 @@ ul li:nth-child(1) a:before {
 /* --Services-for-Business-area-Start--*/
 #service-for-business {
     padding: 120px 0;
-    background: var(--pink-color);
-}
-
-#service-for-business .heading-content-box h2,
-#service-for-business .heading-content-box p {
-    color: #fff;
 }
 
 .service-boxed-business {
-    background: var(--pink-color);
-    -webkit-box-shadow: none;
-    box-shadow: 0px 0px 57px -32px #fff;
+    background: #fff;
     padding: 2.5rem 1.875rem;
     margin-bottom: 1.875rem;
     text-align: center;
 }
 
 .service-boxed-business svg {
-    fill: #fff;
+    fill: var(--pink-color);
     width: 70px;
     transition: .4s ease-in;
     -webkit-transition: .4s ease-in;
@@ -2460,7 +2425,6 @@ ul li:nth-child(1) a:before {
 
 .service-boxed-business h3,
 .service-boxed-business p {
-    color: #fff;
     padding-top: 15px;
 }
 
@@ -6769,6 +6733,10 @@ input[type="password"] {
     margin-top: 50px;
 }
 
+#accordion-two .collapse .card-body ul li {
+    margin-bottom: 7px;
+}
+
 /* =========================
     33.Faqs Page
 ============================*/
@@ -6790,6 +6758,95 @@ input[type="password"] {
     color: #fff;
     padding-bottom: 20px;
 }
+
+/* =========================
+    34.Testimonial Page
+============================*/
+/* --Banner Area-- */
+#testimonial-banner {
+    padding: 295px 0 235px 0;
+    background: url('../img/comon-img/testimonial-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.testimonial-banner-text h2 {
+    color: #fff;
+}
+
+.testimonial-banner-text p {
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 20px
+}
+
+/* --testimonial-main-content-- */
+#testimonial-main-content {
+    padding: 120px 0;
+}
+
+.client-review-margin {
+    margin-bottom: 30px;
+}
+
+/* =========================
+    35.Security-Testing Page
+============================*/
+/* --Banner Area-- */
+#security-testing-banner {
+    padding: 295px 0 235px 0;
+    background: url('../img/comon-img/security-testing-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.security-testing-banner-text h2 {
+    color: #fff;
+}
+
+.security-testing-banner-text p {
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+/* -- Time line area -- */
+.timeline-text-arae h3 {
+    padding-bottom: 20px;
+}
+
+.timeline-text-arae h3 span {
+    color: var(--pink-color);
+}
+
+/* security-testing-services-area */
+#security-testing-services {
+    padding: 120px 0 90px 0;
+}
+
+.security-service-boxed {
+    padding: 20px 26px;
+    margin-bottom: 30px;
+}
+
+.security-service-boxed h3 {}
+
+.security-service-boxed p {
+    padding-top: 12px;
+}
+
+/* =========================
+    34.Testimonial Page
+============================*/
+/* =========================
+    34.Testimonial Page
+============================*/
+/* =========================
+    34.Testimonial Page
+============================*/
+/* =========================
+    34.Testimonial Page
+============================*/
 
 /* =========================
      Back to top Button

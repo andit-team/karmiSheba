@@ -75,7 +75,7 @@
     $('.client-slider-wrapper').owlCarousel({
         loop: true,
         dots: false,
-        margin: 0,
+        margin: 30,
         autoplayHoverPause: true,
         autoplay: true,
         smartSpeed: 1000,
