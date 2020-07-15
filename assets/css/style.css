@@ -1355,13 +1355,12 @@ input:focus~.label-box::after {
 
 #footer-bottom-list {
     background-color: var(--pink-color);
-    padding: 35px 0 20px 0;
+    padding: 20px 0 20px 0;
 }
 
 .footer-bottom-list-item ul li {
     display: inline-flex;
     margin-right: 25px;
-    padding-bottom: 15px;
     color: var(--color-white);
 }
 
@@ -2893,28 +2892,6 @@ ul li:nth-child(1) a:before {
 .heading-technica {
     text-align: center;
     padding-bottom: 50px;
-}
-
-.technical-table-area h4 {
-    font-size: 25px;
-}
-
-.technical-table-inner ul li {
-    display: inline-flex;
-    padding-right: 15px;
-    font-size: 18px;
-    position: relative;
-    margin-bottom: 10px;
-}
-
-.technical-table-inner ul li:last-child::after {
-    border: none;
-}
-
-.technical-table-inner ul li::after {
-    content: "";
-    border-right: 1px solid #000;
-    padding-left: 20px;
 }
 
 .border-bottom-table {
@@ -5956,7 +5933,7 @@ input[type="password"] {
     background-color: #fff;
     padding: 30px 30px;
     min-height: 500px;
-    box-shadow: -26px 29px 26px -41px rgb(255, 48, 102);
+    box-shadow: 0px 0px 11px -8px rgb(255, 48, 102);
     text-align: center;
     height: 100%;
 }
@@ -6318,7 +6295,7 @@ input[type="password"] {
 }
 
 .enterprise-fet-boxed:hover {
-    background: #f58220;
+    background: var(--pink-color);
     box-shadow: 7.5px 12.99px 16px 0px rgba(0, 0, 0, .1)
 }
 
@@ -6328,6 +6305,12 @@ input[type="password"] {
 
 .enterprise-fet-boxed:hover h4 {
     color: #fff;
+}
+
+#app-development-bg-area .react-banenr-text img,
+#front-end-banner .react-banenr-text img {
+    filter: none;
+    -webkit-filter: none;
 }
 
 .enter-feat-bg {
@@ -6398,7 +6381,7 @@ input[type="password"] {
 }
 
 .enterprise-fet-boxed:hover .ent-boxed-three {
-    background-position: -5px -786px;
+    background-position: -5px -734px;
 }
 
 .enterprise-fet-boxed:hover .ent-boxed-four {
@@ -6417,7 +6400,7 @@ input[type="password"] {
     background-position: -5px -2294px;
 }
 
-.enterprise-fet-boxed:hover .ent-boxed-eightn {
+.enterprise-fet-boxed:hover .ent-boxed-eight {
     background-position: -5px -943px;
 }
 
@@ -6585,7 +6568,24 @@ input[type="password"] {
     -o-transition: .4s all;
 }
 
-.quality-services-boxed:hover .quality-boxed-icon {
+.what-we-do-bg {
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.what-we-do-boxed:hover .what-we-do-bg {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.quality-services-boxed:hover .quality-boxed-icon,
+.quality-services-boxed:hover .faction-boxed-icon {
     transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
@@ -6829,23 +6829,189 @@ input[type="password"] {
     margin-bottom: 30px;
 }
 
-.security-service-boxed h3 {}
-
 .security-service-boxed p {
     padding-top: 12px;
 }
 
 /* =========================
-    34.Testimonial Page
+36.Functional Testing  page
+============================*/
+/* --faction Service-- */
+
+.faction-boxed-icon {
+    display: inline-block;
+    background: url('../img/svg/functional-sprite.svg') no-repeat;
+    overflow: hidden;
+    width: 50px;
+    height: 60px;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    background-size: 90px;
+}
+
+.icon-fan-one {
+    background-position: -20px -560px;
+}
+
+.icon-fan-two {
+    background-position: -20px -420px;
+}
+
+.icon-fan-three {
+    background-position: -20px -420px;
+}
+
+.icon-fan-four {
+    background-position: -20px -560px;
+}
+
+.icon-fan-five {
+    background-position: -20px -700px;
+}
+
+.icon-fan-six {
+    background-position: -20px -840px;
+}
+
+/* --What We Do Area-- */
+#functional-test-what-we-do {
+    padding: 120px 0;
+}
+
+.what-we-do-boxed {
+    text-align: center;
+    padding: 25px 25px;
+}
+
+.what-we-do-bg {
+    display: inline-block;
+    background: url('../img/svg/functional-sprite.svg') no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+    text-align: left;
+    background-size: 90px;
+    width: 50px;
+    height: 52px;
+    margin-bottom: 11px;
+}
+
+.functional-what-one {
+    background-position: -20px -0px;
+}
+
+.functional-what-two {
+    background-position: -20px -210px;
+}
+
+.functional-what-three {
+    background-position: -20px -280px;
+}
+
+.what-we-do-boxed h3 {
+    padding-bottom: 20px;
+}
+
+.what-we-do-boxed ul li {
+    margin-bottom: 10px;
+}
+
+.what-we-do-boxed ul li:last-child {
+    margin: 0;
+}
+
+
+/* =========================
+37.Automation Testing Page
+============================*/
+/* --Banner Area-- */
+#automation-testing-banner {
+    padding: 295px 0 235px 0;
+    background: url('../img/comon-img/automation-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.qa-automation-boxed {
+    min-height: 246px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 70px 0;
+    margin-bottom: 30px;
+}
+
+.qa-automation-boxed:hover .auto-boxed-icon {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.auto-boxed-icon {
+    display: inline-block;
+    background: url('../img/comon-img/auto-sprite.png') no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+    text-align: left;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.auto-icon-one {
+    background-position: -20px -226px;
+    width: 60px;
+    height: 56px;
+}
+
+.auto-icon-two {
+    background-position: -20px -302px;
+    width: 56px;
+    height: 56px;
+}
+
+.auto-icon-three {
+    background-position: -20px -150px;
+    width: 65px;
+    height: 56px;
+}
+
+.auto-icon-four {
+    background-position: -20px -530px;
+    width: 55px;
+    height: 55px;
+}
+
+.auto-icon-five {
+    background-position: -20px -605px;
+    width: 54px;
+    height: 54px;
+}
+
+.auto-icon-six {
+    background-position: -20px -0px;
+    width: 133px;
+    height: 64px;
+}
+
+
+.qa-automation-boxed h3 {
+    padding-top: 10px;
+}
+
+
+
+
+
+/* =========================
+    38.Testimonial Page
 ============================*/
 /* =========================
-    34.Testimonial Page
-============================*/
-/* =========================
-    34.Testimonial Page
-============================*/
-/* =========================
-    34.Testimonial Page
+    39.Testimonial Page
 ============================*/
 
 /* =========================
