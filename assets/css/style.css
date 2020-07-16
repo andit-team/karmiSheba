@@ -7003,16 +7003,112 @@ input[type="password"] {
     padding-top: 10px;
 }
 
-
-
-
-
 /* =========================
     38.Testimonial Page
 ============================*/
+/* --Banner Area-- */
+#performance-testing-banner {
+    padding: 295px 0 235px 0;
+    background: url('../img/comon-img/performance-testing-process.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.qa-automation-boxed p {
+    padding-top: 18px;
+    padding: 20px 30px 0 30px;
+}
+
 /* =========================
-    39.Testimonial Page
+    39.Privacy-Policy Page
 ============================*/
+/* --Banner Area-- */
+#privacy-police-banner {
+    padding: 295px 0 235px 0;
+    background: url('../img/comon-img/privacy-policy.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* --privacy-police-content-- */
+#privacy-police-content {
+    padding: 120px 0;
+}
+
+.privacy-inner-text {
+    padding-bottom: 30px;
+}
+
+.privacy-inner-text h3 {
+    padding-bottom: 20px;
+}
+
+/* =========================
+    40.Carrer Page
+============================*/
+/* --Banner Area-- */
+#carrer-banner {
+    padding: 295px 0 235px 0;
+    background: url('../img/comon-img/Career-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#carrer-banner .security-testing-banner-text a {
+    margin-right: 10px;
+}
+
+/* -- career-opportunity-Area --*/
+#career-opportunity {
+    padding: 120px 0;
+}
+
+.office-party-area-img {
+    padding-bottom: 30px;
+}
+
+.office-party-area-img img {
+    width: 100%;
+}
+
+/* --Why-Join-Area-Start-- */
+#why-join-area {
+    padding: 120px 0;
+}
+
+.why-join-boxed {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    min-height: 178px;
+}
+
+.why-join-boxed:hover svg {
+    fill: var(--pink-color);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.why-join-boxed svg {
+    height: 3.125rem;
+    width: 3.125rem;
+    margin-bottom: 20px;
+    fill: var(--heading-color);
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+/* -- virtual-tour-area -- */
+#virtual-tour-area {
+    padding: 120px 0;
+}
 
 /* =========================
      Back to top Button
