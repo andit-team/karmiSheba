@@ -1444,12 +1444,9 @@ ul li:nth-child(1) a:before {
 ===================================*/
 
 /* --Banner Area Start-- */
-#about-banner {
+
+.about-banner-bg {
     background-image: url('../img/about/banner-bg.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
 }
 
 /* --Banner Area End-- */
@@ -1579,12 +1576,14 @@ ul li:nth-child(1) a:before {
     background: #fff;
     text-align: center;
     padding: 35px 10px;
-
 }
 
-.fact-box h2 {
+.fact-box span {
     padding-top: 18px;
     font-size: 36px;
+    display: block;
+    font-weight: 500;
+    color: var(--heading-color);
 }
 
 .fact-box p {
@@ -2380,7 +2379,7 @@ ul li:nth-child(1) a:before {
     justify-content: center;
 }
 
-.expertise-icon svg {
+.expertise-icon img {
     width: 40px;
 }
 
@@ -3826,49 +3825,8 @@ input[type="password"] {
     margin-top: 40px;
 }
 
-.contact-tabs-area .nav-tabs .nav-link {
-    font-size: 18px;
-    font-weight: 400;
-    color: var(--paragraph-color);
-    border: none;
-    padding: 6px 13px 6px 17px;
-}
-
-.contact-tabs-area .nav-tabs .nav-link.active {
-    color: #ffffff;
-    background-color: #ff3066;
-    border-color: none;
-    border: none;
-    position: relative;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-}
-
-.contact-tabs-area .nav-tabs .nav-link:focus,
-.contact-tabs-area .nav-tabs .nav-link:hover {
-    border-color: none;
-    border: none;
-    outline: none;
-}
-
-.contact-tabs-inner {
-    padding-top: 20px;
-}
-
-.contact-tabs-area .tab-pane.fade.show {
-    transform: translateY(0rem);
-}
-
-.contact-tabs-area .tab-pane.fade {
-    transition: all 0.4s;
-    transform: translateY(1rem);
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    -o-transition: all 0.4s;
+.pdding-contact-bottom {
+    padding-bottom: 120px !important;
 }
 
 .customer-service {
@@ -3931,6 +3889,8 @@ input[type="password"] {
 
 .map-location iframe {
     width: 100%;
+    border: 0;
+    height: 500px;
 }
 
 /* --Contact-Content-area-End-- */
@@ -7108,6 +7068,66 @@ input[type="password"] {
 /* -- virtual-tour-area -- */
 #virtual-tour-area {
     padding: 120px 0;
+}
+
+.virtual-tour-inner iframe {
+    width: 100%;
+}
+
+/* =========================
+    41. Sitemap Page
+============================*/
+/* --Banner Area-- */
+.sitemap-bg {
+    background: url('../img/comon-img/sitemap.png') no-repeat;
+}
+
+/* --Sitemap-Boxed-Area-- */
+#sitemap-area {
+    padding: 120px 0;
+}
+
+.sitemap-hed {
+    background: var(--pink-color);
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.sitemap-boxed {
+    margin-bottom: 30px;
+}
+
+.sitemap-hed h3 {
+    color: #fff;
+}
+
+.sitemap-list {
+    padding: 25px 25px;
+}
+
+.sitemap-list ul li {
+    margin-bottom: 15px;
+    transition: .4s all ease-in;
+    -webkit-transition: .4s all ease-in;
+    -moz-transition: .4s all ease-in;
+    -ms-transition: .4s all ease-in;
+    -o-transition: .4s all ease-in;
+}
+
+.sitemap-list ul li:hover a {
+    color: var(--pink-color);
+}
+
+.sitemap-list ul li:hover {
+    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+}
+
+.sitemap-list ul li:last-child {
+    margin: 0;
 }
 
 /* =========================
