@@ -2895,9 +2895,6 @@ ul li:nth-child(1) a:before {
 /* --Technical-Stack-Start-- */
 #technica-stack-area {
     padding: 120px 0;
-    background-image: url('../img/case-study/technical-banner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .heading-technica {
