@@ -149,6 +149,12 @@
 }
 
 @media (max-width: 991px) {
+    .other-option a {
+        text-align: center !important;
+        color: #ffff !important;
+    }
+
+
     .what-we-do-boxed {
         margin-bottom: 30px;
     }
@@ -159,6 +165,7 @@
 
     .other-option {
         margin: 20px 35px 0 31px;
+        width: auto !important;
     }
 
     .footer-soical-icon {
@@ -175,7 +182,6 @@
     }
 
     .home-banner-text-box-inner {
-        z-index: 999;
         width: 100%;
         padding-top: 40px;
     }
@@ -188,12 +194,11 @@
     }
 
     .shap-img {
-        position: absolute;
-        top: -45px;
+        display: none;
     }
 
     #home-case-stady {
-        padding-top: 325px;
+        padding-top: 0px;
     }
 
     .case-study-box {
@@ -202,14 +207,7 @@
     }
 
     .home-banner-img {
-        position: inherit;
-        width: 100%;
-        text-align: center;
-        transform: inherit;
-        -webkit-transform: inherit;
-        -moz-transform: inherit;
-        -ms-transform: inherit;
-        -o-transform: inherit;
+        display: none;
     }
 
     #home-case-stady .container-fluid .row:nth-child(2) {
@@ -275,7 +273,7 @@
     }
 
     #home_banner {
-        padding-top: 200px;
+        padding-top: 140px;
     }
 
     .about-heading-box h1 {
@@ -507,6 +505,11 @@
 }
 
 @media (max-width: 767px) {
+    .competencies-button {
+        margin-top: 40px;
+        text-align: center;
+    }
+
     .no-payment-area:hover .above {
         right: 1rem;
         left: 0;
@@ -521,6 +524,10 @@
     .react-banenr-text h2 {
         font-size: 40px;
         line-height: 55px;
+    }
+
+    .home-banner-text-box {
+        height: 56vh;
     }
 
     .react-banenr-text p {
@@ -577,10 +584,6 @@
         top: 195px;
     }
 
-    #home-case-stady {
-        padding-top: 165px;
-    }
-
     .image-colum .about-clearfix-img .image {
         max-width: 315px;
     }
@@ -633,11 +636,17 @@
         margin-right: 20px;
         padding-right: 21px;
     }
+
+
 }
 
 @media (max-width: 575px) {
     #accordionExample .card-body .footer-collapes-inner-area {
         display: inherit;
+    }
+
+    #carrer-banner {
+        padding: 200px 0 220px 0;
     }
 
     #accordionExample .card-body .tabs-address-area {
@@ -728,10 +737,6 @@
         padding: 80px 0;
     }
 
-    #home-case-stady {
-        padding-top: 100px;
-    }
-
     #home-our-product {
         padding-bottom: 80px;
     }
@@ -786,6 +791,15 @@
         line-height: 38px;
     }
 
+
+    #home_banner {
+        padding-top: 145px;
+    }
+
+    .home-banner-text-box {
+        height: 54vh;
+    }
+
     .shap-img {
         position: absolute;
         top: 101px;
@@ -806,7 +820,7 @@
     }
 
     .what-do-form-arae-wrappper h2 {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 33px;
     }
 

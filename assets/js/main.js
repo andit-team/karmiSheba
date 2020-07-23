@@ -33,7 +33,7 @@
             backSpeed: 60,
             backDelay: 1000,
             loop: true,
-            loopCount: 5,
+            loopCount: 100,
             showCursor: false,
             cursorChar: "|",
             attr: null,
@@ -155,7 +155,7 @@
                 items: 3,
             },
             1200: {
-                items: 4,
+                items: 5,
             }
         }
     });
@@ -214,4 +214,9 @@
             disable: 'mobile'
         });
     }
+
+    $('.counter').counterUp({
+        delay: 5,
+        time: 1000
+    })
 }(jQuery));

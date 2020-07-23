@@ -21,61 +21,51 @@
 *******************************************
 
 01 - Default CSS
-
 02 - Home Page
-    ** - Banner Area
-    ** - Case Study Area
-    ** - Home Logo Area
-    ** - Our Partner Area
-    ** - Competencies Area
-    ** - Work Process Area
-    ** - Cta Area
-    ** - Counter Area
-    ** - Client Area
-    ** - Partner Logo Area
-    ** - Work portfolio Area
-    ** - Footer Area
+03 - About Page
+04 - Value Page
+05 - What-We-Do Page
+06 - Product-Enhanecment Page
+07 - Ai & Ml Page
+08 - Blockchaine Page
+09 - Internet-Things Page
+10 - Data-Transformation Page
+11 - Web-Development Page
+12 - Case-Study-Main Page
+13 - Case-Study-Overview Page
+14 - Case-Study-Single Page
+15 - Agail-Mindset Page
+16 - Our-Partner Page
+17 - Our-Partner-Single Page
+18 - Blog Page
+19 - Blog-Single Page
+20 - Error Page
+21 - Contact Page
+22 - Technology Page
+23 - React.js Page
+24 - React-Native Page
+25 - Python Page
+26 - Enterprise Page
+27 - Maching-Learning Page
+28 - Full-Stack-Developer Page
+29 - Front-End-Developer Page
+30 - Enterprise-Mobility Page
+31 - Dedicated-Developer Page
+32 - Employee Page
+33 - Quality-Assurance Page
+34 - Faqs Page
+35 - Testimonial Page
+36 - Security-Testing Page
+37 - Functional-Testing Page
+38 - Automation-Testing Page
+39 - Preformance-Testing Page
+40 - Privacy-Police Page
+41 - Carrer Page
+42 - Sitemap Page
+43 - Preloader Area
+44 - Back-to-top Area
+45 - Scroll Bar Effect
 
-** - Navbar Area CSS
-** - Main Banner Area CSS
-** - About Section CSS
-** - Data Services Section CSS
-** - Fun Facts Section CSS
-** - Tabs Solutions Section CSS
-** - Work Section CSS
-** - Testimonial Section CSS
-** - Blog Section CSS
-** - Sidebar Widget Area CSS
-** - Partner Section CSS
-** - Subscribe Section CSS
-** - Services Section CSS
-** - Process Section CSS
-** - Software Section CSS
-** - Productive Section CSS
-** - Page Title Area CSS
-** - Team Section CSS
-** - Services Details CSS
-** - Projects Details Area CSS
-** - Pricing Area CSS
-** - Shop Area CSS
-** - Page Title Area CSS
-** - Team Section CSS
-** - Services Details CSS
-** - Projects Details Area CSS
-** - Pricing Area CSS
-** - Shop Area CSS
-** - Product Details Area CSS
-** - Pagination Area CSS
-** - Cart Area CSS
-** - Checkout Area CSS
-** - 404 Error Area CSS
-** - Coming Soon Area CSS
-** - Faq Section CSS
-** - Blog Details Area CSS
-** - Contact Area CSS
-** - Footer Section CSS
-** - Copyright Section CSS
-** - Go Top CSS
 */
 /*================================================
     01. Default CSS
@@ -198,10 +188,14 @@ button:focus {
     outline: none;
 }
 
+.line-height {
+    line-height: 0;
+}
+
 /* --Common Class Area start-- */
 
 .box-shadow {
-    box-shadow: 0px 0px 27px -19px var(--pink-color);
+    box-shadow: 0px 3px 25px -18px var(--pink-color);
 }
 
 /* --Common Class Area start-- */
@@ -446,7 +440,7 @@ section {
 
 .home-banner-img {
     left: auto;
-    top: 50%;
+    top: 53%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -515,6 +509,7 @@ section {
     z-index: 999;
 }
 
+
 .bg-box {
     background-image: url(../img/case-study/case-1.png);
 }
@@ -551,7 +546,8 @@ section {
 .case-study-box h5 {
     font-weight: 600;
     text-transform: uppercase;
-    padding-top: 30px;
+    padding-top: 15px;
+    font-size: 16px;
 }
 
 .case-study-box h2 a:hover,
@@ -584,54 +580,71 @@ section {
     top: 0;
     left: 0;
     z-index: -1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 .ovarlay-box::after {
-    background-image: linear-gradient(to right, #0b4fc1a3, #e3078ea1);
+    background-image: linear-gradient(45deg, #0b4fc1a3 11%, #9760c400);
+    background-color: #e3078ea1;
 }
 
 .ovarlay-box:hover::after {
-    background-image: linear-gradient(to right, #e3078ea1, #0b4fc1a3);
+    background-image: linear-gradient(80deg, #e3078ea1 55%, #9760c400);
+    background-color: #0b4fc1a3;
 }
 
 .ovarlay-box-two::after {
-    background-image: linear-gradient(to right, #6717cda6, #2871fa96);
+    background-image: linear-gradient(45deg, #6717cda6 11%, #9760c400);
+    background-color: #2871fa96;
 }
 
 .ovarlay-box-two:hover::after {
-    background-image: linear-gradient(to right, #2871fa96, #6717cda6);
+    background-image: linear-gradient(45deg, #2871fa96 11%, #9760c400);
+    background-color: #6717cda6;
 }
 
 .ovarlay-box-three::after {
-    background-image: linear-gradient(to right, #f9136299, #35126a8c);
+    background-image: linear-gradient(45deg, #f9136299 11%, #9760c400);
+    background-color: #35126a8c;
 }
 
 .ovarlay-box-three:hover::after {
-    background-image: linear-gradient(to right, #35126a8c, #f9136299);
+    background-image: linear-gradient(45deg, #35126a8c 11%, #9760c400);
+    background-color: #f9136299;
 }
 
 .ovarlay-box-four::after {
-    background-image: linear-gradient(to right, #04128299, #fca65e94);
+    background-image: linear-gradient(45deg, #04128299 11%, #9760c400);
+    background-color: #fca65e94;
 }
 
 .ovarlay-box-four:hover::after {
-    background-image: linear-gradient(to right, #fca65e94, #04128299);
+    background-image: linear-gradient(45deg, #fca65e94 11%, #9760c400);
+    background-color: #04128299;
 }
 
 .ovarlay-box-five::after {
-    background-image: linear-gradient(to right, #f83600ad, #4bfa22a8);
+    background-image: linear-gradient(45deg, #f83600ad 11%, #9760c400);
+    background-color: #4bfa22a8;
 }
 
 .ovarlay-box-five:hover::after {
-    background-image: linear-gradient(to right, #4bfa22a8, #f83600ad);
+    background-image: linear-gradient(45deg, #4bfa22a8 11%, #9760c400);
+    background-color: #f83600ad;
 }
 
 .ovarlay-box-six::after {
-    background-image: linear-gradient(to right, #31cdb0a6, #3551a4ab);
+    background-image: linear-gradient(45deg, #31cdb0a6 11%, #9760c400);
+    background-color: #3551a4ab;
 }
 
 .ovarlay-box-six:hover::after {
-    background-image: linear-gradient(to right, #3551a4ab, #31cdb0a6);
+    background-image: linear-gradient(45deg, #3551a4ab 11%, #9760c400);
+    background-color: #31cdb0a6;
 }
 
 /* --Casestudy Area End */
@@ -643,7 +656,7 @@ section {
 }
 
 .home-logo-slider-wrapper {
-    border: 1px solid var(--pink-color);
+    border: 1px solid #ff306645;
 }
 
 .logo-itm-home {
@@ -759,7 +772,7 @@ section {
 }
 
 .product-area-button a {
-    margin-right: 35px;
+    margin-right: 20px;
 }
 
 /* --our-product Area End-- */
@@ -780,6 +793,10 @@ section {
 .competencies-wrapper-box {
     display: flex;
     margin-top: 30px;
+}
+
+.heading-competencies {
+    padding: 18px 0 25px 0;
 }
 
 .competenies-box {
@@ -808,11 +825,6 @@ section {
     font-size: 20px;
     padding-left: 20px;
     line-height: 30px;
-    transition: .4s all;
-    -webkit-transition: .4s all;
-    -moz-transition: .4s all;
-    -ms-transition: .4s all;
-    -o-transition: .4s all;
 }
 
 .competenies-box:hover a h6 {
@@ -844,7 +856,23 @@ section {
 }
 
 .work-processing-box:hover {
-    box-shadow: 0px 6px 32px -27px var(--pink-color);
+    box-shadow: 0px 18px 33px -29px var(--pink-color);
+}
+
+.work-proces-img img {
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.work-processing-box:hover .work-proces-img img {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
 }
 
 .work-process-text {
@@ -899,7 +927,7 @@ section {
     line-height: 100px;
     border-radius: 50px;
     margin: 0 auto;
-    box-shadow: 0px 0px 47px -24px #ff3066;
+    box-shadow: 0px 18px 33px -29px var(--pink-color);
     z-index: 9;
     position: relative;
     transition: .4s all;
@@ -921,7 +949,7 @@ section {
 
 .counter-count-area {
     text-align: center;
-    box-shadow: 0px 5px 16px -13px #ff3066;
+    box-shadow: 0px 18px 33px -29px var(--pink-color);
     padding: 20px 0;
     margin-top: -30px;
     background: var(--color-white);
@@ -944,7 +972,11 @@ section {
 
 .heading-content-box {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+}
+
+.heading-content-box h2 {
+    line-height: 30px;
 }
 
 .heading-content-box p {
@@ -954,7 +986,7 @@ section {
 }
 
 .client-box {
-    box-shadow: 0px 0px 29px -22px #ff3066;
+    box-shadow: 0px 18px 30px -34px var(--pink-color);
 }
 
 
@@ -1015,7 +1047,7 @@ section {
 
 .logo-area-box {
     text-align: center;
-    border-right: 1px solid #fff;
+    border-right: 1px solid #ffffff6b;
 }
 
 .logo-area-box .logo-img:nth-child(1) {
@@ -1024,7 +1056,26 @@ section {
 
 .logo-img {
     padding: 29px 0;
-    border-top: 1px solid #fff;
+    border-top: 1px solid #ffffff6b;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.logo-img img {
+    -webkit-filter: invert(15%);
+    filter: invert(15%);
+}
+
+.logo-img:hover img {
+    -webkit-filter: drop-shadow(16px 16px 20px #000) invert(0);
+    filter: drop-shadow(16px 16px 20px #000) invert(0);
+}
+
+.logo-img:hover {
+    background-color: var(--heading-color);
 }
 
 #logo-area-home .container .row .col-lg-3:last-child .logo-area-box {
@@ -1074,6 +1125,15 @@ section {
 .work-profile-text {
     box-shadow: 0px -6px 39px -18px #ff3066;
     padding: 15px 10px;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.work-profile-box:hover {
+    background-color: var(--pink-color);
 }
 
 .work-profile-text h5 {
@@ -1087,7 +1147,7 @@ section {
 }
 
 .work-profile-box:hover .work-profile-text h5 {
-    color: var(--pink-color);
+    color: #ffff;
 }
 
 /* --Work Profile End-- */
@@ -1180,7 +1240,7 @@ input:focus~.label-box::after {
 }
 
 #footer-side-tab .nav-tabs .nav-item {
-    margin-bottom: 70px;
+    margin-bottom: 45px;
 }
 
 #footer-side-tab .nav-tabs .nav-item:last-child {
@@ -1259,7 +1319,13 @@ input:focus~.label-box::after {
 
 .tabs-address-area .media-body h4 {
     color: var(--color-white);
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.tabs-address-area i {
+    font-size: 30px;
+    color: #ff3066;
+    margin-right: 20px;
 }
 
 .tabs-address-area .media-body p {
@@ -1391,12 +1457,12 @@ input:focus~.label-box::after {
 }
 
 .footer-soical-icon ul li a {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     background-color: #fff;
     text-align: center;
-    line-height: 40px;
-    font-size: 20px;
+    line-height: 35px;
+    font-size: 18px;
     margin: 0 0;
     display: block;
     border-radius: 50%;
@@ -1616,7 +1682,7 @@ ul li:nth-child(1) a:before {
 
 /* --About fan-fact Area End-- */
 
-/* --core-value Area Start-- */
+/* --Core-value Area Start-- */
 #core-value-arae {
     padding: 120px 0;
 }
@@ -1669,8 +1735,7 @@ ul li:nth-child(1) a:before {
     padding-top: 15px;
 }
 
-/* --core-value Area End-- */
-
+/* --Core-value Area End-- */
 
 /* --Our-leader Area Start-- */
 #our-leader-arae {
@@ -1729,7 +1794,6 @@ ul li:nth-child(1) a:before {
 }
 
 /* --Our-leader Area End-- */
-
 
 /* --Get-Review Area Start-- */
 #get-reviews {
@@ -1824,7 +1888,7 @@ ul li:nth-child(1) a:before {
 /* --About Client Area End-- */
 
 /* ================================
-           03 Value  Page
+           04 Value  Page
 ===================================*/
 
 /* --Value banner Area Strat-- */
@@ -2139,7 +2203,7 @@ ul li:nth-child(1) a:before {
 /* --vlaue-bottom-arae End-- */
 
 /* ================================
-     04 What-We-Do(Main Page)
+     05  What-We-Do(Main Page)
 ===================================*/
 /* --Banner-area-Strat-- */
 #common-banner {
@@ -2190,12 +2254,18 @@ ul li:nth-child(1) a:before {
 
 .trusted-by-partner-wrapper {
     background-color: #fff;
-    padding: 70px 31px;
+    padding: 35px 30px;
 }
 
 #trusted-by-partner .owl-carousel .owl-item img {
     display: block;
-    width: 50%;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.trusted-by-text h2 {
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 /* --trusted-by-patrtner-area-End-- */
@@ -2222,6 +2292,14 @@ ul li:nth-child(1) a:before {
 
 .extrem-service-box:hover {
     background-color: var(--pink-color);
+}
+
+.extrem-service-box:hover a i {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
 }
 
 .extrem-service-box:hover h3,
@@ -2290,6 +2368,7 @@ ul li:nth-child(1) a:before {
 
 .what-do-form-arae-wrappper h2 {
     color: var(--color-white);
+    line-height: 25px;
 }
 
 #what-do-form {
@@ -2339,7 +2418,7 @@ ul li:nth-child(1) a:before {
 /* --What-do-form-arae-End-- */
 
 /* ================================
- 05 product-enhancement-service page
+ 06 product-enhancement-service page
 ===================================*/
 
 /* --product-enhancement-banner start--*/
@@ -2381,7 +2460,7 @@ ul li:nth-child(1) a:before {
 
 .expertise-icon {
     background-color: #fff;
-    height: 4.375rem;
+    height: 6.375rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2389,6 +2468,15 @@ ul li:nth-child(1) a:before {
     -ms-flex-align: center;
     align-items: center;
     justify-content: center;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.expertise-icon:hover {
+    background-color: var(--pink-color);
 }
 
 .expertise-icon img {
@@ -2398,6 +2486,10 @@ ul li:nth-child(1) a:before {
 .expertise-para {
     text-align: center;
     padding-top: 10px;
+}
+
+.margin-zero {
+    margin: 0 !important;
 }
 
 /* --technology-expertisen-area-End--*/
@@ -2472,6 +2564,34 @@ ul li:nth-child(1) a:before {
     border-color: none;
     border: none;
     position: relative;
+    /* transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s; */
+}
+
+#service-prestion .nav-tabs a {
+    -webkit-transition: inherit;
+    -moz-transition: inherit;
+    -ms-transition: inherit;
+    -o-transition: inherit;
+    transition: inherit;
+}
+
+#service-prestion .nav-tabs .nav-link.active::after {
+    content: "";
+    position: absolute;
+    right: -14px;
+    margin-top: 0;
+    background-color: #ff3066;
+    height: 30px;
+    width: 30px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 6px;
+    z-index: 99;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -2479,32 +2599,12 @@ ul li:nth-child(1) a:before {
     -o-transition: all 0.5s;
 }
 
-#service-prestion .nav-tabs .nav-link.active::after {
-    content: "";
-    position: absolute;
-    right: -11px;
-    margin-top: 0;
-    background-color: #ff3066;
-    height: 25px;
-    width: 25px;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    top: 8px;
-    transition: .5s all;
-    -webkit-transition: .5s all;
-    -moz-transition: .5s all;
-    -ms-transition: .5s all;
-    -o-transition: .5s all;
-    z-index: 99;
-}
-
 #service-prestion .nav-tabs .nav-link {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     color: var(--paragraph-color);
     border: none;
-    padding: 20px 0 20px 25px;
+    padding: 20px 0 10px 25px;
 }
 
 #service-prestion .nav-tabs .nav-link:focus,
@@ -2551,7 +2651,7 @@ ul li:nth-child(1) a:before {
 
 
 /* ================================
- 06  Ai & ML Page
+ 07  Ai & ML Page
 ===================================*/
 
 /* --Ai&Ml page banner start-- */
@@ -2562,7 +2662,7 @@ ul li:nth-child(1) a:before {
 /* --Ai&Ml page banner End-- */
 
 /* ================================
- 07  Blockchanie Page
+ 08  Blockchanie Page
 ===================================*/
 
 /* --Blockchanie page banner start-- */
@@ -2573,7 +2673,7 @@ ul li:nth-child(1) a:before {
 /* --Blockchanie page banner End-- */
 
 /* ================================
- 08  internet-things Page
+ 09.  internet-things Page
 ===================================*/
 
 /* --internet-things page banner start-- */
@@ -2584,7 +2684,7 @@ ul li:nth-child(1) a:before {
 /* -internet-things page banner End-- */
 
 /* ================================
- 09  Data-Transormation page
+ 10. Data-Transormation page
 ===================================*/
 
 /* --Data-Transormation page banner start-- */
@@ -2595,9 +2695,9 @@ ul li:nth-child(1) a:before {
 /* --Data-Transormation page banner End-- */
 
 /* ================================
- 10  We-development page
+ 11.  Web-development page
 ===================================*/
-/* -- We-developmente banner start-- */
+/* -- Web-developmente banner start-- */
 .web-bg {
     background-image: url('../img/what-we-do/wed-bg.png');
 }
@@ -2606,7 +2706,7 @@ ul li:nth-child(1) a:before {
 
 
 /* ================================
-  11  Case-Study-Min-page
+  12.  Case-Study-Min-page
 ===================================*/
 /* -- Case-study banner start-- */
 #case-study-banner {
@@ -2710,7 +2810,7 @@ ul li:nth-child(1) a:before {
 /* -- Case-study-partner-End-- */
 
 /* ================================
-  12  case-study-overview-page
+  13.  case-study-overview-page
 ===================================*/
 
 /* -- case-study-overview-Banner-Start-- */
@@ -2787,7 +2887,7 @@ ul li:nth-child(1) a:before {
 /* -- case-study-overview-Inner-content-End-- */
 
 /* ================================
-  13  case-study-Single-page
+  14.  case-study-Single-page
 ===================================*/
 
 /* -- case-study-Single-Banner-Start-- */
@@ -2956,7 +3056,7 @@ ul li:nth-child(1) a:before {
 /* --Time-frame-End-- */
 
 /* ================================
-  14  Agail Mindset
+  15.  Agail Mindset
 ===================================*/
 
 /* --Banner Area Start-- */
@@ -3058,7 +3158,7 @@ ul li:nth-child(1) a:before {
 /* --Agile Help Area End-- */
 
 /* ===========================
- 15  Our Partner  Page
+ 16.  Our Partner  Page
 ==============================*/
 /* --Main-content Area Start-- */
 #partner-items {
@@ -3126,7 +3226,7 @@ ul li:nth-child(1) a:before {
 /* --Main-content Area End-- */
 
 /* ===========================
- 16  Our Partner-Single Page
+ 17. Our Partner-Single Page
 ==============================*/
 
 /* --Our Partner Banner Start-- */
@@ -3192,7 +3292,7 @@ ul li:nth-child(1) a:before {
 /* --features-key-End-- */
 
 /* ===========================
- 17  Blog Page
+   18. Blog Page
 ==============================*/
 
 /* -- banner area start -- */
@@ -3283,7 +3383,6 @@ ul li:nth-child(1) a:before {
 
 .blog-item-wrapper {
     position: relative;
-    margin-bottom: 30px;
 }
 
 .blog-item-img {
@@ -3331,6 +3430,10 @@ ul li:nth-child(1) a:before {
     color: var(--heading-color);
 }
 
+.blog-item-wrapper:hover .blog-item-text h5 a {
+    color: var(--pink-color);
+}
+
 .blog-item-text {
     padding: 25px 20px;
 }
@@ -3367,7 +3470,7 @@ ul li:nth-child(1) a:before {
 /* --Blog-item-End-- */
 
 /* ===========================
-   18  Blog-Single Page
+   19.  Blog-Single Page
 ==============================*/
 /* --Banner-area-Start-- */
 .blog-single-banner {
@@ -3714,7 +3817,7 @@ blockquote h6 {
 /* --mina-area-End-- */
 
 /* =========================
-   19 Error Page
+   20. Error Page
 ============================*/
 /* --Banner-Area-Start-- */
 #error-banner {
@@ -3803,7 +3906,7 @@ input[type="password"] {
 /* --Banner-Area-End-- */
 
 /* =========================
-   20 Contact Page
+   21. Contact Page
 ============================*/
 
 /* --Banner-area-Start-- */
@@ -3910,7 +4013,7 @@ input[type="password"] {
 
 
 /* =========================
-   21. Technology All page
+   22. Technology All page
 ============================*/
 
 /* --Banner Area Start-- */
@@ -5438,7 +5541,7 @@ input[type="password"] {
 /* --Fixed-sidebar-area-End-- */
 
 /* =========================
-    22. React.js page
+    23. React.js page
 ============================*/
 /* --Banner-area-Start-- */
 #react-js-banner {
@@ -5786,7 +5889,7 @@ input[type="password"] {
 /* --React-table-Area-End-- */
 
 /* =========================
-    23. React.Native page
+    24. React.Native page
 ============================*/
 /* --React-native-Banner-Area-Start-- */
 .react-banenr-text h4 {
@@ -5796,7 +5899,7 @@ input[type="password"] {
 /* --React-native-Banner-Area-End-- */
 
 /* =========================
-    24. Python page
+    25. Python page
 ============================*/
 
 /* --Banner-Area-Start-- */
@@ -5984,7 +6087,7 @@ input[type="password"] {
 /* --Business-Model-Area-End-- */
 
 /* =========================
-    25. EnterPrise page
+    26. EnterPrise page
 ============================*/
 
 /* --EnterPrise-Banner-Area-Start-- */
@@ -6014,7 +6117,7 @@ input[type="password"] {
 /* --EnterPrise-Banner-Area-End-- */
 
 /* =========================
- 26. Maching-Larning page
+ 27. Maching-Larning page
 ============================*/
 
 /* --Maching-Larning-Banner-Area-Start-- */
@@ -6128,7 +6231,7 @@ input[type="password"] {
 /* --Benefits-With-Us-End-- */
 
 /* =========================
- 27. Full-Stack-Developer-page
+ 28. Full-Stack-Developer-page
 ============================*/
 /* --Banner-Area-Start-- */
 #full-stack-banner {
@@ -6220,7 +6323,7 @@ input[type="password"] {
 
 
 /* =========================
- 28. Front-End Page
+ 29. Front-End Page
 ============================*/
 
 /* --Banner-Area-Start-- */
@@ -6262,7 +6365,7 @@ input[type="password"] {
 /* --Front-end-Service-End-- */
 
 /* =========================
- 29.Enterprise-Mobilit page
+ 30.Enterprise-Mobilit page
 ============================*/
 
 /* --enterprise-mobility-Banner-- */
@@ -6417,7 +6520,7 @@ input[type="password"] {
 /* --Front-end-Service-End-- */
 
 /* =========================
- 30.Dedicated Developer page
+ 31.Dedicated Developer page
 ============================*/
 /* --Banenr Area Start-- */
 #dedicated-banner-area {
@@ -6446,7 +6549,7 @@ input[type="password"] {
 /* --Dedicated-Service Area End-- */
 
 /* =========================
- 31.Employee Page
+ 32.Employee Page
 ============================*/
 
 /* --Banenr Area Start-- */
@@ -6464,7 +6567,7 @@ input[type="password"] {
 /* --Banenr Area End-- */
 
 /* =========================
- 32. Quality Assurance
+ 33. Quality Assurance
 ============================*/
 /* --Banenr Area Start-- */
 #quality-banner {
@@ -6728,7 +6831,7 @@ input[type="password"] {
 }
 
 /* =========================
-    33.Faqs Page
+    34 .Faqs Page
 ============================*/
 
 /* --Banner Area-- */
@@ -6750,7 +6853,7 @@ input[type="password"] {
 }
 
 /* =========================
-    34.Testimonial Page
+    35.Testimonial Page
 ============================*/
 /* --Banner Area-- */
 #testimonial-banner {
@@ -6776,7 +6879,7 @@ input[type="password"] {
 }
 
 .client-review-margin {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 /* =========================
@@ -6824,7 +6927,7 @@ input[type="password"] {
 }
 
 /* =========================
-36.Functional Testing  page
+37.Functional Testing  page
 ============================*/
 /* --faction Service-- */
 
@@ -6913,7 +7016,7 @@ input[type="password"] {
 
 
 /* =========================
-37.Automation Testing Page
+38.Automation Testing Page
 ============================*/
 /* --Banner Area-- */
 #automation-testing-banner {
@@ -6994,7 +7097,7 @@ input[type="password"] {
 }
 
 /* =========================
-    38.Testimonial Page
+    39.Performance-testing Page
 ============================*/
 /* --Banner Area-- */
 #performance-testing-banner {
@@ -7010,7 +7113,7 @@ input[type="password"] {
 }
 
 /* =========================
-    39.Privacy-Policy Page
+    40.Privacy-Policy Page
 ============================*/
 /* --Banner Area-- */
 #privacy-police-banner {
@@ -7034,7 +7137,7 @@ input[type="password"] {
 }
 
 /* =========================
-    40.Carrer Page
+    41.Carrer Page
 ============================*/
 /* --Banner Area-- */
 #carrer-banner {
@@ -7107,7 +7210,7 @@ input[type="password"] {
 }
 
 /* =========================
-    41. Sitemap Page
+    42. Sitemap Page
 ============================*/
 /* --Banner Area-- */
 .sitemap-bg {
@@ -7163,7 +7266,7 @@ input[type="password"] {
 }
 
 /* =========================
-      Preloder
+     43. Preloder
 ============================*/
 
 #preloader {
@@ -7186,7 +7289,7 @@ input[type="password"] {
 }
 
 /* =========================
-     Back to top Button
+    44. Back to top Button
 ============================*/
 .go-top.active {
     top: 98%;
@@ -7275,7 +7378,7 @@ input[type="password"] {
 }
 
 /* =======================
-        Scroll Bar Effect
+      45. Scroll Bar Effect
 ============================*/
 
 body::-webkit-scrollbar-track {
