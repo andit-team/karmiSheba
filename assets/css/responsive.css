@@ -11,7 +11,7 @@
     }
 
     #fixed-techonology-sidebar {
-        width: 16.9375rem;
+        width: 20.9375rem;
     }
 }
 
@@ -145,6 +145,10 @@
         -ms-transform: none;
         transform: none;
 
+    }
+
+    .padding-right-item {
+        padding-right: 0px;
     }
 }
 
@@ -420,10 +424,6 @@
     .hire-box-wrapper {
         height: auto;
         margin-bottom: 30px;
-    }
-
-    .padding-right-item {
-        padding-right: 0px;
     }
 
     #technology-banner .row {
@@ -754,6 +754,11 @@
 
     .padding-bottom {
         padding-bottom: 80px !important;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 35px;
     }
 
     #technology-banner,

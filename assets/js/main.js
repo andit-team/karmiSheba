@@ -206,15 +206,7 @@
         $('#preloader').delay(350).fadeOut('slow');
     });
 
-    // Aos  Active
-    if ($("[data-aos]").length) {
-        AOS.init({
-            duration: 1000,
-            mirror: true,
-            disable: 'mobile'
-        });
-    }
-
+    //Counter Active
     $('.counter').counterUp({
         delay: 5,
         time: 1000

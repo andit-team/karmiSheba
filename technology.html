@@ -8,8 +8,6 @@
   <title>Karmi_Sheba_Technology</title>
   <!-- Bootstrap Min CSS -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-  <!-- Aos CSS -->
-  <link rel="stylesheet" href="assets/css/aos.css" />
   <!-- Animate Min CSS -->
   <link rel="stylesheet" href="assets/css/venobox.min.css" />
   <!-- jquery-ui css -->
@@ -1243,7 +1241,11 @@
     <!-- Vslue-area-End -->
 
     <!-- Sibebar-fixed-area-Start -->
+    <div class="side-bar-menu-burger d-none d-xl-block">
+      <a href="#!"><i class="fas fa-bars"></i></a>
+    </div>
     <section id="fixed-techonology-sidebar" class="d-none d-xl-block">
+      <span id="exit">&times;</span>
       <h2 class="d-none">Heading</h2>
       <div class="fixed-sidebar-list">
         <ul id="side-list">
@@ -1867,9 +1869,8 @@
   <!-- Isotope.pkgd.min -->
   <script src="assets/js/isotope.pkgd.min.js"></script>
   <!--waypoints JS -->
-  <script src="assets/js/waypoints.min.js"></script>
-  <!--wow JS -->
-  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="assets/js/waypoint.js"></script>
   <!-- Main JS -->
   <script src="assets/js/main.js"></script>
   <script>
@@ -1894,7 +1895,16 @@
   </script>
 
   <script>
-
+    $(document).ready(function () {
+      $(".side-bar-menu-burger").on("click", function () {
+        $("side-bar-menu-burger").css("opacity", "0");
+        $("#fixed-techonology-sidebar").removeClass("enter");
+      });
+      $("#exit").on("click", function () {
+        $("#fixed-techonology-sidebar").addClass("enter");
+        $("#side-bar-menu-burge").css("opacity", "1");
+      });
+    });
 
   </script>
 </body>
