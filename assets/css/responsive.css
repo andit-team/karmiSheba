@@ -510,6 +510,10 @@
         text-align: center;
     }
 
+    .heading-content-box h2 {
+        line-height: 40px;
+    }
+
     .no-payment-area:hover .above {
         right: 1rem;
         left: 0;

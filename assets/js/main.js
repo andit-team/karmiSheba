@@ -162,7 +162,7 @@
     // Clients Slider
     $('.challenge-area-slider').owlCarousel({
         loop: true,
-        dots: false,
+        dots: true,
         autoplayHoverPause: true,
         autoplay: true,
         smartSpeed: 1000,
