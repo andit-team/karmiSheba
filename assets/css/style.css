@@ -467,6 +467,85 @@ section {
     animation: blink 0.7s infinite;
 }
 
+
+
+@-webkit-keyframes left2right {
+
+    50% {
+        -ms-transform: translateY(150px);
+        /*IE9*/
+        -webkit-transform: translateY(150px);
+        /*Chrome,Safari,Opera*/
+        transform: rotate3d(3deg);
+        -webkit-transform: translateY(150px);
+        -moz-transform: translateY(150px);
+        -o-transform: translateY(150px);
+    }
+}
+
+@-webkit-keyframes left1right {
+
+    100% {
+        transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+    }
+}
+
+.anmation-shap-1 {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    -webkit-animation: left2right 10s linear 0s infinite;
+    animation: left2right 10s linear 0s infinite;
+    opacity: 0.2;
+}
+
+.anmation-shap-2 {
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    -webkit-animation: left2right 10s linear 0s infinite;
+    animation: left2right 10s linear 0s infinite;
+    opacity: 0.2;
+}
+
+.anmation-shap-3 {
+    position: absolute;
+    left: 10%;
+    top: 44%;
+    -webkit-animation: left2right 8s linear 0s infinite;
+    animation: left2right 8s linear 0s infinite;
+    opacity: 0.2;
+}
+
+.anmation-rotate-1 {
+    position: absolute;
+    right: 17%;
+    bottom: -3%;
+    -webkit-animation: left1right 2s linear 0s infinite;
+    animation: left1right 2s linear 0s infinite;
+}
+
+.anmation-rotate-2 {
+    position: absolute;
+    right: 10%;
+    bottom: 4%;
+    -webkit-animation: left1right 2s linear 0s infinite;
+    animation: left1right 2s linear 0s infinite;
+}
+
+.anmation-shap-1 img {
+    width: 40%;
+}
+
+.anmation-shap-2 img {
+    width: 60%;
+}
+
+.anmation-shap-3 img {
+    width: 48%;
+}
+
 /* --Banner Area End */
 
 /* --Casestudy Area Start */
@@ -478,7 +557,7 @@ section {
 .shap-img {
     position: absolute;
     top: -230px;
-
+    z-index: -1;
 }
 
 #home-case-stady .container-fluid .row:nth-child(2) {
@@ -3085,7 +3164,7 @@ ul li:nth-child(1) a:before {
     width: 15px;
     height: 15px;
     margin: 5px 7px;
-    background-color: #8c7c7c;
+    background-color: #ffffffde;
 }
 
 /* --challenges-area-End-- */
@@ -3453,7 +3532,7 @@ ul li:nth-child(1) a:before {
 /* -- banner area start -- */
 .blog-banner {
     position: relative;
-    z-index: 999;
+    z-index: 9;
 }
 
 .blog-banner h2 {
@@ -3468,6 +3547,10 @@ ul li:nth-child(1) a:before {
 
 #blog-top-form {
     padding-top: 30px;
+}
+
+#blog-top-form .input-group-text {
+    border: none;
 }
 
 /* -- banner area End -- */
@@ -3488,7 +3571,7 @@ ul li:nth-child(1) a:before {
     display: inline-flex;
     margin-right: 10px;
     margin-bottom: 15px;
-    border: 1px solid var(--heading-color);
+    border: 1px solid #232e5e42;
     transition: .4s all;
     -webkit-transition: .4s all;
     -moz-transition: .4s all;
@@ -3621,7 +3704,6 @@ ul li:nth-child(1) a:before {
 /* --Banner-area-Start-- */
 .blog-single-banner {
     background-image: url('../img/blog-single/banner.png');
-    padding: 290px 0 185px 0 !important;
 }
 
 /* --Banner-area-End-- */
@@ -7071,6 +7153,23 @@ input[type="password"] {
 .security-service-boxed {
     padding: 20px 26px;
     margin-bottom: 30px;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.security-service-boxed:hover {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.security-service-boxed h3 {
+    color: var(--pink-color);
 }
 
 .security-service-boxed p {
@@ -7179,11 +7278,9 @@ input[type="password"] {
 }
 
 .qa-automation-boxed {
-    min-height: 246px;
+    padding: 60px 0;
     border-radius: 10px;
     text-align: center;
-    padding: 20px 0;
-    margin-bottom: 30px;
     transition: .4s all;
     -webkit-transition: .4s all;
     -moz-transition: .4s all;

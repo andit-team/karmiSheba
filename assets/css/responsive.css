@@ -502,6 +502,38 @@
         padding-top: 25px;
         text-align: center;
     }
+
+    .anmation-shap-1,
+    .anmation-shap-2,
+    .anmation-shap-3,
+    .anmation-rotate-1,
+    .anmation-rotate-2 {
+        display: none;
+    }
+
+    .heading-content-box h2 {
+        line-height: 40px;
+    }
+
+    .blog-item-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .mr-top-30 {
+        margin-top: 0;
+    }
+
+    .office-party-area-img {
+        margin-bottom: 20px;
+    }
+
+    .why-join-boxed {
+        margin-bottom: 20px;
+    }
+
+    .service-boxed-business {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -510,9 +542,7 @@
         text-align: center;
     }
 
-    .heading-content-box h2 {
-        line-height: 40px;
-    }
+
 
     .no-payment-area:hover .above {
         right: 1rem;
@@ -641,6 +671,9 @@
         padding-right: 21px;
     }
 
+    .client-review-margin {
+        margin-bottom: 20px;
+    }
 
 }
 
@@ -677,7 +710,7 @@
     }
 
     #common-banner {
-        padding: 180px 0;
+        padding: 180px 0 110px 0;
     }
 
     #our-case-study {
@@ -737,19 +770,97 @@
     #career-opportunity,
     #career-opportunity,
     #virtual-tour-area,
-    #sitemap-area {
+    #sitemap-area,
+    #about-our-story,
+    #why-python,
+    #partner-items,
+    #partners-banner-bottom-text,
+    #features-key-area,
+    #overview-arae,
+    #challenges-area,
+    #core-features-arae,
+    #counter-case-single,
+    #agile-help-area,
+    #value-content,
+    #blog-item,
+    #blog-single-area,
+    #privacy-police-content,
+    #why-join-area {
         padding: 80px 0;
+    }
+
+    .privacy-inner-text h3 {
+        line-height: 40px;
+    }
+
+
+
+    .overview-box-arae-text {
+        padding: 50px 20px;
+    }
+
+    .key-heading p {
+        padding-top: 10px;
+        width: 90%;
+    }
+
+    .single-team {
+        margin-bottom: 30px;
+    }
+
+    #useful-link .row .col-sm-12:last-child .blog-item-wrapper {
+        margin-bottom: 0;
+    }
+
+    #pricing-area-react .row .col-12:last-child .front-end-service {
+        margin-bottom: 0;
+    }
+
+    #business-model-area .row .col-sm-12:last-child .business-model-box {
+        margin-bottom: 0;
+    }
+
+    #partner-items .row .col-12:last-child .partner-item-wrapper {
+        margin-bottom: 0;
+    }
+
+    #value-content .row .col-12:last-child .value-item-box {
+        margin-bottom: 0;
     }
 
     #home-our-product {
         padding-bottom: 80px;
     }
 
+    #insigths-area {
+        padding: 80px 0 0 0;
+    }
+
     #our-leader-arae,
     #home_client_area,
     #timeline-design-arae,
-    #about-our-story {
+    #agile-mindset-banner-bottom {
         padding: 0 0 80px 0;
+    }
+
+    .btn-theme:after {
+        -webkit-transform: translateX(-165%) translateY(-25%) rotate(45deg);
+        transform: translateX(-165%) translateY(-25%) rotate(45deg);
+        -moz-transform: translateX(-165%) translateY(-25%) rotate(45deg);
+        -ms-transform: translateX(-165%) translateY(-25%) rotate(45deg);
+        -o-transform: translateX(-165%) translateY(-25%) rotate(45deg);
+    }
+
+    .about-story-wrapper {
+        padding-top: 80px;
+    }
+
+    .insight-item {
+        margin-top: 0px;
+    }
+
+    .post-metas-details ul:last-child li {
+        padding-top: 10px;
     }
 
     .main-contact-from {
@@ -791,6 +902,17 @@
 
     #testimonial-banner {
         padding: 220px 0 140px 0;
+    }
+
+    .about-heading-box h1 {
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 500;
+    }
+
+    .about-heading-box h4 {
+        font-size: 14px;
+        padding-top: 15px;
     }
 }
 
