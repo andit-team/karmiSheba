@@ -1507,6 +1507,10 @@ input:focus~.label-box::after {
     color: var(--color-white);
 }
 
+.footer-bottom-list-item ul li:last-child {
+    margin-right: 0;
+}
+
 .footer-bottom-list-item ul li a:hover {
     color: var(--heading-color);
 }
@@ -2339,6 +2343,10 @@ ul li:nth-child(1) a:before {
     font-weight: 600;
 }
 
+.companey-value-text h6 span {
+    font-weight: 400;
+}
+
 .companey-value-text p {
     color: #fff;
     width: 63%;
@@ -2585,6 +2593,14 @@ ul li:nth-child(1) a:before {
     text-align: center;
     width: 100%;
     margin-top: 15px;
+}
+
+.what-do-emil-link h2 {
+    font-size: 24px;
+}
+
+.what-do-emil-link h2 span {
+    font-weight: 400;
 }
 
 .what-do-client {
@@ -4288,10 +4304,6 @@ input[type="password"] {
 .technology-heading {
     text-align: center;
     padding-bottom: 50px;
-}
-
-.padding-right-item {
-    padding-right: 100px;
 }
 
 .boxed-item {
@@ -7374,6 +7386,10 @@ input[type="password"] {
 .qa-automation-boxed p {
     padding-top: 18px;
     padding: 20px 30px 0 30px;
+}
+
+.performance-testing-top {
+    margin-top: 30px;
 }
 
 /* =========================
