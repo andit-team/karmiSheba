@@ -3673,6 +3673,7 @@ ul li:nth-child(1) a:before {
 
 .blog-item-catagory-link a:hover {
     color: var(--heading-color);
+    background-color: #fff;
 }
 
 .blog-item-wrapper:hover .blog-item-text h5 a {
@@ -3690,7 +3691,6 @@ ul li:nth-child(1) a:before {
 
 .blog-item-text p {
     padding-top: 10px;
-    color: var(--pink-color);
     font-weight: 500;
 }
 
@@ -6542,7 +6542,7 @@ input[type="password"] {
 }
 
 #table-fullstack table tbody tr td:nth-child(2) {
-    border-bottom: 1px solid var(--pink-color);
+    border-bottom: 1px solid #ff306636;
 }
 
 #table-fullstack table tbody tr td span {
@@ -6551,9 +6551,8 @@ input[type="password"] {
     font-weight: 500;
     margin-right: 1.3125rem;
     padding-right: 1.3125rem;
-    border-right: .0625rem solid rgba(115, 115, 115, .2);
+    border-right: .0625rem solid rgb(115 115 115 / 41%);
     line-height: 1.625rem;
-    border: none;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -6565,6 +6564,10 @@ input[type="password"] {
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
     margin-bottom: .375rem;
+}
+
+#table-fullstack table tbody tr td span:last-child {
+    border: none;
 }
 
 #table-fullstack table tbody tr td span strong {
