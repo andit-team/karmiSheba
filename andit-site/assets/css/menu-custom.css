@@ -347,10 +347,7 @@
   background-color: transparent;
   -webkit-transition: 0.6s;
   transition: 0.6s;
-  position: absolute;
   z-index: 999;
-  left: 0;
-  top: 0;
   width: 100%;
   height: auto;
   background-color: #fff;

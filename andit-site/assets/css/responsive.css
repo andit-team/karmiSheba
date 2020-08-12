@@ -277,7 +277,12 @@
     }
 
     #home_banner {
-        padding-top: 140px;
+        padding-top: 40px;
+    }
+
+    .home-banner-text-box {
+        height: 60vh;
+        display: block !important;
     }
 
     .about-heading-box h1 {
@@ -355,7 +360,8 @@
     }
 
     #value-banner {
-        padding: 130px 0 0 0;
+        padding: 45px 0 0 0;
+        background-size: cover;
     }
 
     .trusted-by-text {
@@ -431,7 +437,7 @@
     }
 
     .technology-banner-text {
-        padding-top: 100px;
+        padding-top: 0;
     }
 
     .techonology-banner-img {
@@ -710,7 +716,7 @@
     }
 
     #common-banner {
-        padding: 180px 0 110px 0;
+        padding: 110px 0 110px 0;
     }
 
     #our-case-study {
@@ -914,6 +920,10 @@
         font-size: 14px;
         padding-top: 15px;
     }
+
+    .product-enhancement-bg {
+        padding: 80px 0 110px 0 !important;
+    }
 }
 
 @media (max-width: 480px) {
@@ -922,13 +932,8 @@
         line-height: 38px;
     }
 
-
-    #home_banner {
-        padding-top: 145px;
-    }
-
     .home-banner-text-box {
-        height: 54vh;
+        height: 45vh;
     }
 
     .shap-img {
