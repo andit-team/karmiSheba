@@ -2024,6 +2024,11 @@ ul li:nth-child(1) a:before {
     color: #ffc500;
 }
 
+.view-button {
+    width: 100%;
+    margin-top: 15px;
+}
+
 /* --Get-Review Area End-- */
 
 /* --About Client Area strat-- */
@@ -2031,49 +2036,75 @@ ul li:nth-child(1) a:before {
     padding: 120px 0 0 0;
 }
 
-.about-client-area {
+.testimonial_slider {
+    border-right: 4px solid var(--heading-color);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px 30px 30px 130px;
+    margin: 0 15px 30px 15px;
     position: relative;
 }
 
-.about-client-area img {
-    width: 100%;
-}
-
-.about-client-veido-arae {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 30px;
+.testimonial_slider:before {
+    content: "";
     position: absolute;
+    bottom: -4px;
+    left: -17px;
+    border-top: 25px solid var(--pink-color);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    transform: rotate(45deg);
+}
+
+.testimonial_slider:after {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -17px;
+    border-top: 25px solid var(--pink-color);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    transform: rotate(135deg);
+}
+
+.testimonial_slider .pic {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+.testimonial_slider .pic img {
     width: 100%;
-    bottom: 40px;
+    height: auto;
 }
 
-.about-client-destenation h5 {
+.testimonial_slider .description {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #6f6f6f;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.testimonial_slider .title {
+    display: inline-block;
     font-size: 20px;
-    font-weight: 500;
-    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--pink-color);
+    margin: 0;
 }
 
-.about-client-destenation p {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    padding-top: 5px;
-}
-
-#about-client-area .veido-area-custom {
-    right: 40px;
-    left: auto;
-    top: 16px;
-}
-
-#about-client-area .veido-area-custom img {
-    width: 35%;
-}
-
-.view-button {
-    width: 100%;
-    margin-top: 15px;
+.testimonial_slider .post {
+    display: inline-block;
+    font-size: 17px;
+    color: var(--pink-color);
+    font-style: italic;
 }
 
 /* --About Client Area End-- */
