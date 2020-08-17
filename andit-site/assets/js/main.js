@@ -98,18 +98,6 @@
         }
     });
 
-    // Vedio-add
-    // $(document).ready(function () {
-    //     $(".venobox").venobox({
-    //         framewidth: "600px",
-    //         frameheight: "400px",
-    //         border: "none",
-    //         bgcolor: "none",
-    //         titleattr: "data-title",
-    //         numeratio: true,
-    //         infinigall: false,
-    //     });
-    // });
     // About Fan fact img mousemove
     $('html').mousemove(function (e) {
 

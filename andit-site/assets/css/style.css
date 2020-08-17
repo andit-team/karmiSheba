@@ -2042,6 +2042,7 @@ ul li:nth-child(1) a:before {
     padding: 30px 30px 30px 130px;
     margin: 0 15px 30px 15px;
     position: relative;
+    height: 285px;
 }
 
 .testimonial_slider:before {
