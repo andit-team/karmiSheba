@@ -153,6 +153,10 @@
 }
 
 @media (max-width: 991px) {
+    .img-side-approche {
+        padding-top: 20px;
+    }
+
     .other-option a {
         text-align: center !important;
         color: #ffff !important;
@@ -798,8 +802,19 @@
     #just-you-camp-area,
     #how-it-work-arae,
     #why-get-arae,
-    #kick-area {
+    #kick-area,
+    #agile-approach-story,
+    #agial-side-area,
+    #agial-writes,
+    #conclusion-area,
+    #agile-approach-story,
+    #our-approach-story,
+    #we-area-about-product {
         padding: 80px 0;
+    }
+
+    .approch-agial-side-left {
+        padding: 30px 0px 0px 0px;
     }
 
     .get-img {

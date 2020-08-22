@@ -8041,3 +8041,92 @@ body::-webkit-scrollbar-thumb {
     padding-right: 10px;
     font-size: 20px;
 }
+
+/* =======================
+    49.Agile-Approach page
+============================*/
+
+.agial-bg-appro {
+    background-image: url('../img/comon-img/agial-img.png');
+}
+
+#agile-approach-story {
+    padding: 120px 0;
+}
+
+#agile-approach-story .agial-appro-texted p {
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+#agile-approach-story .agial-appro-texted .hand-icon-text {
+    padding-top: 0px;
+}
+
+.agial-appro-service-wrapper {
+    padding-top: 30px;
+}
+
+.approch-agial-side-left {
+    padding: 30px 40px 0px 40px;
+}
+
+.approch-agial-side-left h3 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+#agial-writes {
+    padding: 120px 0;
+}
+
+#conclusion-area {
+    padding: 120px 0;
+}
+
+.conclusion-heading-area p {
+    padding-top: 20px;
+}
+
+/* =======================
+    50.agileshore page
+==========================*/
+.agial-shore {
+    background-image: url('../img/comon-img/office-metting.jpg');
+}
+
+.agial-appro-texted h3 {
+    padding-bottom: 20px;
+}
+
+#agial-side-area .hand-icon-text {
+    padding-top: 5px;
+}
+
+#our-approach-story {
+    padding: 120px 0;
+}
+
+
+.approch-stores-texted h3 {
+    padding-bottom: 15px;
+
+}
+
+#our-extren-service .extrem-service-box svg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+#our-extren-service .extrem-service-box:hover svg {
+    fill: #fff;
+}
+
+#we-area-about-product {
+    padding: 120px 0;
+}
+
+.we-area-product-texted-arae h3 {
+    padding-bottom: 20px;
+}
