@@ -3328,6 +3328,76 @@ ul li:nth-child(1) a:before {
 
 /* --Time-frame-End-- */
 
+/*-- Offers-area-start -- */
+#offer-area-single {
+    padding: 120px 0;
+    /* background-color: var(--pink-color); */
+}
+
+.free-offers-card {
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+
+}
+
+.free-offers-card svg {
+    width: 20%;
+    transition: .4s all ease-in;
+    -webkit-transition: .4s all ease-in;
+    -moz-transition: .4s all ease-in;
+    -ms-transition: .4s all ease-in;
+    -o-transition: .4s all ease-in;
+}
+
+.free-offers-card h3 {
+    padding-top: 20px;
+}
+
+.free-offers-card p {
+    padding-top: 20px;
+}
+
+.free-offers-card:hover svg {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+/*-- Offers-area-End -- */
+
+/* --trial-area-start- */
+#free-trial-area {
+    padding: 120px 0;
+    background-image: url('../img/comon-img/offer.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.free-trial-boxed {
+    text-align: center;
+}
+
+.free-trial-boxed h2 {
+    color: #fff;
+}
+
+.free-trial-boxed h2 span {
+    color: var(--pink-color);
+}
+
+.free-trial-boxed p {
+    color: #fff;
+    padding-top: 10px;
+}
+
+.free-trial-boxed a {
+    margin-top: 20px;
+}
+
+/* --trial-area-End- */
+
 /* ================================
   15.  Agail Mindset
 ===================================*/
@@ -6113,6 +6183,47 @@ input[type="password"] {
 }
 
 /* --React-Deve-Service-End-- */
+/* --React-side-Service-Start-- */
+#hire-developer-service {
+    padding: 120px 0;
+}
+
+.react-side-text-arae p {
+    padding-top: 20px;
+}
+
+.left-padding {
+    padding-left: 30px;
+}
+
+/* --React-side-Service-End-- */
+/* react-side-arae- */
+#react-side-arae {
+    padding: 120px 0;
+}
+
+.price-tecno-wrapper {
+    position: relative;
+    z-index: 999;
+    padding-bottom: 50px;
+}
+
+.pricing-botom-box {
+    background: #fff;
+}
+
+.price-tecno-wrapper .heading-content-box h2,
+.price-tecno-wrapper .heading-content-box p {
+    color: #fff;
+}
+
+.react-side-text h3 {
+    padding-top: 20px;
+}
+
+.react-side-text p {
+    padding-top: 20px;
+}
 
 /* --Pricing-area-Start-- */
 #pricing-area-react {
@@ -7754,7 +7865,6 @@ body::-webkit-scrollbar-thumb {
     -o-border-radius: 2px;
 }
 
-
 .challenge-area-text-start::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -7774,4 +7884,160 @@ body::-webkit-scrollbar-thumb {
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
+}
+
+/* =======================
+    46.Andit Agility page
+============================*/
+/* banner area */
+#andit-agility-arae {
+    background-image: url('../img/comon-img/andit-agility.png');
+    padding: 195px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.andit-agility-banner-heading h1 {
+    color: var(--color-white);
+}
+
+.andit-agility-banner-heading h1 span {
+    color: var(--pink-color);
+}
+
+.andit-agility-banner-heading h3 {
+    color: var(--color-white);
+    padding-top: 20px;
+}
+
+.andit-agial-bannner-text p {
+    color: var(--color-white);
+}
+
+.andit-agility-tabs-area .product-tabs-menu {
+    min-height: 560px;
+}
+
+/* =======================
+    47.Develppment-andit page
+============================*/
+.color-white {
+    color: var(--color-white);
+}
+
+.develp-banner {
+    background-image: url('../img/comon-img/dev.png');
+}
+
+/* =======================
+    48.Researc-Sprint page
+============================*/
+
+.researc-sprint-bg {
+    background-image: url('../img/comon-img/smartbulb.png');
+}
+
+#just-you-camp-area {
+    padding: 120px 0;
+}
+
+.just-camp-img-area img {
+    width: 75%;
+}
+
+.hand-icon-text {
+    padding-top: 50px;
+}
+
+.hand-icon-text ul li {
+    margin-top: 20px;
+    position: relative;
+    padding-left: 1.875rem;
+}
+
+.hand-icon-text ul li:after {
+    background: url('../img/comon-img/hand-icon.png') no-repeat;
+    content: "";
+    width: 1.125rem;
+    height: .875rem;
+    top: .5625rem;
+    left: 0;
+    position: absolute;
+}
+
+/* --How It WOrk Area-- */
+#how-it-work-arae {
+    padding: 120px 0;
+}
+
+.how-it-work-boxed {
+    text-align: center;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+}
+
+.how-it-work-boxed img {
+    width: 25%;
+    transition: .4s all ease-in-out;
+    -webkit-transition: .4s all ease-in-out;
+    -moz-transition: .4s all ease-in-out;
+    -ms-transition: .4s all ease-in-out;
+    -o-transition: .4s all ease-in-out;
+}
+
+.how-it-work-boxed:hover img {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.how-it-work-boxed h3 {
+    padding-top: 20px;
+}
+
+.how-it-work-boxed p {
+    padding-top: 15px;
+}
+
+#why-get-arae {
+    padding: 120px 0;
+}
+
+.get-text-arae {
+    padding-top: 25px;
+}
+
+.get-text-arae .hand-icon-text {
+    padding-top: 0px;
+}
+
+#kick-area {
+    padding: 120px 0;
+}
+
+.kick-area-text p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.link-socila-wrapper {
+    display: inline-flex;
+    padding-left: 20px;
+}
+
+.link-socila-wrapper i {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.link-footer-wrap-socila {
+    display: inline-flex;
+    padding-left: 20px;
+}
+
+.link-footer-wrap-socila i {
+    padding-right: 10px;
+    font-size: 20px;
 }

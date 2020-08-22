@@ -97,29 +97,17 @@
             }
         }
     });
-
-    // About Fan fact img mousemove
-    $('html').mousemove(function (e) {
-
-        var wx = $(window).width();
-        var wy = $(window).height();
-
-        var x = e.pageX - this.offsetLeft;
-        var y = e.pageY - this.offsetTop;
-
-        var newx = x - wx / 2;
-        var newy = y - wy / 2;
-
-        $('.area-img-wrapper img').each(function () {
-            var speed = $(this).attr('data-speed');
-            if ($(this).attr('data-revert')) speed *= -1;
-            TweenMax.to($(this), 1, {
-                x: (1 - newx * speed),
-                y: (1 - newy * speed)
-            });
-
+    // Vedio-add
+    $(document).ready(function () {
+        $(".venobox").venobox({
+            framewidth: "600px",
+            frameheight: "400px",
+            border: "none",
+            bgcolor: "none",
+            titleattr: "data-title",
+            numeratio: true,
+            infinigall: false,
         });
-
     });
 
 

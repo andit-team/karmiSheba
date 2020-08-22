@@ -791,15 +791,48 @@
     #blog-item,
     #blog-single-area,
     #privacy-police-content,
-    #why-join-area {
+    #why-join-area,
+    #offer-area-single,
+    #free-trial-area,
+    #hire-developer-service,
+    #just-you-camp-area,
+    #how-it-work-arae,
+    #why-get-arae,
+    #kick-area {
         padding: 80px 0;
+    }
+
+    .get-img {
+        padding-top: 30px;
+    }
+
+    .left-padding {
+        padding-left: 0px;
+    }
+
+    #andit-agility-arae {
+        padding: 100px 0;
+    }
+
+    .product-tabs-content {
+        height: auto;
+    }
+
+    .react-side-text-arae h2 {
+        padding-top: 30px;
+    }
+
+    .react-side-text-arae {
+        padding-bottom: 30px;
     }
 
     .privacy-inner-text h3 {
         line-height: 40px;
     }
 
-
+    .free-offers-card {
+        margin-bottom: 30px;
+    }
 
     .overview-box-arae-text {
         padding: 50px 20px;
