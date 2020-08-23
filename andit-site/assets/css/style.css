@@ -8130,3 +8130,50 @@ body::-webkit-scrollbar-thumb {
 .we-area-product-texted-arae h3 {
     padding-bottom: 20px;
 }
+
+/* =======================
+    50. Node.Js page
+==========================*/
+
+#technology-common-banner {
+    padding: 85px 0 180px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.nodejs-banner {
+    background-image: url('../img/comon-img/nodejs-bg.png');
+}
+
+#learge-node-work {
+    padding: 120px 0;
+}
+
+.heading-content-box {
+    padding-bottom: 30px;
+}
+
+.node-version-area p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#learge-node-work .heading-content-box h2 {
+    line-height: 45px;
+}
+
+.our-noodjs-service .extrem-service-box svg {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.popular-item-node::after {
+    background-image: url(../img/comon-img/node-small.png);
+    top: -2.1875rem;
+    width: 5.625rem;
+    height: 5rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    content: "";
+    right: 0;
+}

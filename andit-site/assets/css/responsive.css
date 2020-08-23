@@ -544,6 +544,15 @@
     .service-boxed-business {
         margin-bottom: 30px;
     }
+
+    .react-side-text-arae {
+        padding-top: 25px;
+    }
+
+    .react-side-imgs-area {
+        padding-top: 25px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -809,8 +818,14 @@
     #conclusion-area,
     #agile-approach-story,
     #our-approach-story,
-    #we-area-about-product {
+    #we-area-about-product,
+    #learge-node-work,
+    #technica-stack-area {
         padding: 80px 0;
+    }
+
+    .node-side {
+        padding-top: 30px;
     }
 
     .approch-agial-side-left {
