@@ -1587,20 +1587,24 @@ input:focus~.label-box::after {
     top: 0;
 }
 
-ul li:nth-child(1) a:before {
-    background: #3b5999;
+.footer-soical-icon ul li:nth-child(1) a:before {
+    background: #25d366;
 }
 
 .footer-soical-icon ul li:nth-child(2) a:before {
-    background: #55acee;
+    background: #3b5998;
 }
 
 .footer-soical-icon ul li:nth-child(3) a:before {
-    background: #0077b5;
+    background: #1da1f2;
 }
 
 .footer-soical-icon ul li:nth-child(4) a:before {
-    background: #dd4b39;
+    background: #0077b5;
+}
+
+.footer-soical-icon ul li:nth-child(5) a:before {
+    background: #333;
 }
 
 .footer-soical-icon ul li a i {
@@ -8176,4 +8180,82 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     content: "";
     right: 0;
+}
+
+/* =======================
+    51. Vue.Js page
+==========================*/
+.vue-js-banner {
+    background-image: url('../img/comon-img/vuejs-bg.png');
+}
+
+.popular-item-vue::after {
+    background-image: url('../img/comon-img/vue-white-icon.png');
+    top: -3.1875rem;
+    width: 7.625rem;
+    height: 6rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    content: "";
+    right: 0;
+}
+
+#vuejs-heire-texted {
+    padding: 120px 0;
+}
+
+.vuejs-text-area p {
+    padding: 25px 0;
+}
+
+#business-meets-area {
+    padding: 120px 0;
+    background-image: url('../img/comon-img/blue-wave.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.busines-boxed {
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 2.5rem 1.875rem;
+    margin-bottom: 1.875rem;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+    height: 85%;
+}
+
+.busines-boxed svg {
+    fill: #fff;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1.375rem;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.busines-boxed p {
+    color: #fff;
+}
+
+.busines-boxed:hover {
+    background: #fff;
+}
+
+.busines-boxed:hover svg {
+    -webkit-transform: translateY(-12px);
+    -ms-transform: translateY(-12px);
+    transform: translateY(-12px);
+    fill: #4fc08d;
+
+}
+
+.busines-boxed:hover p {
+    color: #181818;
 }
