@@ -8329,8 +8329,6 @@ body::-webkit-scrollbar-thumb {
     padding: 120px 0;
 }
 
-.special-offers-texted {}
-
 .special-offers-texted h2 {
     padding-bottom: 20px;
 }
@@ -8349,4 +8347,83 @@ body::-webkit-scrollbar-thumb {
     content: "";
     left: 0;
     top: 20px;
+}
+
+/* =======================
+    53.Boostrap page
+==========================*/
+.ember-text-para h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.polymers-texted {
+    padding-top: 20px;
+}
+
+.padding-top-poly {
+    padding-top: 30px;
+}
+
+.ember-text-para p a {
+    text-decoration: underline;
+    color: var(--pink-color);
+}
+
+/* =======================
+    54. Front-End-Tec page
+==========================*/
+#front-end-tech {
+    padding: 195px 0 315px 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/comon-img/front.jpg");
+}
+
+.front-page-tech .heading-content-box h2 {
+    line-height: 45px !important;
+}
+
+/* =======================
+    55.Mean_stack_Deve page
+==========================*/
+
+.padding-area-mean {
+    padding-top: 15px;
+}
+
+.no-padding-arae-from #what-do-form {
+    padding-top: 0 !important;
+}
+
+.bg-parpel {
+    background-color: #3f3a9d;
+}
+
+.mean-list-arae li {
+    color: #fff;
+    list-style: disc;
+    padding-bottom: 10px;
+}
+
+#mean-mobila-app-area {
+    padding: 120px 0;
+}
+
+.mean-mobil-text {
+    padding-top: 50px;
+}
+
+
+/* =======================
+ 56.Mern_stack_Deve page
+==========================*/
+
+.key-features-box h3 {
+    color: var(--pink-color);
+    padding-bottom: 10px;
+}
+
+.padding-area-extrem {
+    padding-top: 10px;
 }
