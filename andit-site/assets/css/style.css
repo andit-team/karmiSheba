@@ -1,12 +1,12 @@
 /*
-@File:KarmiSheba Template Styles 
+@File:AnditTemplate Styles 
 
-  Theme Name: karmisheba Html Template
+  Theme Name: AnditHtml Template
   Theme URL: 
   Author: webguru071
   Author URL:  
   Creation Date: 20/06/2020
-  Description:A default stylesheet for  KarmiSheba HTML Template
+  Description:A default stylesheet for  AnditHTML Template
   Version: 1.00
   Primary use: 
   Support: andimpex@gmail.com,
@@ -411,11 +411,15 @@ section {
     text-align: center;
 }
 
+.top-bar-content ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 11rem;
+}
+
 .top-bar-content ul li {
     color: #fff;
-    display: inline-flex;
-    padding-right: 30px;
-    align-items: center;
+
 }
 
 .top-bar-content ul li a {
@@ -2807,6 +2811,9 @@ input:focus~.label-box::after {
     padding-top: 15px;
 }
 
+.last-paddings-area p {
+    padding-top: 20px;
+}
 
 /* --Services-for-Business-area-End--*/
 
@@ -4299,7 +4306,6 @@ input[type="password"] {
 /* --Banner-area-Start-- */
 .contact-banner {
     background-image: url('../img/comon-img/contact-banner.png');
-    padding: 285px 0px 215px 0 !important;
 }
 
 .contact-banner a {
@@ -4342,7 +4348,6 @@ input[type="password"] {
 
 .customer-link a {
     display: block;
-    margin-bottom: 10px;
     font-size: 20px;
     font-weight: 500;
 }
@@ -4383,6 +4388,11 @@ input[type="password"] {
     width: 100%;
     border: 0;
     height: 500px;
+}
+
+.customer-link {
+    display: flex;
+    align-items: center;
 }
 
 /* --Contact-Content-area-End-- */
@@ -8038,7 +8048,11 @@ body::-webkit-scrollbar-thumb {
 
 .link-footer-wrap-socila {
     display: inline-flex;
-    padding-left: 20px;
+}
+
+.link-footer-wrap-socila img {
+    width: 18%;
+    padding-left: 18px;
 }
 
 .link-footer-wrap-socila i {
