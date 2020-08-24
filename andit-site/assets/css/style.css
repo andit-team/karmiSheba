@@ -1076,7 +1076,7 @@ section {
 
 .heading-content-box p {
     padding-top: 20px;
-    width: 53%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -6695,7 +6695,7 @@ input[type="password"] {
 
 /* --Technology-Exprrtise-Start-- */
 #table-fullstack table {
-    border: .0625rem solid rgb(255, 48, 102);
+    border: .0625rem solid rgb(255 48 102 / 19%);
     background-color: #fff;
     width: 100%;
 }
@@ -7964,7 +7964,7 @@ body::-webkit-scrollbar-thumb {
     content: "";
     width: 1.125rem;
     height: .875rem;
-    top: .5625rem;
+    top: 5px;
     left: 0;
     position: absolute;
 }
@@ -8253,9 +8253,86 @@ body::-webkit-scrollbar-thumb {
     -ms-transform: translateY(-12px);
     transform: translateY(-12px);
     fill: #4fc08d;
-
 }
 
 .busines-boxed:hover p {
     color: #181818;
+}
+
+/* =======================
+    52. Angular.Js page
+==========================*/
+
+
+.angular-js-banner {
+    background-image: url('../img/comon-img/angular.jpg');
+}
+
+#side-area-angular {
+    padding: 120px 0;
+}
+
+.anguler-side-text h3 {
+    padding-top: 15px;
+}
+
+.anguler-side-text p {
+    padding: 15px 0;
+}
+
+.popular-item-angular::after {
+    background-image: url('../img/comon-img/angular-icon-form.png');
+    top: -1.1875rem;
+    width: 7.625rem;
+    height: 6rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    content: "";
+    right: 0;
+}
+
+
+/* =======================
+    52.Ember.Js page
+==========================*/
+.ember-logo-near img {
+    width: 100%;
+}
+
+#ember-texted {
+    padding: 120px 0;
+}
+
+.ember-text-para p {
+    padding-top: 10px;
+}
+
+.ember-js-banner {
+    background-image: url('../img/comon-img/ember.jpg');
+}
+
+#special-features-ember {
+    padding: 120px 0;
+}
+
+.special-offers-texted {}
+
+.special-offers-texted h2 {
+    padding-bottom: 20px;
+}
+
+.special-offers-texted ul li {
+    padding-top: 10px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.special-offers-texted ul li:before {
+    background: url('../img/comon-img/back.png') no-repeat;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    content: "";
+    left: 0;
+    top: 20px;
 }

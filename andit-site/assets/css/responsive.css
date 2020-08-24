@@ -153,6 +153,14 @@
 }
 
 @media (max-width: 991px) {
+    .angular-side-img {
+        padding-top: 30px;
+    }
+
+    .ember-side-img {
+        padding-top: 30px;
+    }
+
     .img-side-approche {
         padding-top: 20px;
     }
@@ -822,7 +830,10 @@
     #learge-node-work,
     #technica-stack-area,
     #react-side-arae,
-    #vuejs-heire-texted {
+    #vuejs-heire-texted,
+    #side-area-angular,
+    #special-features-ember,
+    #ember-texted {
         padding: 80px 0;
     }
 
