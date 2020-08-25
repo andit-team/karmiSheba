@@ -8276,8 +8276,6 @@ body::-webkit-scrollbar-thumb {
 /* =======================
     52. Angular.Js page
 ==========================*/
-
-
 .angular-js-banner {
     background-image: url('../img/comon-img/angular.jpg');
 }
@@ -8427,3 +8425,87 @@ body::-webkit-scrollbar-thumb {
 .padding-area-extrem {
     padding-top: 10px;
 }
+
+/* =======================
+ 57.Mobile-app_Deve page
+==========================*/
+
+.mobile-app-banner {
+    background: #000000c9;
+}
+
+.mobile-app-development-tabs .heading-content-box h2 {
+    line-height: 45px;
+}
+
+.tabs-service-box-area h3 {
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+#app-slider-service {
+    padding: 120px 0;
+}
+
+.slider-items-app {
+    background: #fafafa;
+    padding: 30px 20px;
+}
+
+#free-conslate {
+    padding: 120px 0;
+}
+
+.ferr-conslot-text-area h2 {
+    padding-bottom: 20px;
+}
+
+.ferr-conslot-text-area h3 {
+    padding-bottom: 12px;
+}
+
+.service-boxed-business h4 {
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+/* =======================
+ 58. React Native page
+==========================*/
+#react-native-banner {
+    padding: 195px 0 315px 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/comon-img/front.jpg);
+}
+
+.react-native-padding-text {
+    padding-top: 20px;
+}
+
+#react-native-agiale-area {
+    padding: 120px 0;
+}
+
+.react-native-agial-text ul li {
+    padding-top: 20px;
+}
+
+
+.react-native-agial-text ul li h3 {
+    padding-bottom: 10px;
+}
+
+#react-native-devlop {
+    padding: 120px 0;
+}
+
+.deve-native-project {
+    padding-top: 40px;
+}
+
+.deve-native-project a img {
+    padding-top: 30px;
+}
+
+.deve-native-project img {}
