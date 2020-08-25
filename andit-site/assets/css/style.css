@@ -6978,6 +6978,19 @@ input[type="password"] {
     background-position: -5px -1879px;
 }
 
+.enter-prise ul li {
+    padding-top: 5px;
+    list-style: disc;
+}
+
+.enter-prise ul {
+    padding-left: 15px;
+}
+
+.pdding-ent {
+    padding-top: 15px;
+}
+
 /* --Front-end-Service-End-- */
 
 /* =========================
@@ -7007,6 +7020,13 @@ input[type="password"] {
     margin-top: 5px;
 }
 
+#befefites-area {
+    padding: 120px 0;
+}
+
+#service-for-business .heading-content-box h2 {
+    line-height: 45px;
+}
 
 /* --Dedicated-Service Area End-- */
 
