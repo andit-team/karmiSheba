@@ -6772,7 +6772,16 @@ input[type="password"] {
 }
 
 /* --Technology-Exprrtise-End-- */
-
+.popular-item-full::after {
+    background-image: url("../img/comon-img/fullstack-logo-small.png");
+    top: -2.1875rem;
+    width: 5.625rem;
+    height: 5rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    content: "";
+    right: 0;
+}
 
 /* =========================
  29. Front-End Page
@@ -8508,4 +8517,10 @@ body::-webkit-scrollbar-thumb {
     padding-top: 30px;
 }
 
-.deve-native-project img {}
+.ionic-framework-banner {
+    background: #4719ff;
+}
+
+/* =======================
+ 59. React Native page
+==========================*/
