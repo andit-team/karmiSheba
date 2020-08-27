@@ -159,6 +159,10 @@
 }
 
 @media (max-width: 991px) {
+    .mobile-app-develop-img {
+        display: none;
+    }
+
     .angular-side-img {
         padding-top: 30px;
     }
@@ -843,7 +847,8 @@
     #mean-mobila-app-area,
     #app-slider-service,
     #free-conslate,
-    #react-native-devlop{
+    #react-native-devlop,
+    #androids-team-area {
         padding: 80px 0;
     }
 

@@ -8542,5 +8542,148 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* =======================
- 59. React Native page
+ 59. Android App Page
 ==========================*/
+.android-mobile-app-banner {
+    background: #78C257;
+}
+
+#androids-team-area {
+    padding: 120px 0;
+}
+
+.android-team-comments {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 17px 22px;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.android-team-comments:hover {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.android-team-comments-last {
+    display: flex;
+    align-items: center;
+    padding: 17px 22px;
+}
+
+.padding-vec {
+    padding-top: 40px;
+}
+
+.android-boxed {
+    height: 191px;
+}
+
+.android-boxed svg {
+    fill: #ff3066;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.android-boxed:hover svg {
+    fill: #fff;
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+
+/* =======================
+60. kotlin App Page
+==========================*/
+.kotlin-logo img {
+    width: 38%;
+}
+
+/* =======================
+61. ruby-on-rails-development
+==========================*/
+
+.python-service-box-inner h3 {
+    line-height: 35px;
+}
+
+.popular-item-ruby::after {
+    background-image: url(../img/comon-img/ruby-icon.png);
+    top: -1.1875rem;
+    width: 7.625rem;
+    height: 6rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    content: "";
+    right: 0;
+}
+
+.enterprise-fet-boxed img {
+    width: 30%;
+}
+
+/* =======================
+62.Laravel-development
+==========================*/
+
+.popular-item-larabel::after {
+    background-image: url(../img/comon-img/laravel-shadow-icon.png);
+    top: -1.1875rem;
+    width: 7.625rem;
+    height: 6rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    content: "";
+    right: 0;
+}
+
+/* =======================
+63. golang-development
+==========================*/
+
+.popular-item-golang::after {
+    background-image: url(../img/svg/golang-small.svg);
+    top: -1.1875rem;
+    width: 7.625rem;
+    height: 6rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    content: "";
+    right: 0;
+}
+
+/* =======================
+64. Php-development
+==========================*/
+.php-banner {
+    background-image: url(../img/comon-img/randimg2.png);
+}
+
+.php-banner img {
+    width: 20%;
+}
+
+/* =======================
+65. Perstashop-development
+==========================*/
+.prestashope-hires-list ul {
+    padding-top: 30px;
+}
+
+.prestashope-hires-list ul li {
+    list-style: disc;
+    padding-top: 10px;
+}
