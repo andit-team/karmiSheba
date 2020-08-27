@@ -8687,3 +8687,29 @@ body::-webkit-scrollbar-thumb {
     list-style: disc;
     padding-top: 10px;
 }
+
+/* =======================
+66. Wordpress-development
+==========================*/
+#wordpress-banner {
+    padding: 195px 0 315px 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/comon-img/wordpress-bg.png);
+}
+
+
+.word-press-wrapper h3 {
+    padding-top: 15px;
+}
+
+.word-press-wrapper p {
+    padding-top: 20px;
+}
+
+/* =======================
+67. nopcommerce-development
+==========================*/
+.php-banner {
+    background-image: url(../img/comon-img/randimg2.png);
+}
