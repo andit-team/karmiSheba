@@ -4478,6 +4478,15 @@ input[type="password"] {
     color: #fff;
 }
 
+.web-icon .boxed-icon {
+    background-position: -.125rem -56.4375rem;
+    width: 3.1875rem;
+}
+
+.web-icon:hover {
+    background-color: #000;
+}
+
 /* --Javascript Technology-- */
 
 .react-icon:hover {
@@ -8710,6 +8719,69 @@ body::-webkit-scrollbar-thumb {
 /* =======================
 67. nopcommerce-development
 ==========================*/
-.php-banner {
-    background-image: url(../img/comon-img/randimg2.png);
+#nopcommerce-banner {
+    padding: 195px 0 315px 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/comon-img/randimg2.png");
+}
+
+/* =======================
+67. Woocommerce-development
+==========================*/
+#side-area-woocomm {
+    padding: 120px 0;
+    background-color: #777777;
+}
+
+.wooside-text p {
+    padding-top: 20px;
+}
+
+.woocom-js-banner {
+    background-image: url(../img/comon-img/woo-bg.png);
+}
+
+.spreeco-area-list ul li {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.spreeco-area-list ul li i {
+    color: var(--pink-color);
+    padding-right: 10px;
+}
+
+.area-mvc h2 {
+    line-height: 45px;
+}
+
+/* =======================
+68. nancyfx area
+==========================*/
+#nancyfx-area-text {
+    padding: 120px 0;
+}
+
+.nency-content-box {
+    padding: 20px 20px;
+    margin-top: 30px;
+}
+
+
+/* =======================
+69. Kentico area
+==========================*/
+#kentico-area {
+    padding: 120px 0;
+}
+
+.contic-text {}
+
+.contick-inner {
+    padding-top: 20px;
+}
+
+.contick-inner h3 {
+    padding-bottom: 20px;
 }
